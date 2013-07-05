@@ -24,25 +24,27 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    [self hitServer];
-
-}
-
--(NSString*)MSFUrlEncoded:(NSString *)commandtoConvert
-{
-    CFStringRef encoded = CFURLCreateStringByAddingPercentEscapes(kCFAllocatorDefault, (CFStringRef) commandtoConvert, NULL,  CFSTR("+!#$& ,/:;<=>?@[\\]^_`{|}~"),kCFStringEncodingUTF8);
-    return (__bridge NSString *)(encoded);
-}
-
-- (void)hitServer
-{  
-    NSMutableURLRequest *therequest = [NSMutableURLRequest requestWithURL:[NSURL URLWithString:@"http://thejumpingspiders.appspot.com/ChitFund/GetChitFundOverview"] cachePolicy:NSURLRequestUseProtocolCachePolicy timeoutInterval:120.0];
-    [therequest setHTTPMethod: @"POST"];
-
     GetChitFundOverviewRequest *data = [[GetChitFundOverviewRequest alloc]init];
     data.userId = @"sharma.ssm@gmail.com";
     
+    [self sendRequest:data];
+
+}
+
+- (void)sendRequest:(id<JSONModelBaseProtocol>)data
+{
     RequestJSONObject *request = [[RequestJSONObject alloc]initWithData:data];
+    [self hitServerUsingRequest:request];
+}   
+
+- (void)hitServerUsingRequest:(RequestJSONObject*)request
+{
+    NSString *baseURL = @"http://thejumpingspiders.appspot.com";
+    NSString *urlString = [NSString stringWithFormat:@"%@/%@", baseURL, [request getServletURL]];
+    
+    NSMutableURLRequest *therequest = [NSMutableURLRequest requestWithURL:[NSURL URLWithString:urlString] cachePolicy:NSURLRequestUseProtocolCachePolicy timeoutInterval:120.0];
+    [therequest setHTTPMethod: @"POST"];
+    
     NSString *requ = [NSString stringWithFormat:@"mobile_request=%@", [request toJSONString]];
 
     [therequest setHTTPBody:[requ dataUsingEncoding:NSUTF8StringEncoding]];
