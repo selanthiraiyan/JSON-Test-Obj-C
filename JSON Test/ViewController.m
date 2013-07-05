@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "Data.h"
+#import "GetChitFundOverviewResponse.h"
 #import "ChitOverview.h"
 #import "GetChitFundOverviewRequest.h"
 #import "RequestJSONObject.h"
@@ -82,15 +82,14 @@
 
     [UIApplication sharedApplication].networkActivityIndicatorVisible = NO;
     NSDictionary *response = [NSJSONSerialization JSONObjectWithData:receivedData options:NSJSONReadingAllowFragments error:&error];
-    NSLog(@"Response String %@", response);
     [self processResponse:response];
     [connection cancel];
 }
 
 - (void)processResponse:(NSDictionary*)response
 {
-    Data *data1 = [[Data alloc]initWithDict:[[response objectForKey:@"response"] objectForKey:@"data"]];
-    NSLog(@"actual response %@", [data1 toJSONString]);    
+    GetChitFundOverviewResponse *data1 = [[GetChitFundOverviewResponse alloc]initWithDict:[[response objectForKey:@"response"] objectForKey:@"data"]];
+    NSLog(@"data part in response %@", [data1 toJSONString]);    
 }
 
 @end

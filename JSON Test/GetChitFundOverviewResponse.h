@@ -7,7 +7,7 @@
 //
 
 #import "ModelBase.h"
-@interface Data : ModelBase
+@interface GetChitFundOverviewResponse : ModelBase
 
 @property (strong) NSString *userId;
 @property (strong) NSMutableArray *chitOverview;

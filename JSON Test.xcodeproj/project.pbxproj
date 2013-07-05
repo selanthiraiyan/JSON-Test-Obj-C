@@ -22,7 +22,7 @@
 		437D31541784424300686841 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 437D31531784424300686841 /* Default-568h@2x.png */; };
 		437D31571784424300686841 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 437D31561784424300686841 /* ViewController.m */; };
 		437D315A1784424300686841 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 437D31581784424300686841 /* ViewController.xib */; };
-		437D316217844A7B00686841 /* Data.m in Sources */ = {isa = PBXBuildFile; fileRef = 437D316117844A7B00686841 /* Data.m */; };
+		437D316217844A7B00686841 /* GetChitFundOverviewResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 437D316117844A7B00686841 /* GetChitFundOverviewResponse.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,8 +51,8 @@
 		437D31551784424300686841 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		437D31561784424300686841 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		437D31591784424300686841 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
-		437D316017844A7B00686841 /* Data.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Data.h; sourceTree = "<group>"; };
-		437D316117844A7B00686841 /* Data.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Data.m; sourceTree = "<group>"; };
+		437D316017844A7B00686841 /* GetChitFundOverviewResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetChitFundOverviewResponse.h; sourceTree = "<group>"; };
+		437D316117844A7B00686841 /* GetChitFundOverviewResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetChitFundOverviewResponse.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,16 +69,51 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4318F5C41786F49000203BF7 /* GetChitFundOverview */ = {
+			isa = PBXGroup;
+			children = (
+				4318F5C61786F4AD00203BF7 /* Response */,
+				4318F5C51786F4A600203BF7 /* Request */,
+			);
+			name = GetChitFundOverview;
+			sourceTree = "<group>";
+		};
+		4318F5C51786F4A600203BF7 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				4318F5C01786E17900203BF7 /* GetChitFundOverviewRequest.h */,
+				4318F5C11786E17A00203BF7 /* GetChitFundOverviewRequest.m */,
+			);
+			name = Request;
+			sourceTree = "<group>";
+		};
+		4318F5C61786F4AD00203BF7 /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				437D316017844A7B00686841 /* GetChitFundOverviewResponse.h */,
+				437D316117844A7B00686841 /* GetChitFundOverviewResponse.m */,
+				4318F5BD1786C8FC00203BF7 /* ChitOverview.h */,
+				4318F5BE1786C8FC00203BF7 /* ChitOverview.m */,
+			);
+			name = Response;
+			sourceTree = "<group>";
+		};
+		4318F5C71786F4D500203BF7 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				4345D439178581A0001CB703 /* RequestJSONObject.h */,
+				4345D43A178581A0001CB703 /* RequestJSONObject.m */,
+				4345D43617857FD5001CB703 /* ModelBase.h */,
+				4345D43717857FD5001CB703 /* ModelBase.m */,
+				4318F5C31786E1BF00203BF7 /* JSONModelBaseProtocol.h */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
 		4345D43C1785825C001CB703 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				437D316017844A7B00686841 /* Data.h */,
-				437D316117844A7B00686841 /* Data.m */,
-				4318F5BD1786C8FC00203BF7 /* ChitOverview.h */,
-				4318F5BE1786C8FC00203BF7 /* ChitOverview.m */,
-				4318F5C01786E17900203BF7 /* GetChitFundOverviewRequest.h */,
-				4318F5C11786E17A00203BF7 /* GetChitFundOverviewRequest.m */,
-				4318F5C31786E1BF00203BF7 /* JSONModelBaseProtocol.h */,
+				4318F5C41786F49000203BF7 /* GetChitFundOverview */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -113,6 +148,7 @@
 		437D31431784424300686841 /* JSON Test */ = {
 			isa = PBXGroup;
 			children = (
+				4318F5C71786F4D500203BF7 /* Base */,
 				4345D43C1785825C001CB703 /* Model */,
 				437D314C1784424300686841 /* AppDelegate.h */,
 				437D314D1784424300686841 /* AppDelegate.m */,
@@ -120,10 +156,6 @@
 				437D31561784424300686841 /* ViewController.m */,
 				437D31581784424300686841 /* ViewController.xib */,
 				437D31441784424300686841 /* Supporting Files */,
-				4345D43617857FD5001CB703 /* ModelBase.h */,
-				4345D43717857FD5001CB703 /* ModelBase.m */,
-				4345D439178581A0001CB703 /* RequestJSONObject.h */,
-				4345D43A178581A0001CB703 /* RequestJSONObject.m */,
 			);
 			path = "JSON Test";
 			sourceTree = "<group>";
@@ -211,7 +243,7 @@
 				437D314A1784424300686841 /* main.m in Sources */,
 				437D314E1784424300686841 /* AppDelegate.m in Sources */,
 				437D31571784424300686841 /* ViewController.m in Sources */,
-				437D316217844A7B00686841 /* Data.m in Sources */,
+				437D316217844A7B00686841 /* GetChitFundOverviewResponse.m in Sources */,
 				4345D43817857FD5001CB703 /* ModelBase.m in Sources */,
 				4345D43B178581A0001CB703 /* RequestJSONObject.m in Sources */,
 				4318F5BF1786C8FC00203BF7 /* ChitOverview.m in Sources */,

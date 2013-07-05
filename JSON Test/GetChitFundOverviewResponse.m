@@ -6,8 +6,8 @@
 //  Copyright (c) 2013 Sharma Elanthiraiyan. All rights reserved.
 //
 
-#import "Data.h"
-@implementation Data
+#import "GetChitFundOverviewResponse.h"
+@implementation GetChitFundOverviewResponse
 
 @synthesize userId;
 @synthesize chitOverview;
