@@ -45,12 +45,11 @@
     NSMutableURLRequest *therequest = [NSMutableURLRequest requestWithURL:[NSURL URLWithString:urlString] cachePolicy:NSURLRequestUseProtocolCachePolicy timeoutInterval:120.0];
     [therequest setHTTPMethod: @"POST"];
     
-    NSString *requ = [NSString stringWithFormat:@"mobile_request=%@", [request toJSONString]];
-
-    [therequest setHTTPBody:[requ dataUsingEncoding:NSUTF8StringEncoding]];
+    NSString *body = [NSString stringWithFormat:@"mobile_request=%@", [request toJSONString]];
+    [therequest setHTTPBody:[body dataUsingEncoding:NSUTF8StringEncoding]];
 
     self.receivedData = [[NSMutableData alloc] initWithLength:0];
-    NSURLConnection *connection = [[NSURLConnection alloc] initWithRequest:therequest delegate:self startImmediately:YES];
+    [[NSURLConnection alloc] initWithRequest:therequest delegate:self startImmediately:YES];
 }
 
 - (void)didReceiveMemoryWarning
