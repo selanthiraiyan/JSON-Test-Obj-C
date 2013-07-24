@@ -7,10 +7,64 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4318F5BF1786C8FC00203BF7 /* ChitOverview.m in Sources */ = {isa = PBXBuildFile; fileRef = 4318F5BE1786C8FC00203BF7 /* ChitOverview.m */; };
-		4318F5C21786E17A00203BF7 /* GetChitFundOverviewRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4318F5C11786E17A00203BF7 /* GetChitFundOverviewRequest.m */; };
-		4345D43817857FD5001CB703 /* ModelBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 4345D43717857FD5001CB703 /* ModelBase.m */; };
-		4345D43B178581A0001CB703 /* RequestJSONObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 4345D43A178581A0001CB703 /* RequestJSONObject.m */; };
+		430BDE8B179FCD180094343E /* BaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 430BDE82179FCD180094343E /* BaseView.m */; };
+		430BDE8C179FCD180094343E /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 430BDE84179FCD180094343E /* BaseViewController.m */; };
+		430BDE8D179FCD180094343E /* ModelBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 430BDE87179FCD180094343E /* ModelBase.m */; };
+		430BDE8E179FCD180094343E /* RequestJSONObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 430BDE89179FCD180094343E /* RequestJSONObject.m */; };
+		430BDF0F179FCDA20094343E /* InitRequestData.m in Sources */ = {isa = PBXBuildFile; fileRef = 430BDE93179FCDA20094343E /* InitRequestData.m */; };
+		430BDF10179FCDA20094343E /* InitRequestEcho.m in Sources */ = {isa = PBXBuildFile; fileRef = 430BDE95179FCDA20094343E /* InitRequestEcho.m */; };
+		430BDF11179FCDA20094343E /* InitRequestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 430BDE97179FCDA20094343E /* InitRequestModel.m */; };
+		430BDF12179FCDA20094343E /* InitRequestRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 430BDE99179FCDA20094343E /* InitRequestRequest.m */; };
+		430BDF13179FCDA20094343E /* InitResponseData.m in Sources */ = {isa = PBXBuildFile; fileRef = 430BDE9C179FCDA20094343E /* InitResponseData.m */; };
+		430BDF14179FCDA20094343E /* InitResponseEcho.m in Sources */ = {isa = PBXBuildFile; fileRef = 430BDE9E179FCDA20094343E /* InitResponseEcho.m */; };
+		430BDF15179FCDA20094343E /* InitResponseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 430BDEA0179FCDA20094343E /* InitResponseModel.m */; };
+		430BDF16179FCDA20094343E /* InitResponseResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 430BDEA2179FCDA20094343E /* InitResponseResponse.m */; };
+		430BDF17179FCDA20094343E /* AddChitFundRequestChit.m in Sources */ = {isa = PBXBuildFile; fileRef = 430BDEA7179FCDA20094343E /* AddChitFundRequestChit.m */; };
+		430BDF18179FCDA20094343E /* AddChitFundRequestData.m in Sources */ = {isa = PBXBuildFile; fileRef = 430BDEA9179FCDA20094343E /* AddChitFundRequestData.m */; };
+		430BDF19179FCDA20094343E /* AddChitFundRequestEcho.m in Sources */ = {isa = PBXBuildFile; fileRef = 430BDEAB179FCDA20094343E /* AddChitFundRequestEcho.m */; };
+		430BDF1A179FCDA20094343E /* AddChitFundRequestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 430BDEAD179FCDA20094343E /* AddChitFundRequestModel.m */; };
+		430BDF1B179FCDA20094343E /* AddChitFundRequestRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 430BDEAF179FCDA20094343E /* AddChitFundRequestRequest.m */; };
+		430BDF1C179FCDA20094343E /* AddChitFundResponseData.m in Sources */ = {isa = PBXBuildFile; fileRef = 430BDEB2179FCDA20094343E /* AddChitFundResponseData.m */; };
+		430BDF1D179FCDA20094343E /* AddChitFundResponseEcho.m in Sources */ = {isa = PBXBuildFile; fileRef = 430BDEB4179FCDA20094343E /* AddChitFundResponseEcho.m */; };
+		430BDF1E179FCDA20094343E /* AddChitFundResponseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 430BDEB6179FCDA20094343E /* AddChitFundResponseModel.m */; };
+		430BDF1F179FCDA20094343E /* AddChitFundResponseResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 430BDEB8179FCDA20094343E /* AddChitFundResponseResponse.m */; };
+		430BDF20179FCDA20094343E /* DeleteChitFundRequestChitFundToBeDeleted.m in Sources */ = {isa = PBXBuildFile; fileRef = 430BDEBC179FCDA20094343E /* DeleteChitFundRequestChitFundToBeDeleted.m */; };
+		430BDF21179FCDA20094343E /* DeleteChitFundRequestData.m in Sources */ = {isa = PBXBuildFile; fileRef = 430BDEBE179FCDA20094343E /* DeleteChitFundRequestData.m */; };
+		430BDF22179FCDA20094343E /* DeleteChitFundRequestEcho.m in Sources */ = {isa = PBXBuildFile; fileRef = 430BDEC0179FCDA20094343E /* DeleteChitFundRequestEcho.m */; };
+		430BDF23179FCDA20094343E /* DeleteChitFundRequestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 430BDEC2179FCDA20094343E /* DeleteChitFundRequestModel.m */; };
+		430BDF24179FCDA20094343E /* DeleteChitFundRequestRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 430BDEC4179FCDA20094343E /* DeleteChitFundRequestRequest.m */; };
+		430BDF25179FCDA20094343E /* DeleteChitFundResponseData.m in Sources */ = {isa = PBXBuildFile; fileRef = 430BDEC7179FCDA20094343E /* DeleteChitFundResponseData.m */; };
+		430BDF26179FCDA20094343E /* DeleteChitFundResponseEcho.m in Sources */ = {isa = PBXBuildFile; fileRef = 430BDEC9179FCDA20094343E /* DeleteChitFundResponseEcho.m */; };
+		430BDF27179FCDA20094343E /* DeleteChitFundResponseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 430BDECB179FCDA20094343E /* DeleteChitFundResponseModel.m */; };
+		430BDF28179FCDA20094343E /* DeleteChitFundResponseResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 430BDECD179FCDA20094343E /* DeleteChitFundResponseResponse.m */; };
+		430BDF29179FCDA20094343E /* GetChitFundDetailsRequestData.m in Sources */ = {isa = PBXBuildFile; fileRef = 430BDED1179FCDA20094343E /* GetChitFundDetailsRequestData.m */; };
+		430BDF2A179FCDA20094343E /* GetChitFundDetailsRequestEcho.m in Sources */ = {isa = PBXBuildFile; fileRef = 430BDED3179FCDA20094343E /* GetChitFundDetailsRequestEcho.m */; };
+		430BDF2B179FCDA20094343E /* GetChitFundDetailsRequestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 430BDED5179FCDA20094343E /* GetChitFundDetailsRequestModel.m */; };
+		430BDF2C179FCDA20094343E /* GetChitFundDetailsRequestRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 430BDED7179FCDA20094343E /* GetChitFundDetailsRequestRequest.m */; };
+		430BDF2D179FCDA20094343E /* GetChitFundDetailsResponseChitFund.m in Sources */ = {isa = PBXBuildFile; fileRef = 430BDEDA179FCDA20094343E /* GetChitFundDetailsResponseChitFund.m */; };
+		430BDF2E179FCDA20094343E /* GetChitFundDetailsResponseChitTermDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 430BDEDC179FCDA20094343E /* GetChitFundDetailsResponseChitTermDetail.m */; };
+		430BDF2F179FCDA20094343E /* GetChitFundDetailsResponseData.m in Sources */ = {isa = PBXBuildFile; fileRef = 430BDEDE179FCDA20094343E /* GetChitFundDetailsResponseData.m */; };
+		430BDF30179FCDA20094343E /* GetChitFundDetailsResponseEcho.m in Sources */ = {isa = PBXBuildFile; fileRef = 430BDEE0179FCDA20094343E /* GetChitFundDetailsResponseEcho.m */; };
+		430BDF31179FCDA20094343E /* GetChitFundDetailsResponseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 430BDEE2179FCDA20094343E /* GetChitFundDetailsResponseModel.m */; };
+		430BDF32179FCDA20094343E /* GetChitFundDetailsResponseResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 430BDEE4179FCDA20094343E /* GetChitFundDetailsResponseResponse.m */; };
+		430BDF33179FCDA20094343E /* GetChitFundOverviewRequestData.m in Sources */ = {isa = PBXBuildFile; fileRef = 430BDEE8179FCDA20094343E /* GetChitFundOverviewRequestData.m */; };
+		430BDF34179FCDA20094343E /* GetChitFundOverviewRequestEcho.m in Sources */ = {isa = PBXBuildFile; fileRef = 430BDEEA179FCDA20094343E /* GetChitFundOverviewRequestEcho.m */; };
+		430BDF35179FCDA20094343E /* GetChitFundOverviewRequestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 430BDEEC179FCDA20094343E /* GetChitFundOverviewRequestModel.m */; };
+		430BDF36179FCDA20094343E /* GetChitFundOverviewRequestRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 430BDEEE179FCDA20094343E /* GetChitFundOverviewRequestRequest.m */; };
+		430BDF37179FCDA20094343E /* GetChitFundOverviewResponseChitOverview.m in Sources */ = {isa = PBXBuildFile; fileRef = 430BDEF1179FCDA20094343E /* GetChitFundOverviewResponseChitOverview.m */; };
+		430BDF38179FCDA20094343E /* GetChitFundOverviewResponseData.m in Sources */ = {isa = PBXBuildFile; fileRef = 430BDEF3179FCDA20094343E /* GetChitFundOverviewResponseData.m */; };
+		430BDF39179FCDA20094343E /* GetChitFundOverviewResponseEcho.m in Sources */ = {isa = PBXBuildFile; fileRef = 430BDEF5179FCDA20094343E /* GetChitFundOverviewResponseEcho.m */; };
+		430BDF3A179FCDA20094343E /* GetChitFundOverviewResponseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 430BDEF7179FCDA20094343E /* GetChitFundOverviewResponseModel.m */; };
+		430BDF3B179FCDA20094343E /* GetChitFundOverviewResponseResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 430BDEF9179FCDA20094343E /* GetChitFundOverviewResponseResponse.m */; };
+		430BDF3C179FCDA20094343E /* PaymentMadeForChitRequestChitTermPayment.m in Sources */ = {isa = PBXBuildFile; fileRef = 430BDEFD179FCDA20094343E /* PaymentMadeForChitRequestChitTermPayment.m */; };
+		430BDF3D179FCDA20094343E /* PaymentMadeForChitRequestData.m in Sources */ = {isa = PBXBuildFile; fileRef = 430BDEFF179FCDA20094343E /* PaymentMadeForChitRequestData.m */; };
+		430BDF3E179FCDA20094343E /* PaymentMadeForChitRequestEcho.m in Sources */ = {isa = PBXBuildFile; fileRef = 430BDF01179FCDA20094343E /* PaymentMadeForChitRequestEcho.m */; };
+		430BDF3F179FCDA20094343E /* PaymentMadeForChitRequestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 430BDF03179FCDA20094343E /* PaymentMadeForChitRequestModel.m */; };
+		430BDF40179FCDA20094343E /* PaymentMadeForChitRequestRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 430BDF05179FCDA20094343E /* PaymentMadeForChitRequestRequest.m */; };
+		430BDF41179FCDA20094343E /* PaymentMadeForChitResponseData.m in Sources */ = {isa = PBXBuildFile; fileRef = 430BDF08179FCDA20094343E /* PaymentMadeForChitResponseData.m */; };
+		430BDF42179FCDA20094343E /* PaymentMadeForChitResponseEcho.m in Sources */ = {isa = PBXBuildFile; fileRef = 430BDF0A179FCDA20094343E /* PaymentMadeForChitResponseEcho.m */; };
+		430BDF43179FCDA20094343E /* PaymentMadeForChitResponseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 430BDF0C179FCDA20094343E /* PaymentMadeForChitResponseModel.m */; };
+		430BDF44179FCDA20094343E /* PaymentMadeForChitResponseResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 430BDF0E179FCDA20094343E /* PaymentMadeForChitResponseResponse.m */; };
 		437D313E1784424300686841 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 437D313D1784424300686841 /* UIKit.framework */; };
 		437D31401784424300686841 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 437D313F1784424300686841 /* Foundation.framework */; };
 		437D31421784424300686841 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 437D31411784424300686841 /* CoreGraphics.framework */; };
@@ -20,21 +74,128 @@
 		437D31501784424300686841 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 437D314F1784424300686841 /* Default.png */; };
 		437D31521784424300686841 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 437D31511784424300686841 /* Default@2x.png */; };
 		437D31541784424300686841 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 437D31531784424300686841 /* Default-568h@2x.png */; };
-		437D31571784424300686841 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 437D31561784424300686841 /* ViewController.m */; };
-		437D315A1784424300686841 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 437D31581784424300686841 /* ViewController.xib */; };
-		437D316217844A7B00686841 /* GetChitFundOverviewResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 437D316117844A7B00686841 /* GetChitFundOverviewResponse.m */; };
+		437D31571784424300686841 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 437D31561784424300686841 /* TestViewController.m */; };
+		437D315A1784424300686841 /* TestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 437D31581784424300686841 /* TestViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4318F5BD1786C8FC00203BF7 /* ChitOverview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChitOverview.h; sourceTree = "<group>"; };
-		4318F5BE1786C8FC00203BF7 /* ChitOverview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChitOverview.m; sourceTree = "<group>"; };
-		4318F5C01786E17900203BF7 /* GetChitFundOverviewRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetChitFundOverviewRequest.h; sourceTree = "<group>"; };
-		4318F5C11786E17A00203BF7 /* GetChitFundOverviewRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetChitFundOverviewRequest.m; sourceTree = "<group>"; };
-		4318F5C31786E1BF00203BF7 /* JSONModelBaseProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSONModelBaseProtocol.h; sourceTree = "<group>"; };
-		4345D43617857FD5001CB703 /* ModelBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelBase.h; sourceTree = "<group>"; };
-		4345D43717857FD5001CB703 /* ModelBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelBase.m; sourceTree = "<group>"; };
-		4345D439178581A0001CB703 /* RequestJSONObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestJSONObject.h; sourceTree = "<group>"; };
-		4345D43A178581A0001CB703 /* RequestJSONObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestJSONObject.m; sourceTree = "<group>"; };
+		430BDE81179FCD180094343E /* BaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseView.h; sourceTree = "<group>"; };
+		430BDE82179FCD180094343E /* BaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseView.m; sourceTree = "<group>"; };
+		430BDE83179FCD180094343E /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		430BDE84179FCD180094343E /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		430BDE85179FCD180094343E /* JSONModelBaseProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModelBaseProtocol.h; sourceTree = "<group>"; };
+		430BDE86179FCD180094343E /* ModelBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelBase.h; sourceTree = "<group>"; };
+		430BDE87179FCD180094343E /* ModelBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelBase.m; sourceTree = "<group>"; };
+		430BDE88179FCD180094343E /* RequestJSONObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestJSONObject.h; sourceTree = "<group>"; };
+		430BDE89179FCD180094343E /* RequestJSONObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestJSONObject.m; sourceTree = "<group>"; };
+		430BDE92179FCDA20094343E /* InitRequestData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InitRequestData.h; sourceTree = "<group>"; };
+		430BDE93179FCDA20094343E /* InitRequestData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InitRequestData.m; sourceTree = "<group>"; };
+		430BDE94179FCDA20094343E /* InitRequestEcho.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InitRequestEcho.h; sourceTree = "<group>"; };
+		430BDE95179FCDA20094343E /* InitRequestEcho.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InitRequestEcho.m; sourceTree = "<group>"; };
+		430BDE96179FCDA20094343E /* InitRequestModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InitRequestModel.h; sourceTree = "<group>"; };
+		430BDE97179FCDA20094343E /* InitRequestModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InitRequestModel.m; sourceTree = "<group>"; };
+		430BDE98179FCDA20094343E /* InitRequestRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InitRequestRequest.h; sourceTree = "<group>"; };
+		430BDE99179FCDA20094343E /* InitRequestRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InitRequestRequest.m; sourceTree = "<group>"; };
+		430BDE9B179FCDA20094343E /* InitResponseData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InitResponseData.h; sourceTree = "<group>"; };
+		430BDE9C179FCDA20094343E /* InitResponseData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InitResponseData.m; sourceTree = "<group>"; };
+		430BDE9D179FCDA20094343E /* InitResponseEcho.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InitResponseEcho.h; sourceTree = "<group>"; };
+		430BDE9E179FCDA20094343E /* InitResponseEcho.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InitResponseEcho.m; sourceTree = "<group>"; };
+		430BDE9F179FCDA20094343E /* InitResponseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InitResponseModel.h; sourceTree = "<group>"; };
+		430BDEA0179FCDA20094343E /* InitResponseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InitResponseModel.m; sourceTree = "<group>"; };
+		430BDEA1179FCDA20094343E /* InitResponseResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InitResponseResponse.h; sourceTree = "<group>"; };
+		430BDEA2179FCDA20094343E /* InitResponseResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InitResponseResponse.m; sourceTree = "<group>"; };
+		430BDEA6179FCDA20094343E /* AddChitFundRequestChit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddChitFundRequestChit.h; sourceTree = "<group>"; };
+		430BDEA7179FCDA20094343E /* AddChitFundRequestChit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddChitFundRequestChit.m; sourceTree = "<group>"; };
+		430BDEA8179FCDA20094343E /* AddChitFundRequestData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddChitFundRequestData.h; sourceTree = "<group>"; };
+		430BDEA9179FCDA20094343E /* AddChitFundRequestData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddChitFundRequestData.m; sourceTree = "<group>"; };
+		430BDEAA179FCDA20094343E /* AddChitFundRequestEcho.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddChitFundRequestEcho.h; sourceTree = "<group>"; };
+		430BDEAB179FCDA20094343E /* AddChitFundRequestEcho.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddChitFundRequestEcho.m; sourceTree = "<group>"; };
+		430BDEAC179FCDA20094343E /* AddChitFundRequestModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddChitFundRequestModel.h; sourceTree = "<group>"; };
+		430BDEAD179FCDA20094343E /* AddChitFundRequestModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddChitFundRequestModel.m; sourceTree = "<group>"; };
+		430BDEAE179FCDA20094343E /* AddChitFundRequestRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddChitFundRequestRequest.h; sourceTree = "<group>"; };
+		430BDEAF179FCDA20094343E /* AddChitFundRequestRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddChitFundRequestRequest.m; sourceTree = "<group>"; };
+		430BDEB1179FCDA20094343E /* AddChitFundResponseData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddChitFundResponseData.h; sourceTree = "<group>"; };
+		430BDEB2179FCDA20094343E /* AddChitFundResponseData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddChitFundResponseData.m; sourceTree = "<group>"; };
+		430BDEB3179FCDA20094343E /* AddChitFundResponseEcho.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddChitFundResponseEcho.h; sourceTree = "<group>"; };
+		430BDEB4179FCDA20094343E /* AddChitFundResponseEcho.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddChitFundResponseEcho.m; sourceTree = "<group>"; };
+		430BDEB5179FCDA20094343E /* AddChitFundResponseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddChitFundResponseModel.h; sourceTree = "<group>"; };
+		430BDEB6179FCDA20094343E /* AddChitFundResponseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddChitFundResponseModel.m; sourceTree = "<group>"; };
+		430BDEB7179FCDA20094343E /* AddChitFundResponseResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddChitFundResponseResponse.h; sourceTree = "<group>"; };
+		430BDEB8179FCDA20094343E /* AddChitFundResponseResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddChitFundResponseResponse.m; sourceTree = "<group>"; };
+		430BDEBB179FCDA20094343E /* DeleteChitFundRequestChitFundToBeDeleted.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeleteChitFundRequestChitFundToBeDeleted.h; sourceTree = "<group>"; };
+		430BDEBC179FCDA20094343E /* DeleteChitFundRequestChitFundToBeDeleted.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeleteChitFundRequestChitFundToBeDeleted.m; sourceTree = "<group>"; };
+		430BDEBD179FCDA20094343E /* DeleteChitFundRequestData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeleteChitFundRequestData.h; sourceTree = "<group>"; };
+		430BDEBE179FCDA20094343E /* DeleteChitFundRequestData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeleteChitFundRequestData.m; sourceTree = "<group>"; };
+		430BDEBF179FCDA20094343E /* DeleteChitFundRequestEcho.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeleteChitFundRequestEcho.h; sourceTree = "<group>"; };
+		430BDEC0179FCDA20094343E /* DeleteChitFundRequestEcho.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeleteChitFundRequestEcho.m; sourceTree = "<group>"; };
+		430BDEC1179FCDA20094343E /* DeleteChitFundRequestModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeleteChitFundRequestModel.h; sourceTree = "<group>"; };
+		430BDEC2179FCDA20094343E /* DeleteChitFundRequestModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeleteChitFundRequestModel.m; sourceTree = "<group>"; };
+		430BDEC3179FCDA20094343E /* DeleteChitFundRequestRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeleteChitFundRequestRequest.h; sourceTree = "<group>"; };
+		430BDEC4179FCDA20094343E /* DeleteChitFundRequestRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeleteChitFundRequestRequest.m; sourceTree = "<group>"; };
+		430BDEC6179FCDA20094343E /* DeleteChitFundResponseData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeleteChitFundResponseData.h; sourceTree = "<group>"; };
+		430BDEC7179FCDA20094343E /* DeleteChitFundResponseData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeleteChitFundResponseData.m; sourceTree = "<group>"; };
+		430BDEC8179FCDA20094343E /* DeleteChitFundResponseEcho.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeleteChitFundResponseEcho.h; sourceTree = "<group>"; };
+		430BDEC9179FCDA20094343E /* DeleteChitFundResponseEcho.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeleteChitFundResponseEcho.m; sourceTree = "<group>"; };
+		430BDECA179FCDA20094343E /* DeleteChitFundResponseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeleteChitFundResponseModel.h; sourceTree = "<group>"; };
+		430BDECB179FCDA20094343E /* DeleteChitFundResponseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeleteChitFundResponseModel.m; sourceTree = "<group>"; };
+		430BDECC179FCDA20094343E /* DeleteChitFundResponseResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeleteChitFundResponseResponse.h; sourceTree = "<group>"; };
+		430BDECD179FCDA20094343E /* DeleteChitFundResponseResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeleteChitFundResponseResponse.m; sourceTree = "<group>"; };
+		430BDED0179FCDA20094343E /* GetChitFundDetailsRequestData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetChitFundDetailsRequestData.h; sourceTree = "<group>"; };
+		430BDED1179FCDA20094343E /* GetChitFundDetailsRequestData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetChitFundDetailsRequestData.m; sourceTree = "<group>"; };
+		430BDED2179FCDA20094343E /* GetChitFundDetailsRequestEcho.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetChitFundDetailsRequestEcho.h; sourceTree = "<group>"; };
+		430BDED3179FCDA20094343E /* GetChitFundDetailsRequestEcho.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetChitFundDetailsRequestEcho.m; sourceTree = "<group>"; };
+		430BDED4179FCDA20094343E /* GetChitFundDetailsRequestModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetChitFundDetailsRequestModel.h; sourceTree = "<group>"; };
+		430BDED5179FCDA20094343E /* GetChitFundDetailsRequestModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetChitFundDetailsRequestModel.m; sourceTree = "<group>"; };
+		430BDED6179FCDA20094343E /* GetChitFundDetailsRequestRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetChitFundDetailsRequestRequest.h; sourceTree = "<group>"; };
+		430BDED7179FCDA20094343E /* GetChitFundDetailsRequestRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetChitFundDetailsRequestRequest.m; sourceTree = "<group>"; };
+		430BDED9179FCDA20094343E /* GetChitFundDetailsResponseChitFund.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetChitFundDetailsResponseChitFund.h; sourceTree = "<group>"; };
+		430BDEDA179FCDA20094343E /* GetChitFundDetailsResponseChitFund.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetChitFundDetailsResponseChitFund.m; sourceTree = "<group>"; };
+		430BDEDB179FCDA20094343E /* GetChitFundDetailsResponseChitTermDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetChitFundDetailsResponseChitTermDetail.h; sourceTree = "<group>"; };
+		430BDEDC179FCDA20094343E /* GetChitFundDetailsResponseChitTermDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetChitFundDetailsResponseChitTermDetail.m; sourceTree = "<group>"; };
+		430BDEDD179FCDA20094343E /* GetChitFundDetailsResponseData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetChitFundDetailsResponseData.h; sourceTree = "<group>"; };
+		430BDEDE179FCDA20094343E /* GetChitFundDetailsResponseData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetChitFundDetailsResponseData.m; sourceTree = "<group>"; };
+		430BDEDF179FCDA20094343E /* GetChitFundDetailsResponseEcho.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetChitFundDetailsResponseEcho.h; sourceTree = "<group>"; };
+		430BDEE0179FCDA20094343E /* GetChitFundDetailsResponseEcho.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetChitFundDetailsResponseEcho.m; sourceTree = "<group>"; };
+		430BDEE1179FCDA20094343E /* GetChitFundDetailsResponseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetChitFundDetailsResponseModel.h; sourceTree = "<group>"; };
+		430BDEE2179FCDA20094343E /* GetChitFundDetailsResponseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetChitFundDetailsResponseModel.m; sourceTree = "<group>"; };
+		430BDEE3179FCDA20094343E /* GetChitFundDetailsResponseResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetChitFundDetailsResponseResponse.h; sourceTree = "<group>"; };
+		430BDEE4179FCDA20094343E /* GetChitFundDetailsResponseResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetChitFundDetailsResponseResponse.m; sourceTree = "<group>"; };
+		430BDEE7179FCDA20094343E /* GetChitFundOverviewRequestData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetChitFundOverviewRequestData.h; sourceTree = "<group>"; };
+		430BDEE8179FCDA20094343E /* GetChitFundOverviewRequestData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetChitFundOverviewRequestData.m; sourceTree = "<group>"; };
+		430BDEE9179FCDA20094343E /* GetChitFundOverviewRequestEcho.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetChitFundOverviewRequestEcho.h; sourceTree = "<group>"; };
+		430BDEEA179FCDA20094343E /* GetChitFundOverviewRequestEcho.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetChitFundOverviewRequestEcho.m; sourceTree = "<group>"; };
+		430BDEEB179FCDA20094343E /* GetChitFundOverviewRequestModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetChitFundOverviewRequestModel.h; sourceTree = "<group>"; };
+		430BDEEC179FCDA20094343E /* GetChitFundOverviewRequestModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetChitFundOverviewRequestModel.m; sourceTree = "<group>"; };
+		430BDEED179FCDA20094343E /* GetChitFundOverviewRequestRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetChitFundOverviewRequestRequest.h; sourceTree = "<group>"; };
+		430BDEEE179FCDA20094343E /* GetChitFundOverviewRequestRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetChitFundOverviewRequestRequest.m; sourceTree = "<group>"; };
+		430BDEF0179FCDA20094343E /* GetChitFundOverviewResponseChitOverview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetChitFundOverviewResponseChitOverview.h; sourceTree = "<group>"; };
+		430BDEF1179FCDA20094343E /* GetChitFundOverviewResponseChitOverview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetChitFundOverviewResponseChitOverview.m; sourceTree = "<group>"; };
+		430BDEF2179FCDA20094343E /* GetChitFundOverviewResponseData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetChitFundOverviewResponseData.h; sourceTree = "<group>"; };
+		430BDEF3179FCDA20094343E /* GetChitFundOverviewResponseData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetChitFundOverviewResponseData.m; sourceTree = "<group>"; };
+		430BDEF4179FCDA20094343E /* GetChitFundOverviewResponseEcho.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetChitFundOverviewResponseEcho.h; sourceTree = "<group>"; };
+		430BDEF5179FCDA20094343E /* GetChitFundOverviewResponseEcho.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetChitFundOverviewResponseEcho.m; sourceTree = "<group>"; };
+		430BDEF6179FCDA20094343E /* GetChitFundOverviewResponseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetChitFundOverviewResponseModel.h; sourceTree = "<group>"; };
+		430BDEF7179FCDA20094343E /* GetChitFundOverviewResponseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetChitFundOverviewResponseModel.m; sourceTree = "<group>"; };
+		430BDEF8179FCDA20094343E /* GetChitFundOverviewResponseResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetChitFundOverviewResponseResponse.h; sourceTree = "<group>"; };
+		430BDEF9179FCDA20094343E /* GetChitFundOverviewResponseResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetChitFundOverviewResponseResponse.m; sourceTree = "<group>"; };
+		430BDEFC179FCDA20094343E /* PaymentMadeForChitRequestChitTermPayment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaymentMadeForChitRequestChitTermPayment.h; sourceTree = "<group>"; };
+		430BDEFD179FCDA20094343E /* PaymentMadeForChitRequestChitTermPayment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaymentMadeForChitRequestChitTermPayment.m; sourceTree = "<group>"; };
+		430BDEFE179FCDA20094343E /* PaymentMadeForChitRequestData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaymentMadeForChitRequestData.h; sourceTree = "<group>"; };
+		430BDEFF179FCDA20094343E /* PaymentMadeForChitRequestData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaymentMadeForChitRequestData.m; sourceTree = "<group>"; };
+		430BDF00179FCDA20094343E /* PaymentMadeForChitRequestEcho.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaymentMadeForChitRequestEcho.h; sourceTree = "<group>"; };
+		430BDF01179FCDA20094343E /* PaymentMadeForChitRequestEcho.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaymentMadeForChitRequestEcho.m; sourceTree = "<group>"; };
+		430BDF02179FCDA20094343E /* PaymentMadeForChitRequestModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaymentMadeForChitRequestModel.h; sourceTree = "<group>"; };
+		430BDF03179FCDA20094343E /* PaymentMadeForChitRequestModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaymentMadeForChitRequestModel.m; sourceTree = "<group>"; };
+		430BDF04179FCDA20094343E /* PaymentMadeForChitRequestRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaymentMadeForChitRequestRequest.h; sourceTree = "<group>"; };
+		430BDF05179FCDA20094343E /* PaymentMadeForChitRequestRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaymentMadeForChitRequestRequest.m; sourceTree = "<group>"; };
+		430BDF07179FCDA20094343E /* PaymentMadeForChitResponseData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaymentMadeForChitResponseData.h; sourceTree = "<group>"; };
+		430BDF08179FCDA20094343E /* PaymentMadeForChitResponseData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaymentMadeForChitResponseData.m; sourceTree = "<group>"; };
+		430BDF09179FCDA20094343E /* PaymentMadeForChitResponseEcho.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaymentMadeForChitResponseEcho.h; sourceTree = "<group>"; };
+		430BDF0A179FCDA20094343E /* PaymentMadeForChitResponseEcho.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaymentMadeForChitResponseEcho.m; sourceTree = "<group>"; };
+		430BDF0B179FCDA20094343E /* PaymentMadeForChitResponseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaymentMadeForChitResponseModel.h; sourceTree = "<group>"; };
+		430BDF0C179FCDA20094343E /* PaymentMadeForChitResponseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaymentMadeForChitResponseModel.m; sourceTree = "<group>"; };
+		430BDF0D179FCDA20094343E /* PaymentMadeForChitResponseResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaymentMadeForChitResponseResponse.h; sourceTree = "<group>"; };
+		430BDF0E179FCDA20094343E /* PaymentMadeForChitResponseResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaymentMadeForChitResponseResponse.m; sourceTree = "<group>"; };
 		437D313A1784424300686841 /* JSON Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JSON Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		437D313D1784424300686841 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		437D313F1784424300686841 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -48,11 +209,9 @@
 		437D314F1784424300686841 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		437D31511784424300686841 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		437D31531784424300686841 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		437D31551784424300686841 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		437D31561784424300686841 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		437D31591784424300686841 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
-		437D316017844A7B00686841 /* GetChitFundOverviewResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetChitFundOverviewResponse.h; sourceTree = "<group>"; };
-		437D316117844A7B00686841 /* GetChitFundOverviewResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetChitFundOverviewResponse.m; sourceTree = "<group>"; };
+		437D31551784424300686841 /* TestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		437D31561784424300686841 /* TestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		437D31591784424300686841 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TestViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,53 +228,295 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4318F5C41786F49000203BF7 /* GetChitFundOverview */ = {
+		430BDE80179FCD180094343E /* Base */ = {
 			isa = PBXGroup;
 			children = (
-				4318F5C61786F4AD00203BF7 /* Response */,
-				4318F5C51786F4A600203BF7 /* Request */,
+				430BDE81179FCD180094343E /* BaseView.h */,
+				430BDE82179FCD180094343E /* BaseView.m */,
+				430BDE83179FCD180094343E /* BaseViewController.h */,
+				430BDE84179FCD180094343E /* BaseViewController.m */,
+				430BDE85179FCD180094343E /* JSONModelBaseProtocol.h */,
+				430BDE86179FCD180094343E /* ModelBase.h */,
+				430BDE87179FCD180094343E /* ModelBase.m */,
+				430BDE88179FCD180094343E /* RequestJSONObject.h */,
+				430BDE89179FCD180094343E /* RequestJSONObject.m */,
 			);
-			name = GetChitFundOverview;
+			path = Base;
 			sourceTree = "<group>";
 		};
-		4318F5C51786F4A600203BF7 /* Request */ = {
+		430BDE8A179FCD180094343E /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				4318F5C01786E17900203BF7 /* GetChitFundOverviewRequest.h */,
-				4318F5C11786E17A00203BF7 /* GetChitFundOverviewRequest.m */,
+				430BDE8F179FCDA20094343E /* Base */,
+				430BDEA3179FCDA20094343E /* ChitFund */,
 			);
-			name = Request;
+			path = Model;
 			sourceTree = "<group>";
 		};
-		4318F5C61786F4AD00203BF7 /* Response */ = {
+		430BDE8F179FCDA20094343E /* Base */ = {
 			isa = PBXGroup;
 			children = (
-				437D316017844A7B00686841 /* GetChitFundOverviewResponse.h */,
-				437D316117844A7B00686841 /* GetChitFundOverviewResponse.m */,
-				4318F5BD1786C8FC00203BF7 /* ChitOverview.h */,
-				4318F5BE1786C8FC00203BF7 /* ChitOverview.m */,
+				430BDE90179FCDA20094343E /* Init */,
 			);
-			name = Response;
+			path = Base;
 			sourceTree = "<group>";
 		};
-		4318F5C71786F4D500203BF7 /* Base */ = {
+		430BDE90179FCDA20094343E /* Init */ = {
 			isa = PBXGroup;
 			children = (
-				4345D439178581A0001CB703 /* RequestJSONObject.h */,
-				4345D43A178581A0001CB703 /* RequestJSONObject.m */,
-				4345D43617857FD5001CB703 /* ModelBase.h */,
-				4345D43717857FD5001CB703 /* ModelBase.m */,
-				4318F5C31786E1BF00203BF7 /* JSONModelBaseProtocol.h */,
+				430BDE91179FCDA20094343E /* Request */,
+				430BDE9A179FCDA20094343E /* Response */,
 			);
-			name = Base;
+			path = Init;
 			sourceTree = "<group>";
 		};
-		4345D43C1785825C001CB703 /* Model */ = {
+		430BDE91179FCDA20094343E /* Request */ = {
 			isa = PBXGroup;
 			children = (
-				4318F5C41786F49000203BF7 /* GetChitFundOverview */,
+				430BDE92179FCDA20094343E /* InitRequestData.h */,
+				430BDE93179FCDA20094343E /* InitRequestData.m */,
+				430BDE94179FCDA20094343E /* InitRequestEcho.h */,
+				430BDE95179FCDA20094343E /* InitRequestEcho.m */,
+				430BDE96179FCDA20094343E /* InitRequestModel.h */,
+				430BDE97179FCDA20094343E /* InitRequestModel.m */,
+				430BDE98179FCDA20094343E /* InitRequestRequest.h */,
+				430BDE99179FCDA20094343E /* InitRequestRequest.m */,
 			);
-			name = Model;
+			path = Request;
+			sourceTree = "<group>";
+		};
+		430BDE9A179FCDA20094343E /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				430BDE9B179FCDA20094343E /* InitResponseData.h */,
+				430BDE9C179FCDA20094343E /* InitResponseData.m */,
+				430BDE9D179FCDA20094343E /* InitResponseEcho.h */,
+				430BDE9E179FCDA20094343E /* InitResponseEcho.m */,
+				430BDE9F179FCDA20094343E /* InitResponseModel.h */,
+				430BDEA0179FCDA20094343E /* InitResponseModel.m */,
+				430BDEA1179FCDA20094343E /* InitResponseResponse.h */,
+				430BDEA2179FCDA20094343E /* InitResponseResponse.m */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		430BDEA3179FCDA20094343E /* ChitFund */ = {
+			isa = PBXGroup;
+			children = (
+				430BDEA4179FCDA20094343E /* AddChitFund */,
+				430BDEB9179FCDA20094343E /* DeleteChitFund */,
+				430BDECE179FCDA20094343E /* GetChitFundDetails */,
+				430BDEE5179FCDA20094343E /* GetChitFundOverview */,
+				430BDEFA179FCDA20094343E /* PaymentMadeForChit */,
+			);
+			path = ChitFund;
+			sourceTree = "<group>";
+		};
+		430BDEA4179FCDA20094343E /* AddChitFund */ = {
+			isa = PBXGroup;
+			children = (
+				430BDEA5179FCDA20094343E /* Request */,
+				430BDEB0179FCDA20094343E /* Response */,
+			);
+			path = AddChitFund;
+			sourceTree = "<group>";
+		};
+		430BDEA5179FCDA20094343E /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				430BDEA6179FCDA20094343E /* AddChitFundRequestChit.h */,
+				430BDEA7179FCDA20094343E /* AddChitFundRequestChit.m */,
+				430BDEA8179FCDA20094343E /* AddChitFundRequestData.h */,
+				430BDEA9179FCDA20094343E /* AddChitFundRequestData.m */,
+				430BDEAA179FCDA20094343E /* AddChitFundRequestEcho.h */,
+				430BDEAB179FCDA20094343E /* AddChitFundRequestEcho.m */,
+				430BDEAC179FCDA20094343E /* AddChitFundRequestModel.h */,
+				430BDEAD179FCDA20094343E /* AddChitFundRequestModel.m */,
+				430BDEAE179FCDA20094343E /* AddChitFundRequestRequest.h */,
+				430BDEAF179FCDA20094343E /* AddChitFundRequestRequest.m */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		430BDEB0179FCDA20094343E /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				430BDEB1179FCDA20094343E /* AddChitFundResponseData.h */,
+				430BDEB2179FCDA20094343E /* AddChitFundResponseData.m */,
+				430BDEB3179FCDA20094343E /* AddChitFundResponseEcho.h */,
+				430BDEB4179FCDA20094343E /* AddChitFundResponseEcho.m */,
+				430BDEB5179FCDA20094343E /* AddChitFundResponseModel.h */,
+				430BDEB6179FCDA20094343E /* AddChitFundResponseModel.m */,
+				430BDEB7179FCDA20094343E /* AddChitFundResponseResponse.h */,
+				430BDEB8179FCDA20094343E /* AddChitFundResponseResponse.m */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		430BDEB9179FCDA20094343E /* DeleteChitFund */ = {
+			isa = PBXGroup;
+			children = (
+				430BDEBA179FCDA20094343E /* Request */,
+				430BDEC5179FCDA20094343E /* Response */,
+			);
+			path = DeleteChitFund;
+			sourceTree = "<group>";
+		};
+		430BDEBA179FCDA20094343E /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				430BDEBB179FCDA20094343E /* DeleteChitFundRequestChitFundToBeDeleted.h */,
+				430BDEBC179FCDA20094343E /* DeleteChitFundRequestChitFundToBeDeleted.m */,
+				430BDEBD179FCDA20094343E /* DeleteChitFundRequestData.h */,
+				430BDEBE179FCDA20094343E /* DeleteChitFundRequestData.m */,
+				430BDEBF179FCDA20094343E /* DeleteChitFundRequestEcho.h */,
+				430BDEC0179FCDA20094343E /* DeleteChitFundRequestEcho.m */,
+				430BDEC1179FCDA20094343E /* DeleteChitFundRequestModel.h */,
+				430BDEC2179FCDA20094343E /* DeleteChitFundRequestModel.m */,
+				430BDEC3179FCDA20094343E /* DeleteChitFundRequestRequest.h */,
+				430BDEC4179FCDA20094343E /* DeleteChitFundRequestRequest.m */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		430BDEC5179FCDA20094343E /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				430BDEC6179FCDA20094343E /* DeleteChitFundResponseData.h */,
+				430BDEC7179FCDA20094343E /* DeleteChitFundResponseData.m */,
+				430BDEC8179FCDA20094343E /* DeleteChitFundResponseEcho.h */,
+				430BDEC9179FCDA20094343E /* DeleteChitFundResponseEcho.m */,
+				430BDECA179FCDA20094343E /* DeleteChitFundResponseModel.h */,
+				430BDECB179FCDA20094343E /* DeleteChitFundResponseModel.m */,
+				430BDECC179FCDA20094343E /* DeleteChitFundResponseResponse.h */,
+				430BDECD179FCDA20094343E /* DeleteChitFundResponseResponse.m */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		430BDECE179FCDA20094343E /* GetChitFundDetails */ = {
+			isa = PBXGroup;
+			children = (
+				430BDECF179FCDA20094343E /* Request */,
+				430BDED8179FCDA20094343E /* Response */,
+			);
+			path = GetChitFundDetails;
+			sourceTree = "<group>";
+		};
+		430BDECF179FCDA20094343E /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				430BDED0179FCDA20094343E /* GetChitFundDetailsRequestData.h */,
+				430BDED1179FCDA20094343E /* GetChitFundDetailsRequestData.m */,
+				430BDED2179FCDA20094343E /* GetChitFundDetailsRequestEcho.h */,
+				430BDED3179FCDA20094343E /* GetChitFundDetailsRequestEcho.m */,
+				430BDED4179FCDA20094343E /* GetChitFundDetailsRequestModel.h */,
+				430BDED5179FCDA20094343E /* GetChitFundDetailsRequestModel.m */,
+				430BDED6179FCDA20094343E /* GetChitFundDetailsRequestRequest.h */,
+				430BDED7179FCDA20094343E /* GetChitFundDetailsRequestRequest.m */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		430BDED8179FCDA20094343E /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				430BDED9179FCDA20094343E /* GetChitFundDetailsResponseChitFund.h */,
+				430BDEDA179FCDA20094343E /* GetChitFundDetailsResponseChitFund.m */,
+				430BDEDB179FCDA20094343E /* GetChitFundDetailsResponseChitTermDetail.h */,
+				430BDEDC179FCDA20094343E /* GetChitFundDetailsResponseChitTermDetail.m */,
+				430BDEDD179FCDA20094343E /* GetChitFundDetailsResponseData.h */,
+				430BDEDE179FCDA20094343E /* GetChitFundDetailsResponseData.m */,
+				430BDEDF179FCDA20094343E /* GetChitFundDetailsResponseEcho.h */,
+				430BDEE0179FCDA20094343E /* GetChitFundDetailsResponseEcho.m */,
+				430BDEE1179FCDA20094343E /* GetChitFundDetailsResponseModel.h */,
+				430BDEE2179FCDA20094343E /* GetChitFundDetailsResponseModel.m */,
+				430BDEE3179FCDA20094343E /* GetChitFundDetailsResponseResponse.h */,
+				430BDEE4179FCDA20094343E /* GetChitFundDetailsResponseResponse.m */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		430BDEE5179FCDA20094343E /* GetChitFundOverview */ = {
+			isa = PBXGroup;
+			children = (
+				430BDEE6179FCDA20094343E /* Request */,
+				430BDEEF179FCDA20094343E /* Response */,
+			);
+			path = GetChitFundOverview;
+			sourceTree = "<group>";
+		};
+		430BDEE6179FCDA20094343E /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				430BDEE7179FCDA20094343E /* GetChitFundOverviewRequestData.h */,
+				430BDEE8179FCDA20094343E /* GetChitFundOverviewRequestData.m */,
+				430BDEE9179FCDA20094343E /* GetChitFundOverviewRequestEcho.h */,
+				430BDEEA179FCDA20094343E /* GetChitFundOverviewRequestEcho.m */,
+				430BDEEB179FCDA20094343E /* GetChitFundOverviewRequestModel.h */,
+				430BDEEC179FCDA20094343E /* GetChitFundOverviewRequestModel.m */,
+				430BDEED179FCDA20094343E /* GetChitFundOverviewRequestRequest.h */,
+				430BDEEE179FCDA20094343E /* GetChitFundOverviewRequestRequest.m */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		430BDEEF179FCDA20094343E /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				430BDEF0179FCDA20094343E /* GetChitFundOverviewResponseChitOverview.h */,
+				430BDEF1179FCDA20094343E /* GetChitFundOverviewResponseChitOverview.m */,
+				430BDEF2179FCDA20094343E /* GetChitFundOverviewResponseData.h */,
+				430BDEF3179FCDA20094343E /* GetChitFundOverviewResponseData.m */,
+				430BDEF4179FCDA20094343E /* GetChitFundOverviewResponseEcho.h */,
+				430BDEF5179FCDA20094343E /* GetChitFundOverviewResponseEcho.m */,
+				430BDEF6179FCDA20094343E /* GetChitFundOverviewResponseModel.h */,
+				430BDEF7179FCDA20094343E /* GetChitFundOverviewResponseModel.m */,
+				430BDEF8179FCDA20094343E /* GetChitFundOverviewResponseResponse.h */,
+				430BDEF9179FCDA20094343E /* GetChitFundOverviewResponseResponse.m */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		430BDEFA179FCDA20094343E /* PaymentMadeForChit */ = {
+			isa = PBXGroup;
+			children = (
+				430BDEFB179FCDA20094343E /* Request */,
+				430BDF06179FCDA20094343E /* Response */,
+			);
+			path = PaymentMadeForChit;
+			sourceTree = "<group>";
+		};
+		430BDEFB179FCDA20094343E /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				430BDEFC179FCDA20094343E /* PaymentMadeForChitRequestChitTermPayment.h */,
+				430BDEFD179FCDA20094343E /* PaymentMadeForChitRequestChitTermPayment.m */,
+				430BDEFE179FCDA20094343E /* PaymentMadeForChitRequestData.h */,
+				430BDEFF179FCDA20094343E /* PaymentMadeForChitRequestData.m */,
+				430BDF00179FCDA20094343E /* PaymentMadeForChitRequestEcho.h */,
+				430BDF01179FCDA20094343E /* PaymentMadeForChitRequestEcho.m */,
+				430BDF02179FCDA20094343E /* PaymentMadeForChitRequestModel.h */,
+				430BDF03179FCDA20094343E /* PaymentMadeForChitRequestModel.m */,
+				430BDF04179FCDA20094343E /* PaymentMadeForChitRequestRequest.h */,
+				430BDF05179FCDA20094343E /* PaymentMadeForChitRequestRequest.m */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		430BDF06179FCDA20094343E /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				430BDF07179FCDA20094343E /* PaymentMadeForChitResponseData.h */,
+				430BDF08179FCDA20094343E /* PaymentMadeForChitResponseData.m */,
+				430BDF09179FCDA20094343E /* PaymentMadeForChitResponseEcho.h */,
+				430BDF0A179FCDA20094343E /* PaymentMadeForChitResponseEcho.m */,
+				430BDF0B179FCDA20094343E /* PaymentMadeForChitResponseModel.h */,
+				430BDF0C179FCDA20094343E /* PaymentMadeForChitResponseModel.m */,
+				430BDF0D179FCDA20094343E /* PaymentMadeForChitResponseResponse.h */,
+				430BDF0E179FCDA20094343E /* PaymentMadeForChitResponseResponse.m */,
+			);
+			path = Response;
 			sourceTree = "<group>";
 		};
 		437D31311784424300686841 = {
@@ -148,13 +549,13 @@
 		437D31431784424300686841 /* JSON Test */ = {
 			isa = PBXGroup;
 			children = (
-				4318F5C71786F4D500203BF7 /* Base */,
-				4345D43C1785825C001CB703 /* Model */,
+				430BDE80179FCD180094343E /* Base */,
+				430BDE8A179FCD180094343E /* Model */,
 				437D314C1784424300686841 /* AppDelegate.h */,
 				437D314D1784424300686841 /* AppDelegate.m */,
-				437D31551784424300686841 /* ViewController.h */,
-				437D31561784424300686841 /* ViewController.m */,
-				437D31581784424300686841 /* ViewController.xib */,
+				437D31551784424300686841 /* TestViewController.h */,
+				437D31561784424300686841 /* TestViewController.m */,
+				437D31581784424300686841 /* TestViewController.xib */,
 				437D31441784424300686841 /* Supporting Files */,
 			);
 			path = "JSON Test";
@@ -229,7 +630,7 @@
 				437D31501784424300686841 /* Default.png in Resources */,
 				437D31521784424300686841 /* Default@2x.png in Resources */,
 				437D31541784424300686841 /* Default-568h@2x.png in Resources */,
-				437D315A1784424300686841 /* ViewController.xib in Resources */,
+				437D315A1784424300686841 /* TestViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,12 +643,65 @@
 			files = (
 				437D314A1784424300686841 /* main.m in Sources */,
 				437D314E1784424300686841 /* AppDelegate.m in Sources */,
-				437D31571784424300686841 /* ViewController.m in Sources */,
-				437D316217844A7B00686841 /* GetChitFundOverviewResponse.m in Sources */,
-				4345D43817857FD5001CB703 /* ModelBase.m in Sources */,
-				4345D43B178581A0001CB703 /* RequestJSONObject.m in Sources */,
-				4318F5BF1786C8FC00203BF7 /* ChitOverview.m in Sources */,
-				4318F5C21786E17A00203BF7 /* GetChitFundOverviewRequest.m in Sources */,
+				437D31571784424300686841 /* TestViewController.m in Sources */,
+				430BDE8B179FCD180094343E /* BaseView.m in Sources */,
+				430BDE8C179FCD180094343E /* BaseViewController.m in Sources */,
+				430BDE8D179FCD180094343E /* ModelBase.m in Sources */,
+				430BDE8E179FCD180094343E /* RequestJSONObject.m in Sources */,
+				430BDF0F179FCDA20094343E /* InitRequestData.m in Sources */,
+				430BDF10179FCDA20094343E /* InitRequestEcho.m in Sources */,
+				430BDF11179FCDA20094343E /* InitRequestModel.m in Sources */,
+				430BDF12179FCDA20094343E /* InitRequestRequest.m in Sources */,
+				430BDF13179FCDA20094343E /* InitResponseData.m in Sources */,
+				430BDF14179FCDA20094343E /* InitResponseEcho.m in Sources */,
+				430BDF15179FCDA20094343E /* InitResponseModel.m in Sources */,
+				430BDF16179FCDA20094343E /* InitResponseResponse.m in Sources */,
+				430BDF17179FCDA20094343E /* AddChitFundRequestChit.m in Sources */,
+				430BDF18179FCDA20094343E /* AddChitFundRequestData.m in Sources */,
+				430BDF19179FCDA20094343E /* AddChitFundRequestEcho.m in Sources */,
+				430BDF1A179FCDA20094343E /* AddChitFundRequestModel.m in Sources */,
+				430BDF1B179FCDA20094343E /* AddChitFundRequestRequest.m in Sources */,
+				430BDF1C179FCDA20094343E /* AddChitFundResponseData.m in Sources */,
+				430BDF1D179FCDA20094343E /* AddChitFundResponseEcho.m in Sources */,
+				430BDF1E179FCDA20094343E /* AddChitFundResponseModel.m in Sources */,
+				430BDF1F179FCDA20094343E /* AddChitFundResponseResponse.m in Sources */,
+				430BDF20179FCDA20094343E /* DeleteChitFundRequestChitFundToBeDeleted.m in Sources */,
+				430BDF21179FCDA20094343E /* DeleteChitFundRequestData.m in Sources */,
+				430BDF22179FCDA20094343E /* DeleteChitFundRequestEcho.m in Sources */,
+				430BDF23179FCDA20094343E /* DeleteChitFundRequestModel.m in Sources */,
+				430BDF24179FCDA20094343E /* DeleteChitFundRequestRequest.m in Sources */,
+				430BDF25179FCDA20094343E /* DeleteChitFundResponseData.m in Sources */,
+				430BDF26179FCDA20094343E /* DeleteChitFundResponseEcho.m in Sources */,
+				430BDF27179FCDA20094343E /* DeleteChitFundResponseModel.m in Sources */,
+				430BDF28179FCDA20094343E /* DeleteChitFundResponseResponse.m in Sources */,
+				430BDF29179FCDA20094343E /* GetChitFundDetailsRequestData.m in Sources */,
+				430BDF2A179FCDA20094343E /* GetChitFundDetailsRequestEcho.m in Sources */,
+				430BDF2B179FCDA20094343E /* GetChitFundDetailsRequestModel.m in Sources */,
+				430BDF2C179FCDA20094343E /* GetChitFundDetailsRequestRequest.m in Sources */,
+				430BDF2D179FCDA20094343E /* GetChitFundDetailsResponseChitFund.m in Sources */,
+				430BDF2E179FCDA20094343E /* GetChitFundDetailsResponseChitTermDetail.m in Sources */,
+				430BDF2F179FCDA20094343E /* GetChitFundDetailsResponseData.m in Sources */,
+				430BDF30179FCDA20094343E /* GetChitFundDetailsResponseEcho.m in Sources */,
+				430BDF31179FCDA20094343E /* GetChitFundDetailsResponseModel.m in Sources */,
+				430BDF32179FCDA20094343E /* GetChitFundDetailsResponseResponse.m in Sources */,
+				430BDF33179FCDA20094343E /* GetChitFundOverviewRequestData.m in Sources */,
+				430BDF34179FCDA20094343E /* GetChitFundOverviewRequestEcho.m in Sources */,
+				430BDF35179FCDA20094343E /* GetChitFundOverviewRequestModel.m in Sources */,
+				430BDF36179FCDA20094343E /* GetChitFundOverviewRequestRequest.m in Sources */,
+				430BDF37179FCDA20094343E /* GetChitFundOverviewResponseChitOverview.m in Sources */,
+				430BDF38179FCDA20094343E /* GetChitFundOverviewResponseData.m in Sources */,
+				430BDF39179FCDA20094343E /* GetChitFundOverviewResponseEcho.m in Sources */,
+				430BDF3A179FCDA20094343E /* GetChitFundOverviewResponseModel.m in Sources */,
+				430BDF3B179FCDA20094343E /* GetChitFundOverviewResponseResponse.m in Sources */,
+				430BDF3C179FCDA20094343E /* PaymentMadeForChitRequestChitTermPayment.m in Sources */,
+				430BDF3D179FCDA20094343E /* PaymentMadeForChitRequestData.m in Sources */,
+				430BDF3E179FCDA20094343E /* PaymentMadeForChitRequestEcho.m in Sources */,
+				430BDF3F179FCDA20094343E /* PaymentMadeForChitRequestModel.m in Sources */,
+				430BDF40179FCDA20094343E /* PaymentMadeForChitRequestRequest.m in Sources */,
+				430BDF41179FCDA20094343E /* PaymentMadeForChitResponseData.m in Sources */,
+				430BDF42179FCDA20094343E /* PaymentMadeForChitResponseEcho.m in Sources */,
+				430BDF43179FCDA20094343E /* PaymentMadeForChitResponseModel.m in Sources */,
+				430BDF44179FCDA20094343E /* PaymentMadeForChitResponseResponse.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,12 +716,12 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		437D31581784424300686841 /* ViewController.xib */ = {
+		437D31581784424300686841 /* TestViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				437D31591784424300686841 /* en */,
 			);
-			name = ViewController.xib;
+			name = TestViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
