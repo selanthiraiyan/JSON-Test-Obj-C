@@ -7,7 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+@class BaseViewController;
 
 @interface BaseView : UIView
+
+- (id)initWithController:(BaseViewController*)controller;
+- (void)createViews;
+
+@property (strong) UIView *contentView;
 
 @end

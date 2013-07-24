@@ -11,10 +11,7 @@
 
 @interface BaseViewController : UIViewController
 
-@property (strong) UIView *contentView;
-
-- (void)createViews;
-
+- (id)initWithViewClass:(Class)viewClassName;
 - (void)sendRequest:(id<JSONModelBaseProtocol>)data;
 - (void)processResponse:(NSDictionary*)response; //Override this method to receive response
 

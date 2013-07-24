@@ -7,33 +7,33 @@
 //
 
 #import "BaseViewController.h"
+#import "BaseView.h"
 
 @interface BaseViewController()
 
 @property (retain) NSMutableData *receivedData;
-@property (strong) UIView *headerView;
-@property (strong) UIView *footerView;
+
 
 @end
 
 @implementation BaseViewController
 @synthesize receivedData;
-@synthesize contentView;
-@synthesize headerView;
-@synthesize footerView;
-- (id)init
+
+- (id)initWithViewClass:(Class)viewClassName
 {
     self = [super init];
     if (self) {
-        [self createViews];
+        if ([viewClassName isSubclassOfClass:[BaseView class]]) {
+            self.view = [[viewClassName alloc]initWithController:self];
+        }
+        else {
+            [NSException raise:@"Not a valid view." format:@"View should be a sub class of BaseView."];
+        }
     }
     return self;
 }
 
-- (void)createViews
-{
-    
-}
+
 
 #pragma mark Request - Response related methods
 - (void)sendRequest:(id<JSONModelBaseProtocol>)data

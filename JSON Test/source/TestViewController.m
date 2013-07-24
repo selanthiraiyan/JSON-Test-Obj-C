@@ -18,10 +18,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
     GetChitFundOverviewRequestData *data = [[GetChitFundOverviewRequestData alloc]init];
     data.userId = @"sharma.ssm@gmail.com";
-    
     [super sendRequest:data];
 
 }

@@ -65,6 +65,9 @@
 		430BDF42179FCDA20094343E /* PaymentMadeForChitResponseEcho.m in Sources */ = {isa = PBXBuildFile; fileRef = 430BDF0A179FCDA20094343E /* PaymentMadeForChitResponseEcho.m */; };
 		430BDF43179FCDA20094343E /* PaymentMadeForChitResponseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 430BDF0C179FCDA20094343E /* PaymentMadeForChitResponseModel.m */; };
 		430BDF44179FCDA20094343E /* PaymentMadeForChitResponseResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 430BDF0E179FCDA20094343E /* PaymentMadeForChitResponseResponse.m */; };
+		430BDF4D179FD5600094343E /* TestView.m in Sources */ = {isa = PBXBuildFile; fileRef = 430BDF4A179FD5600094343E /* TestView.m */; };
+		430BDF4E179FD5600094343E /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 430BDF4C179FD5600094343E /* TestViewController.m */; };
+		430BDF5417A012630094343E /* TestView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 430BDF5317A012630094343E /* TestView.xib */; };
 		437D313E1784424300686841 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 437D313D1784424300686841 /* UIKit.framework */; };
 		437D31401784424300686841 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 437D313F1784424300686841 /* Foundation.framework */; };
 		437D31421784424300686841 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 437D31411784424300686841 /* CoreGraphics.framework */; };
@@ -74,8 +77,6 @@
 		437D31501784424300686841 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 437D314F1784424300686841 /* Default.png */; };
 		437D31521784424300686841 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 437D31511784424300686841 /* Default@2x.png */; };
 		437D31541784424300686841 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 437D31531784424300686841 /* Default-568h@2x.png */; };
-		437D31571784424300686841 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 437D31561784424300686841 /* TestViewController.m */; };
-		437D315A1784424300686841 /* TestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 437D31581784424300686841 /* TestViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -196,6 +197,11 @@
 		430BDF0C179FCDA20094343E /* PaymentMadeForChitResponseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaymentMadeForChitResponseModel.m; sourceTree = "<group>"; };
 		430BDF0D179FCDA20094343E /* PaymentMadeForChitResponseResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaymentMadeForChitResponseResponse.h; sourceTree = "<group>"; };
 		430BDF0E179FCDA20094343E /* PaymentMadeForChitResponseResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaymentMadeForChitResponseResponse.m; sourceTree = "<group>"; };
+		430BDF49179FD5600094343E /* TestView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestView.h; sourceTree = "<group>"; };
+		430BDF4A179FD5600094343E /* TestView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestView.m; sourceTree = "<group>"; };
+		430BDF4B179FD5600094343E /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		430BDF4C179FD5600094343E /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		430BDF5317A012630094343E /* TestView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestView.xib; sourceTree = "<group>"; };
 		437D313A1784424300686841 /* JSON Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JSON Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		437D313D1784424300686841 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		437D313F1784424300686841 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -209,9 +215,6 @@
 		437D314F1784424300686841 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		437D31511784424300686841 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		437D31531784424300686841 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		437D31551784424300686841 /* TestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
-		437D31561784424300686841 /* TestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
-		437D31591784424300686841 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TestViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -519,6 +522,18 @@
 			path = Response;
 			sourceTree = "<group>";
 		};
+		430BDF48179FD5600094343E /* source */ = {
+			isa = PBXGroup;
+			children = (
+				430BDF49179FD5600094343E /* TestView.h */,
+				430BDF4A179FD5600094343E /* TestView.m */,
+				430BDF4B179FD5600094343E /* TestViewController.h */,
+				430BDF4C179FD5600094343E /* TestViewController.m */,
+				430BDF5317A012630094343E /* TestView.xib */,
+			);
+			path = source;
+			sourceTree = "<group>";
+		};
 		437D31311784424300686841 = {
 			isa = PBXGroup;
 			children = (
@@ -549,13 +564,11 @@
 		437D31431784424300686841 /* JSON Test */ = {
 			isa = PBXGroup;
 			children = (
+				430BDF48179FD5600094343E /* source */,
 				430BDE80179FCD180094343E /* Base */,
 				430BDE8A179FCD180094343E /* Model */,
 				437D314C1784424300686841 /* AppDelegate.h */,
 				437D314D1784424300686841 /* AppDelegate.m */,
-				437D31551784424300686841 /* TestViewController.h */,
-				437D31561784424300686841 /* TestViewController.m */,
-				437D31581784424300686841 /* TestViewController.xib */,
 				437D31441784424300686841 /* Supporting Files */,
 			);
 			path = "JSON Test";
@@ -630,7 +643,7 @@
 				437D31501784424300686841 /* Default.png in Resources */,
 				437D31521784424300686841 /* Default@2x.png in Resources */,
 				437D31541784424300686841 /* Default-568h@2x.png in Resources */,
-				437D315A1784424300686841 /* TestViewController.xib in Resources */,
+				430BDF5417A012630094343E /* TestView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -643,7 +656,6 @@
 			files = (
 				437D314A1784424300686841 /* main.m in Sources */,
 				437D314E1784424300686841 /* AppDelegate.m in Sources */,
-				437D31571784424300686841 /* TestViewController.m in Sources */,
 				430BDE8B179FCD180094343E /* BaseView.m in Sources */,
 				430BDE8C179FCD180094343E /* BaseViewController.m in Sources */,
 				430BDE8D179FCD180094343E /* ModelBase.m in Sources */,
@@ -702,6 +714,8 @@
 				430BDF42179FCDA20094343E /* PaymentMadeForChitResponseEcho.m in Sources */,
 				430BDF43179FCDA20094343E /* PaymentMadeForChitResponseModel.m in Sources */,
 				430BDF44179FCDA20094343E /* PaymentMadeForChitResponseResponse.m in Sources */,
+				430BDF4D179FD5600094343E /* TestView.m in Sources */,
+				430BDF4E179FD5600094343E /* TestViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -714,14 +728,6 @@
 				437D31471784424300686841 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		437D31581784424300686841 /* TestViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				437D31591784424300686841 /* en */,
-			);
-			name = TestViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
