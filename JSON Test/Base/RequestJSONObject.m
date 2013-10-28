@@ -12,7 +12,7 @@
 
 @property (strong) NSMutableDictionary *base;
 @property (strong) NSMutableDictionary *request;
-
+@property (strong) id<JSONModelBaseProtocol> data;
 
 @end
 
@@ -20,6 +20,7 @@
 @synthesize base;
 @synthesize request;
 @synthesize echo;
+@synthesize data;
 - (id)initWithData:(id<JSONModelBaseProtocol>)data1
 {
     self = [super init];
@@ -27,10 +28,10 @@
         base = [NSMutableDictionary dictionary];
         request = [NSMutableDictionary dictionary];
         echo = [NSMutableDictionary dictionary];
+        data = data1;
         
         [request setObject:[data1 toDict] forKey:@"data"];
-        [request setObject:[data1 getServletName] forKey:@"servletName"];
-        [request setObject:[data1 getServletGroup] forKey:@"servletGroup"];
+        [request setObject:@"1d58aad358d0addbb7dd3f174ba09888" forKey:@"appID"];
 
         [base setObject:request forKey:@"request"];
         [base setObject:echo forKey:@"echo"];
@@ -40,7 +41,7 @@
 
 - (NSString*)getServletURL
 {
-    return [NSString stringWithFormat:@"%@/%@", [self.request objectForKey:@"servletGroup"], [self.request objectForKey:@"servletName"]];
+    return [NSString stringWithFormat:@"%@/%@/%@", [[self.data class] getServletGroup], [[self.data class] getServletName], [[self.data class] getServletVersion]];
 }
 
 - (NSString*)toJSONString

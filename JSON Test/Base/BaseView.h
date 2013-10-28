@@ -15,5 +15,6 @@
 - (void)createViews;
 
 @property (strong) UIView *contentView;
+@property (weak) BaseViewController *controller;
 
 @end

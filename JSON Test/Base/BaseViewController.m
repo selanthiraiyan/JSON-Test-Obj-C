@@ -6,6 +6,8 @@
 //  Copyright (c) 2013 Sharma Elanthiraiyan. All rights reserved.
 //
 
+#define MOSL_URL @"http://122.184.137.222/MOSL-Retail"
+#define KMB_URL @"http://203.196.200.42/j1001MBDep/uat/KMBMobile"
 #import "BaseViewController.h"
 #import "BaseView.h"
 
@@ -54,7 +56,7 @@
     [therequest setHTTPBody:[body dataUsingEncoding:NSUTF8StringEncoding]];
     
     
-    NSLog(@"Sending request %@?%@", baseURL, body);
+    NSLog(@"Sending request %@?%@", urlString, body);
     
     self.receivedData = [[NSMutableData alloc] initWithLength:0];
     [[NSURLConnection alloc] initWithRequest:therequest delegate:self startImmediately:YES];

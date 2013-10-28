@@ -1,0 +1,68 @@
+
+{
+    "config": {
+        "app": 2, 
+        "label": 2, 
+        "message": 1
+    }, 
+    "request": {
+        "FormFactor": "M", 
+        "appID": "db2dc874bbb0bfa24ea0a6c53076920c", 
+        "data": {
+            "clientCode": "AYS1534", 
+            "strToken": "UVZsVE1UVXpORjQwTUY1RlVRPT0"
+        }, 
+        "requestType": "U"
+    }, 
+    "response": {
+        "appID": "db2dc874bbb0bfa24ea0a6c53076920c", 
+        "data": {
+            "netPositionSummary": [
+                {
+                    "MTM": "0.0000", 
+                    "action": "Buy", 
+                    "buyAmt": "23079.5000", 
+                    "buyAvg": "1153.9750", 
+                    "buyQty": "20", 
+                    "description": "ACC LIMITED(EQ)", 
+                    "exchange": "NSE CASH", 
+                    "lotQty": "1", 
+                    "ltp": "0.00", 
+                    "netAmt": "23079.5000", 
+                    "netAvg": "1153.9750", 
+                    "netQty": "20", 
+                    "preNetAmt": "0.0000", 
+                    "preNetAvg": "0.0000", 
+                    "preNetQty": "0", 
+                    "product": "Cash", 
+                    "productType": "INTRADAY", 
+                    "sellAmt": "0.0000", 
+                    "sellAvg": "0.0000", 
+                    "sellQty": "0", 
+                    "token": "22_NSE", 
+                    "tradeSymbol": "ACCEQ", 
+                    "uniqueID": "22", 
+                    "value": "23079.5"
+                }
+            ], 
+            "overAllPL": {
+                "booked_days": "0.00", 
+                "booked_days_bf": "0.00", 
+                "dayMTM": "0.00", 
+                "grossTurnOver": "461580.00", 
+                "netTurnOver": "461580.00", 
+                "prov_days": "0.00", 
+                "prov_days_bf": "0.00", 
+                "settMTM": "0.00", 
+                "total_days": "0.00", 
+                "total_days_bf": "0.00"
+            }
+        }, 
+        "infoID": "0", 
+        "msgID": "6abce655-9daa-44ea-8766-d02ff2b4d1e2", 
+        "serverTime": "1382696071762", 
+        "svcGroup": "Trade", 
+        "svcName": "NetPositionSummary", 
+        "svcVersion": "1.0.0"
+    }
+}

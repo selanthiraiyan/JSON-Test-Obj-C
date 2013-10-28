@@ -7,6 +7,7 @@
 //
 
 #import "TestView.h"
+#import "TestViewController.h"
 
 @interface TestView()
 
@@ -23,4 +24,8 @@
     [self.contentView addSubview:view];
 }
 
+- (IBAction)getForex
+{
+    [(TestViewController*)self.controller getTDRates];
+}
 @end

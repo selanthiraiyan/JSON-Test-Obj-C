@@ -13,6 +13,7 @@
 @required
 - (NSString*)getServletName;
 - (NSString*)getServletGroup;
+- (NSString*)getServletVersion;
 - (NSString*)getClassNamePrefix;
 - (NSDictionary*)toDict;
 - (id)initWithDict:(NSDictionary*)dict;

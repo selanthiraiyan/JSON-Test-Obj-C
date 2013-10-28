@@ -7,9 +7,8 @@
 //
 
 #import "TestViewController.h"
-#import "GetChitFundOverviewRequestData.h"
-#import "GetChitFundOverviewResponseData.h"
-
+#import "NetPositionSummaryTradeModelRequest.h"
+#import "NetPositionSummaryTradeModelResponse.h"
 @interface TestViewController ()
 
 @end
@@ -18,24 +17,39 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    GetChitFundOverviewRequestData *data = [[GetChitFundOverviewRequestData alloc]init];
-    data.userId = @"sharma.ssm@gmail.com";
-    [super sendRequest:data];
+}
 
+- (void)getTDRates
+{
+    NSLog(@"getting td rates");
+    
+    NetPositionSummaryTradeModelRequest *data = [[NetPositionSummaryTradeModelRequest alloc]init];
+    data.clientCode = @"AYS1534";
+    data.strToken = @"UVZsVE1UVXpORjQxTTE1RlVRPT0";
+    [super sendRequest:data];
+    
 }
 
 - (void)processResponse:(NSDictionary*)response
 {
     [super processResponse:response];
-    GetChitFundOverviewResponseData *data1 = [[GetChitFundOverviewResponseData alloc]initWithDict:[[response objectForKey:@"response"] objectForKey:@"data"]];
-    NSLog(@"data part in response %@", [data1 toJSONString]);    
+    NetPositionSummaryTradeModelResponse *data1 = [[NetPositionSummaryTradeModelResponse alloc]initWithDict:[[[self getResponseFromFile] objectForKey:@"response"] objectForKey:@"data"]];
+    
+    NSLog(@"exploring the objects %@", data1);
+
 }
 
-
-- (void)didReceiveMemoryWarning
+- (NSDictionary*)getResponseFromFile
 {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    NSString* path = [[NSBundle mainBundle] pathForResource:@"json"
+                                                     ofType:@"txt"];
+    NSString* content = [NSString stringWithContentsOfFile:path
+                                                  encoding:NSUTF8StringEncoding
+                                                     error:NULL];
+    NSData *data = [content dataUsingEncoding:NSUTF8StringEncoding];
+    NSDictionary *json = [NSJSONSerialization JSONObjectWithData:data options:0 error:nil];
+    return json;
 }
+
 
 @end

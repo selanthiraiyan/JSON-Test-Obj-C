@@ -10,4 +10,6 @@
 #import "BaseViewController.h"
 @interface TestViewController : BaseViewController
 
+- (void)getTDRates;
+
 @end

@@ -10,4 +10,6 @@
 
 @interface TestView : BaseView
 
-@end
+- (IBAction)getForex;;
+
+@end;

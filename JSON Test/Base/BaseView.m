@@ -13,7 +13,6 @@
 
 @interface BaseView()
 
-@property (weak) BaseViewController *controller;
 @property (strong) UIView *headerView;
 @property (strong) UIView *footerView;
 
