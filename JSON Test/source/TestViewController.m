@@ -9,6 +9,8 @@
 #import "TestViewController.h"
 #import "NetPositionSummaryTradeModelRequest.h"
 #import "NetPositionSummaryTradeModelResponse.h"
+#import "SegmentAndBankDetailsTradeModelResponse.h"
+
 @interface TestViewController ()
 
 @end
@@ -17,11 +19,19 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    
+    
 }
 
 - (void)getTDRates
 {
     NSLog(@"getting td rates");
+    
+    
+    SegmentAndBankDetailsTradeModelResponse *det = [[SegmentAndBankDetailsTradeModelResponse alloc]initWithDict:[[[self getResponseFromFile] objectForKey:@"response"] objectForKey:@"data"]];
+
+    NSLog(@"the dict is %@", [det toDict]);
     
     NetPositionSummaryTradeModelRequest *data = [[NetPositionSummaryTradeModelRequest alloc]init];
     data.clientCode = @"AYS1534";

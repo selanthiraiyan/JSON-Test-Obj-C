@@ -9,60 +9,212 @@
         "FormFactor": "M", 
         "appID": "db2dc874bbb0bfa24ea0a6c53076920c", 
         "data": {
-            "clientCode": "AYS1534", 
-            "strToken": "UVZsVE1UVXpORjQwTUY1RlVRPT0"
+            "clientCode": "T06794"
         }, 
         "requestType": "U"
     }, 
     "response": {
         "appID": "db2dc874bbb0bfa24ea0a6c53076920c", 
         "data": {
-            "netPositionSummary": [
+            "BankDetails": [
                 {
-                    "MTM": "0.0000", 
-                    "action": "Buy", 
-                    "buyAmt": "23079.5000", 
-                    "buyAvg": "1153.9750", 
-                    "buyQty": "20", 
-                    "description": "ACC LIMITED(EQ)", 
-                    "exchange": "NSE CASH", 
-                    "lotQty": "1", 
-                    "ltp": "0.00", 
-                    "netAmt": "23079.5000", 
-                    "netAvg": "1153.9750", 
-                    "netQty": "20", 
-                    "preNetAmt": "0.0000", 
-                    "preNetAvg": "0.0000", 
-                    "preNetQty": "0", 
-                    "product": "Cash", 
-                    "productType": "INTRADAY", 
-                    "sellAmt": "0.0000", 
-                    "sellAvg": "0.0000", 
-                    "sellQty": "0", 
-                    "token": "22_NSE", 
-                    "tradeSymbol": "ACCEQ", 
-                    "uniqueID": "22", 
-                    "value": "23079.5"
+                    "bankName": "HDFC Bank", 
+                    "bankShortName": "HDFCBANK"
+                }, 
+                {
+                    "bankName": "----------------", 
+                    "bankShortName": "0"
+                }, 
+                {
+                    "bankName": "Allahabad Bank", 
+                    "bankShortName": "ALB"
+                }, 
+                {
+                    "bankName": "AXIS Bank", 
+                    "bankShortName": "UTI"
+                }, 
+                {
+                    "bankName": "Bank of Bahrain and Kuwait", 
+                    "bankShortName": "BBK"
+                }, 
+                {
+                    "bankName": "Bank of Baroda Corporate NetBanking", 
+                    "bankShortName": "BBC"
+                }, 
+                {
+                    "bankName": "Bank of Baroda Retail NetBanking", 
+                    "bankShortName": "BBR"
+                }, 
+                {
+                    "bankName": "Bank of India", 
+                    "bankShortName": "BOI"
+                }, 
+                {
+                    "bankName": "Bank of Maharashtra", 
+                    "bankShortName": "BOM"
+                }, 
+                {
+                    "bankName": "Canara Bank", 
+                    "bankShortName": "CNB"
+                }, 
+                {
+                    "bankName": "Central Bank of India", 
+                    "bankShortName": "CBI"
+                }, 
+                {
+                    "bankName": "City Union Bank", 
+                    "bankShortName": "CUB"
+                }, 
+                {
+                    "bankName": "Corporation Bank", 
+                    "bankShortName": "CRP"
+                }, 
+                {
+                    "bankName": "Deutche Bank", 
+                    "bankShortName": "DBK"
+                }, 
+                {
+                    "bankName": "Development Credit Bank", 
+                    "bankShortName": "DCB"
+                }, 
+                {
+                    "bankName": "Dhanlaxmi Bank", 
+                    "bankShortName": "DLB"
+                }, 
+                {
+                    "bankName": "Federal Bank Ltd", 
+                    "bankShortName": "FBK"
+                }, 
+                {
+                    "bankName": "ICICI BANK", 
+                    "bankShortName": "ICICIBANK"
+                }, 
+                {
+                    "bankName": "IDBI Bank", 
+                    "bankShortName": "IDB"
+                }, 
+                {
+                    "bankName": "Indian Bank", 
+                    "bankShortName": "INB"
+                }, 
+                {
+                    "bankName": "Indian Overseas Bank", 
+                    "bankShortName": "IOB"
+                }, 
+                {
+                    "bankName": "IndusInd bank", 
+                    "bankShortName": "IDS"
+                }, 
+                {
+                    "bankName": "ING Vysya Bank", 
+                    "bankShortName": "ING"
+                }, 
+                {
+                    "bankName": "Jammu & Kashmir Bank", 
+                    "bankShortName": "JKB"
+                }, 
+                {
+                    "bankName": "Karnataka Bank", 
+                    "bankShortName": "KBL"
+                }, 
+                {
+                    "bankName": "Karur Vysya Bank", 
+                    "bankShortName": "KVB"
+                }, 
+                {
+                    "bankName": "Kotak Bank", 
+                    "bankShortName": "162"
+                }, 
+                {
+                    "bankName": "Lakshmi Vilas Bank Ltd", 
+                    "bankShortName": "LVR"
+                }, 
+                {
+                    "bankName": "Oriental Bank of commerce", 
+                    "bankShortName": "OBC"
+                }, 
+                {
+                    "bankName": "Punjab & Sind Bank", 
+                    "bankShortName": "PSB"
+                }, 
+                {
+                    "bankName": "Punjab National Bank- Corporate NetBanking", 
+                    "bankShortName": "CPN"
+                }, 
+                {
+                    "bankName": "Punjab National Bank- Retail NetBanking", 
+                    "bankShortName": "PNB"
+                }, 
+                {
+                    "bankName": "Ratnakar Bank", 
+                    "bankShortName": "RTN"
+                }, 
+                {
+                    "bankName": "Shamrao Vithal Co-operative Bank", 
+                    "bankShortName": "SVC"
+                }, 
+                {
+                    "bankName": "South Indian Bank", 
+                    "bankShortName": "SIB"
+                }, 
+                {
+                    "bankName": "State Bank of Bikaner & Jaipur", 
+                    "bankShortName": "SBJ"
+                }, 
+                {
+                    "bankName": "State Bank of Hyderabad", 
+                    "bankShortName": "SBH"
+                }, 
+                {
+                    "bankName": "State Bank of India", 
+                    "bankShortName": "SBI"
+                }, 
+                {
+                    "bankName": "State Bank of Mysore", 
+                    "bankShortName": "SBM"
+                }, 
+                {
+                    "bankName": "State Bank of Patiala", 
+                    "bankShortName": "SBP"
+                }, 
+                {
+                    "bankName": "State Bank of Travancore", 
+                    "bankShortName": "SBT"
+                }, 
+                {
+                    "bankName": "Syndicate Bank", 
+                    "bankShortName": "SYD"
+                }, 
+                {
+                    "bankName": "Tamilnadu Mercantile Bank Ltd", 
+                    "bankShortName": "TMB"
+                }, 
+                {
+                    "bankName": "Union Bank", 
+                    "bankShortName": "UBI"
+                }, 
+                {
+                    "bankName": "Union Bank of India", 
+                    "bankShortName": "UNI"
+                }, 
+                {
+                    "bankName": "Vijaya Bank", 
+                    "bankShortName": "VJB"
+                }, 
+                {
+                    "bankName": "YES Bank", 
+                    "bankShortName": "YBK"
                 }
             ], 
-            "overAllPL": {
-                "booked_days": "0.00", 
-                "booked_days_bf": "0.00", 
-                "dayMTM": "0.00", 
-                "grossTurnOver": "461580.00", 
-                "netTurnOver": "461580.00", 
-                "prov_days": "0.00", 
-                "prov_days_bf": "0.00", 
-                "settMTM": "0.00", 
-                "total_days": "0.00", 
-                "total_days_bf": "0.00"
-            }
+            "segmentDetails": [
+                "Cash/FNO", 
+                "Commodity"
+            ]
         }, 
         "infoID": "0", 
-        "msgID": "6abce655-9daa-44ea-8766-d02ff2b4d1e2", 
-        "serverTime": "1382696071762", 
+        "msgID": "204e3861-f4a6-4575-9961-3b757bd745a5", 
         "svcGroup": "Trade", 
-        "svcName": "NetPositionSummary", 
+        "svcName": "SegmentAndBankDetails", 
         "svcVersion": "1.0.0"
     }
 }

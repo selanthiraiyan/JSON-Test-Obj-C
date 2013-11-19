@@ -24,6 +24,136 @@
 		437D31541784424300686841 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 437D31531784424300686841 /* Default-568h@2x.png */; };
 		43B494A3181901600006EFAF /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 430BDF4C179FD5600094343E /* TestViewController.m */; };
 		43E71A2D181E5D23006F80FA /* json.txt in Resources */ = {isa = PBXBuildFile; fileRef = 43E71A2C181E5D23006F80FA /* json.txt */; };
+		43E71BAD181E629B006F80FA /* IntradayChartChartModelRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E71A32181E629A006F80FA /* IntradayChartChartModelRequest.m */; };
+		43E71BAE181E629B006F80FA /* IntradayChartChartModelResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E71A35181E629A006F80FA /* IntradayChartChartModelResponse.m */; };
+		43E71BAF181E629B006F80FA /* BaseConfigModelRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E71A3A181E629A006F80FA /* BaseConfigModelRequest.m */; };
+		43E71BB0181E629B006F80FA /* BaseConfigModelResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E71A3D181E629A006F80FA /* BaseConfigModelResponse.m */; };
+		43E71BB1181E629B006F80FA /* BaseConfigModelResponseApp.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E71A3F181E629A006F80FA /* BaseConfigModelResponseApp.m */; };
+		43E71BB2181E629B006F80FA /* BaseConfigModelResponseAppConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E71A41181E629A006F80FA /* BaseConfigModelResponseAppConfig.m */; };
+		43E71BB3181E629B006F80FA /* BaseConfigModelResponseInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E71A43181E629A006F80FA /* BaseConfigModelResponseInfo.m */; };
+		43E71BB4181E629B006F80FA /* BaseConfigModelResponseInfoConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E71A45181E629A006F80FA /* BaseConfigModelResponseInfoConfig.m */; };
+		43E71BB5181E629B006F80FA /* BaseConfigModelResponseInfoConfigValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E71A47181E629A006F80FA /* BaseConfigModelResponseInfoConfigValue.m */; };
+		43E71BB6181E629B006F80FA /* BaseConfigModelResponseLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E71A49181E629A006F80FA /* BaseConfigModelResponseLabel.m */; };
+		43E71BB7181E629B006F80FA /* BaseConfigModelResponseLabelConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E71A4B181E629A006F80FA /* BaseConfigModelResponseLabelConfig.m */; };
+		43E71BB8181E629B006F80FA /* BaseInitModelRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E71A50181E629A006F80FA /* BaseInitModelRequest.m */; };
+		43E71BB9181E629B006F80FA /* BaseInitModelRequestApp.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E71A52181E629A006F80FA /* BaseInitModelRequestApp.m */; };
+		43E71BBA181E629B006F80FA /* BaseInitModelRequestHardware.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E71A54181E629A006F80FA /* BaseInitModelRequestHardware.m */; };
+		43E71BBB181E629B006F80FA /* BaseInitModelRequestNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E71A56181E629A006F80FA /* BaseInitModelRequestNetwork.m */; };
+		43E71BBC181E629B006F80FA /* BaseInitModelRequestSoftware.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E71A58181E629A006F80FA /* BaseInitModelRequestSoftware.m */; };
+		43E71BBD181E629B006F80FA /* BaseInitModelResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E71A5B181E629A006F80FA /* BaseInitModelResponse.m */; };
+		43E71BBE181E629B006F80FA /* ChangePasswordLoginModelRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E71A60181E629A006F80FA /* ChangePasswordLoginModelRequest.m */; };
+		43E71BBF181E629B006F80FA /* ChangePasswordLoginModelResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E71A63181E629A006F80FA /* ChangePasswordLoginModelResponse.m */; };
+		43E71BC0181E629B006F80FA /* ForgotPasswordLoginModelRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E71A67181E629A006F80FA /* ForgotPasswordLoginModelRequest.m */; };
+		43E71BC1181E629B006F80FA /* ForgotPasswordLoginModelResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E71A6A181E629A006F80FA /* ForgotPasswordLoginModelResponse.m */; };
+		43E71BC2181E629B006F80FA /* GuestSignUpLoginModelRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E71A6E181E629A006F80FA /* GuestSignUpLoginModelRequest.m */; };
+		43E71BC3181E629B006F80FA /* GuestSignUpLoginModelResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E71A71181E629A006F80FA /* GuestSignUpLoginModelResponse.m */; };
+		43E71BC4181E629B006F80FA /* LogoutLoginModelRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E71A75181E629A006F80FA /* LogoutLoginModelRequest.m */; };
+		43E71BC5181E629B006F80FA /* LogoutLoginModelResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E71A78181E629A006F80FA /* LogoutLoginModelResponse.m */; };
+		43E71BC6181E629B006F80FA /* ValidateUserLoginModelRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E71A7C181E629A006F80FA /* ValidateUserLoginModelRequest.m */; };
+		43E71BC7181E629B006F80FA /* ValidateUserLoginModelResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E71A7F181E629A006F80FA /* ValidateUserLoginModelResponse.m */; };
+		43E71BC8181E629B006F80FA /* AdvanceDeclineMarketsModelRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E71A84181E629A006F80FA /* AdvanceDeclineMarketsModelRequest.m */; };
+		43E71BC9181E629B006F80FA /* AdvanceDeclineMarketsModelResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E71A87181E629A006F80FA /* AdvanceDeclineMarketsModelResponse.m */; };
+		43E71BCA181E629B006F80FA /* AdvanceDeclineMarketsModelResponseBseIndices.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E71A89181E629A006F80FA /* AdvanceDeclineMarketsModelResponseBseIndices.m */; };
+		43E71BCB181E629B006F80FA /* AdvanceDeclineMarketsModelResponseNseIndices.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E71A8B181E629A006F80FA /* AdvanceDeclineMarketsModelResponseNseIndices.m */; };
+		43E71BCC181E629B006F80FA /* GlobalIndicesMarketsModelRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E71A8F181E629A006F80FA /* GlobalIndicesMarketsModelRequest.m */; };
+		43E71BCD181E629B006F80FA /* GlobalIndicesMarketsModelResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E71A92181E629A006F80FA /* GlobalIndicesMarketsModelResponse.m */; };
+		43E71BCE181E629B006F80FA /* GlobalIndicesMarketsModelResponseGlobalIndices.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E71A94181E629A006F80FA /* GlobalIndicesMarketsModelResponseGlobalIndices.m */; };
+		43E71BCF181E629B006F80FA /* IndianIndicesMarketsModelRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E71A98181E629A006F80FA /* IndianIndicesMarketsModelRequest.m */; };
+		43E71BD0181E629B006F80FA /* IndianIndicesMarketsModelResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E71A9B181E629A006F80FA /* IndianIndicesMarketsModelResponse.m */; };
+		43E71BD1181E629B006F80FA /* IndianIndicesMarketsModelResponseIndianIndices.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E71A9D181E629A006F80FA /* IndianIndicesMarketsModelResponseIndianIndices.m */; };
+		43E71BD2181E629B006F80FA /* IndicesStockMarketsModelRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E71AA1181E629A006F80FA /* IndicesStockMarketsModelRequest.m */; };
+		43E71BD3181E629B006F80FA /* IndicesStockMarketsModelResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E71AA4181E629A006F80FA /* IndicesStockMarketsModelResponse.m */; };
+		43E71BD4181E629B006F80FA /* IndicesStockMarketsModelResponseIndicesStock.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E71AA6181E629A006F80FA /* IndicesStockMarketsModelResponseIndicesStock.m */; };
+		43E71BD5181E629B006F80FA /* MostActiveCurrencyMarketsModelRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E71AAA181E629A006F80FA /* MostActiveCurrencyMarketsModelRequest.m */; };
+		43E71BD6181E629B006F80FA /* MostActiveCurrencyMarketsModelResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E71AAD181E629A006F80FA /* MostActiveCurrencyMarketsModelResponse.m */; };
+		43E71BD7181E629B006F80FA /* MostActiveCurrencyMarketsModelResponseFutures.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E71AAF181E629A006F80FA /* MostActiveCurrencyMarketsModelResponseFutures.m */; };
+		43E71BD8181E629B006F80FA /* MostActiveCurrencyMarketsModelResponseOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E71AB1181E629A006F80FA /* MostActiveCurrencyMarketsModelResponseOptions.m */; };
+		43E71BD9181E629B006F80FA /* MostActiveFuturesOptionsMarketsModelRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E71AB5181E629A006F80FA /* MostActiveFuturesOptionsMarketsModelRequest.m */; };
+		43E71BDA181E629B006F80FA /* MostActiveFuturesOptionsMarketsModelResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E71AB8181E629A006F80FA /* MostActiveFuturesOptionsMarketsModelResponse.m */; };
+		43E71BDB181E629B006F80FA /* MostActiveFuturesOptionsMarketsModelResponseFutures.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E71ABA181E629A006F80FA /* MostActiveFuturesOptionsMarketsModelResponseFutures.m */; };
+		43E71BDC181E629B006F80FA /* MostActiveFuturesOptionsMarketsModelResponseOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E71ABC181E629A006F80FA /* MostActiveFuturesOptionsMarketsModelResponseOptions.m */; };
+		43E71BDD181E629B006F80FA /* MostActiveMutualFundsMarketsModelRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E71AC0181E629A006F80FA /* MostActiveMutualFundsMarketsModelRequest.m */; };
+		43E71BDE181E629B006F80FA /* MostActiveMutualFundsMarketsModelResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E71AC3181E629A006F80FA /* MostActiveMutualFundsMarketsModelResponse.m */; };
+		43E71BDF181E629B006F80FA /* MostActiveMutualFundsMarketsModelResponseDebtMF.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E71AC5181E629A006F80FA /* MostActiveMutualFundsMarketsModelResponseDebtMF.m */; };
+		43E71BE0181E629B006F80FA /* MostActiveMutualFundsMarketsModelResponseEquityMF.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E71AC7181E629A006F80FA /* MostActiveMutualFundsMarketsModelResponseEquityMF.m */; };
+		43E71BE1181E629B006F80FA /* MostActiveMutualFundsMarketsModelResponseHybridMF.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E71AC9181E629A006F80FA /* MostActiveMutualFundsMarketsModelResponseHybridMF.m */; };
+		43E71BE2181E629B006F80FA /* MostCommoditiesActiveMarketsModelRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E71ACD181E629A006F80FA /* MostCommoditiesActiveMarketsModelRequest.m */; };
+		43E71BE3181E629B006F80FA /* MostCommoditiesActiveMarketsModelResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E71AD0181E629A006F80FA /* MostCommoditiesActiveMarketsModelResponse.m */; };
+		43E71BE6181E629B006F80FA /* OutLookMarketsModelRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E71AD8181E629A006F80FA /* OutLookMarketsModelRequest.m */; };
+		43E71BE7181E629B006F80FA /* OutLookMarketsModelResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E71ADB181E629A006F80FA /* OutLookMarketsModelResponse.m */; };
+		43E71BE8181E629B006F80FA /* OutLookMarketsModelResponseOutLookData.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E71ADD181E629A006F80FA /* OutLookMarketsModelResponseOutLookData.m */; };
+		43E71BE9181E629B006F80FA /* RoundUpMarketsModelRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E71AE1181E629A006F80FA /* RoundUpMarketsModelRequest.m */; };
+		43E71BEA181E629B006F80FA /* RoundUpMarketsModelResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E71AE4181E629A006F80FA /* RoundUpMarketsModelResponse.m */; };
+		43E71BEB181E629B006F80FA /* RoundUpMarketsModelResponseRoundUp.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E71AE6181E629A006F80FA /* RoundUpMarketsModelResponseRoundUp.m */; };
+		43E71BEC181E629B006F80FA /* SingleQuoteMarketsModelRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E71AEA181E629A006F80FA /* SingleQuoteMarketsModelRequest.m */; };
+		43E71BED181E629B006F80FA /* SingleQuoteMarketsModelResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E71AED181E629A006F80FA /* SingleQuoteMarketsModelResponse.m */; };
+		43E71BEE181E629B006F80FA /* SingleQuoteMarketsModelResponseLevel2.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E71AEF181E629A006F80FA /* SingleQuoteMarketsModelResponseLevel2.m */; };
+		43E71BEF181E629B006F80FA /* SingleQuoteMarketsModelResponseLevel2Ask.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E71AF1181E629A006F80FA /* SingleQuoteMarketsModelResponseLevel2Ask.m */; };
+		43E71BF0181E629B006F80FA /* SingleQuoteMarketsModelResponseLevel2Bid.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E71AF3181E629A006F80FA /* SingleQuoteMarketsModelResponseLevel2Bid.m */; };
+		43E71BF1181E629B006F80FA /* SymbolSpecificNewsMarketsModelRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E71AF7181E629A006F80FA /* SymbolSpecificNewsMarketsModelRequest.m */; };
+		43E71BF2181E629B006F80FA /* SymbolSpecificNewsMarketsModelResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E71AFA181E629A006F80FA /* SymbolSpecificNewsMarketsModelResponse.m */; };
+		43E71BF3181E629B006F80FA /* SymbolSpecificNewsMarketsModelResponseSymbolSpecificNews.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E71AFC181E629A006F80FA /* SymbolSpecificNewsMarketsModelResponseSymbolSpecificNews.m */; };
+		43E71BF4181E629B006F80FA /* CompanyResearchResearchModelRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E71B01181E629A006F80FA /* CompanyResearchResearchModelRequest.m */; };
+		43E71BF5181E629B006F80FA /* CompanyResearchResearchModelResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E71B04181E629A006F80FA /* CompanyResearchResearchModelResponse.m */; };
+		43E71BF6181E629B006F80FA /* CompanyResearchResearchModelResponseCompany.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E71B06181E629A006F80FA /* CompanyResearchResearchModelResponseCompany.m */; };
+		43E71BF7181E629B006F80FA /* MarketAnalysisResearchModelRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E71B0A181E629A006F80FA /* MarketAnalysisResearchModelRequest.m */; };
+		43E71BF8181E629B006F80FA /* MarketAnalysisResearchModelResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E71B0D181E629A006F80FA /* MarketAnalysisResearchModelResponse.m */; };
+		43E71BF9181E629B006F80FA /* MarketAnalysisResearchModelResponseMarketAnalysis.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E71B0F181E629A006F80FA /* MarketAnalysisResearchModelResponseMarketAnalysis.m */; };
+		43E71BFA181E629B006F80FA /* MostViewedResearchModelRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E71B13181E629A006F80FA /* MostViewedResearchModelRequest.m */; };
+		43E71BFB181E629B006F80FA /* MostViewedResearchModelResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E71B16181E629A006F80FA /* MostViewedResearchModelResponse.m */; };
+		43E71BFC181E629B006F80FA /* MostViewedResearchModelResponseMostViewed.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E71B18181E629A006F80FA /* MostViewedResearchModelResponseMostViewed.m */; };
+		43E71BFD181E629B006F80FA /* SectorResearchModelRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E71B1C181E629A006F80FA /* SectorResearchModelRequest.m */; };
+		43E71BFE181E629B006F80FA /* SectorResearchModelResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E71B1F181E629A006F80FA /* SectorResearchModelResponse.m */; };
+		43E71BFF181E629B006F80FA /* SectorResearchModelResponseSector.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E71B21181E629A006F80FA /* SectorResearchModelResponseSector.m */; };
+		43E71C00181E629B006F80FA /* ThematicResearchModelRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E71B25181E629A006F80FA /* ThematicResearchModelRequest.m */; };
+		43E71C01181E629B006F80FA /* ThematicResearchModelResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E71B28181E629A006F80FA /* ThematicResearchModelResponse.m */; };
+		43E71C02181E629B006F80FA /* ThematicResearchModelResponseThematic.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E71B2A181E629A006F80FA /* ThematicResearchModelResponseThematic.m */; };
+		43E71C03181E629B006F80FA /* GetEquityInfoSearchModelRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E71B2F181E629A006F80FA /* GetEquityInfoSearchModelRequest.m */; };
+		43E71C04181E629B006F80FA /* GetEquityInfoSearchModelResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E71B32181E629A006F80FA /* GetEquityInfoSearchModelResponse.m */; };
+		43E71C05181E629B006F80FA /* GetEquityInfoSearchModelResponseScripDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E71B34181E629A006F80FA /* GetEquityInfoSearchModelResponseScripDetails.m */; };
+		43E71C06181E629B006F80FA /* GetEquityInfoSearchModelResponseScripDetailsEquityInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E71B36181E629A006F80FA /* GetEquityInfoSearchModelResponseScripDetailsEquityInfo.m */; };
+		43E71C07181E629B006F80FA /* GetEquityInfoSearchModelResponseScripDetailsEquityInfoScrip.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E71B38181E629A006F80FA /* GetEquityInfoSearchModelResponseScripDetailsEquityInfoScrip.m */; };
+		43E71C08181E629B006F80FA /* GetExpiryStrikePriceSearchModelRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E71B3C181E629A006F80FA /* GetExpiryStrikePriceSearchModelRequest.m */; };
+		43E71C09181E629B006F80FA /* GetExpiryStrikePriceSearchModelResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E71B3F181E629A006F80FA /* GetExpiryStrikePriceSearchModelResponse.m */; };
+		43E71C0A181E629B006F80FA /* GetExpiryStrikePriceSearchModelResponseScripDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E71B41181E629A006F80FA /* GetExpiryStrikePriceSearchModelResponseScripDetails.m */; };
+		43E71C0B181E629B006F80FA /* GetExpiryStrikePriceSearchModelResponseScripDetailsAvailableExchange.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E71B43181E629A006F80FA /* GetExpiryStrikePriceSearchModelResponseScripDetailsAvailableExchange.m */; };
+		43E71C0C181E629B006F80FA /* GetExpiryStrikePriceSearchModelResponseScripDetailsExpiry_strickPrice.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E71B45181E629A006F80FA /* GetExpiryStrikePriceSearchModelResponseScripDetailsExpiry_strickPrice.m */; };
+		43E71C0D181E629B006F80FA /* GetExpiryStrikePriceSearchModelResponseScripDetailsExpiry_strickPriceScrip.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E71B47181E629A006F80FA /* GetExpiryStrikePriceSearchModelResponseScripDetailsExpiry_strickPriceScrip.m */; };
+		43E71C0E181E629B006F80FA /* GetExpiryStrikePriceSearchModelResponseScripDetailsExpiry_strickPriceScripValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E71B49181E629A006F80FA /* GetExpiryStrikePriceSearchModelResponseScripDetailsExpiry_strickPriceScripValue.m */; };
+		43E71C0F181E629B006F80FA /* GetExpiryStrikePriceSearchModelResponseScripDetailsExpiry_strickPriceScripValueTradeInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E71B4B181E629A006F80FA /* GetExpiryStrikePriceSearchModelResponseScripDetailsExpiry_strickPriceScripValueTradeInfo.m */; };
+		43E71C10181E629B006F80FA /* SymbolSearchSearchModelRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E71B4F181E629A006F80FA /* SymbolSearchSearchModelRequest.m */; };
+		43E71C11181E629B006F80FA /* SymbolSearchSearchModelResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E71B52181E629A006F80FA /* SymbolSearchSearchModelResponse.m */; };
+		43E71C12181E629B006F80FA /* SymbolSearchSearchModelResponseSearchResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E71B54181E629A006F80FA /* SymbolSearchSearchModelResponseSearchResult.m */; };
+		43E71C13181E629B006F80FA /* SymbolSearchSearchModelResponseSearchResultCommodities.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E71B56181E629A006F80FA /* SymbolSearchSearchModelResponseSearchResultCommodities.m */; };
+		43E71C14181E629B006F80FA /* SymbolSearchSearchModelResponseSearchResultCurrency.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E71B58181E629A006F80FA /* SymbolSearchSearchModelResponseSearchResultCurrency.m */; };
+		43E71C15181E629B006F80FA /* SymbolSearchSearchModelResponseSearchResultDerivative.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E71B5A181E629A006F80FA /* SymbolSearchSearchModelResponseSearchResultDerivative.m */; };
+		43E71C16181E629B006F80FA /* SymbolSearchSearchModelResponseSearchResultEquity.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E71B5C181E629A006F80FA /* SymbolSearchSearchModelResponseSearchResultEquity.m */; };
+		43E71C17181E629B006F80FA /* AccountNumberDetailsTradeModelRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E71B61181E629A006F80FA /* AccountNumberDetailsTradeModelRequest.m */; };
+		43E71C18181E629B006F80FA /* AccountNumberDetailsTradeModelResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E71B64181E629A006F80FA /* AccountNumberDetailsTradeModelResponse.m */; };
+		43E71C19181E629B006F80FA /* CancelOrderTradeModelRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E71B68181E629A006F80FA /* CancelOrderTradeModelRequest.m */; };
+		43E71C1A181E629B006F80FA /* CancelOrderTradeModelResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E71B6B181E629A006F80FA /* CancelOrderTradeModelResponse.m */; };
+		43E71C1B181E629B006F80FA /* ModifyOrderTradeModelRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E71B6F181E629A006F80FA /* ModifyOrderTradeModelRequest.m */; };
+		43E71C1C181E629B006F80FA /* ModifyOrderTradeModelResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E71B72181E629A006F80FA /* ModifyOrderTradeModelResponse.m */; };
+		43E71C1D181E629B006F80FA /* ModifyOrderTradeModelResponseModifyOrder.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E71B74181E629A006F80FA /* ModifyOrderTradeModelResponseModifyOrder.m */; };
+		43E71C1E181E629B006F80FA /* NetPositionSummaryTradeModelRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E71B78181E629A006F80FA /* NetPositionSummaryTradeModelRequest.m */; };
+		43E71C1F181E629B006F80FA /* NetPositionSummaryTradeModelResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E71B7B181E629A006F80FA /* NetPositionSummaryTradeModelResponse.m */; };
+		43E71C20181E629B006F80FA /* NetPositionSummaryTradeModelResponseNetPositionSummary.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E71B7D181E629A006F80FA /* NetPositionSummaryTradeModelResponseNetPositionSummary.m */; };
+		43E71C21181E629B006F80FA /* NetPositionSummaryTradeModelResponseOverAllPL.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E71B7F181E629A006F80FA /* NetPositionSummaryTradeModelResponseOverAllPL.m */; };
+		43E71C22181E629B006F80FA /* OrderBookTradeModelRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E71B83181E629A006F80FA /* OrderBookTradeModelRequest.m */; };
+		43E71C23181E629B006F80FA /* OrderBookTradeModelResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E71B86181E629B006F80FA /* OrderBookTradeModelResponse.m */; };
+		43E71C24181E629B006F80FA /* OrderBookTradeModelResponseOrderBook.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E71B88181E629B006F80FA /* OrderBookTradeModelResponseOrderBook.m */; };
+		43E71C25181E629B006F80FA /* ProfitLossAndNetQuantityTradeModelRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E71B8C181E629B006F80FA /* ProfitLossAndNetQuantityTradeModelRequest.m */; };
+		43E71C26181E629B006F80FA /* ProfitLossAndNetQuantityTradeModelResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E71B8F181E629B006F80FA /* ProfitLossAndNetQuantityTradeModelResponse.m */; };
+		43E71C27181E629B006F80FA /* ProfitLossAndNetQuantityTradeModelResponseNetQtyDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E71B91181E629B006F80FA /* ProfitLossAndNetQuantityTradeModelResponseNetQtyDetails.m */; };
+		43E71C28181E629B006F80FA /* ProfitLossAndNetQuantityTradeModelResponseProfitLoss.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E71B93181E629B006F80FA /* ProfitLossAndNetQuantityTradeModelResponseProfitLoss.m */; };
+		43E71C29181E629B006F80FA /* SegmentAndBankDetailsTradeModelRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E71B97181E629B006F80FA /* SegmentAndBankDetailsTradeModelRequest.m */; };
+		43E71C2A181E629B006F80FA /* SegmentAndBankDetailsTradeModelResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E71B9A181E629B006F80FA /* SegmentAndBankDetailsTradeModelResponse.m */; };
+		43E71C2B181E629B006F80FA /* SegmentAndBankDetailsTradeModelResponseBankDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E71B9C181E629B006F80FA /* SegmentAndBankDetailsTradeModelResponseBankDetails.m */; };
+		43E71C2C181E629B006F80FA /* SendNewMarginPlusOrderTradeModelRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E71BA0181E629B006F80FA /* SendNewMarginPlusOrderTradeModelRequest.m */; };
+		43E71C2D181E629B006F80FA /* SendNewMarginPlusOrderTradeModelResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E71BA3181E629B006F80FA /* SendNewMarginPlusOrderTradeModelResponse.m */; };
+		43E71C2E181E629B006F80FA /* SendNewOrderTradeModelRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E71BA7181E629B006F80FA /* SendNewOrderTradeModelRequest.m */; };
+		43E71C2F181E629B006F80FA /* SendNewOrderTradeModelResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E71BAA181E629B006F80FA /* SendNewOrderTradeModelResponse.m */; };
+		43E71C30181E629B006F80FA /* SendNewOrderTradeModelResponseSendNewOrder.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E71BAC181E629B006F80FA /* SendNewOrderTradeModelResponseSendNewOrder.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,6 +185,266 @@
 		437D31511784424300686841 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		437D31531784424300686841 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		43E71A2C181E5D23006F80FA /* json.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = json.txt; sourceTree = "<group>"; };
+		43E71A31181E629A006F80FA /* IntradayChartChartModelRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntradayChartChartModelRequest.h; sourceTree = "<group>"; };
+		43E71A32181E629A006F80FA /* IntradayChartChartModelRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntradayChartChartModelRequest.m; sourceTree = "<group>"; };
+		43E71A34181E629A006F80FA /* IntradayChartChartModelResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntradayChartChartModelResponse.h; sourceTree = "<group>"; };
+		43E71A35181E629A006F80FA /* IntradayChartChartModelResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntradayChartChartModelResponse.m; sourceTree = "<group>"; };
+		43E71A39181E629A006F80FA /* BaseConfigModelRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseConfigModelRequest.h; sourceTree = "<group>"; };
+		43E71A3A181E629A006F80FA /* BaseConfigModelRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseConfigModelRequest.m; sourceTree = "<group>"; };
+		43E71A3C181E629A006F80FA /* BaseConfigModelResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseConfigModelResponse.h; sourceTree = "<group>"; };
+		43E71A3D181E629A006F80FA /* BaseConfigModelResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseConfigModelResponse.m; sourceTree = "<group>"; };
+		43E71A3E181E629A006F80FA /* BaseConfigModelResponseApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseConfigModelResponseApp.h; sourceTree = "<group>"; };
+		43E71A3F181E629A006F80FA /* BaseConfigModelResponseApp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseConfigModelResponseApp.m; sourceTree = "<group>"; };
+		43E71A40181E629A006F80FA /* BaseConfigModelResponseAppConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseConfigModelResponseAppConfig.h; sourceTree = "<group>"; };
+		43E71A41181E629A006F80FA /* BaseConfigModelResponseAppConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseConfigModelResponseAppConfig.m; sourceTree = "<group>"; };
+		43E71A42181E629A006F80FA /* BaseConfigModelResponseInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseConfigModelResponseInfo.h; sourceTree = "<group>"; };
+		43E71A43181E629A006F80FA /* BaseConfigModelResponseInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseConfigModelResponseInfo.m; sourceTree = "<group>"; };
+		43E71A44181E629A006F80FA /* BaseConfigModelResponseInfoConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseConfigModelResponseInfoConfig.h; sourceTree = "<group>"; };
+		43E71A45181E629A006F80FA /* BaseConfigModelResponseInfoConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseConfigModelResponseInfoConfig.m; sourceTree = "<group>"; };
+		43E71A46181E629A006F80FA /* BaseConfigModelResponseInfoConfigValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseConfigModelResponseInfoConfigValue.h; sourceTree = "<group>"; };
+		43E71A47181E629A006F80FA /* BaseConfigModelResponseInfoConfigValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseConfigModelResponseInfoConfigValue.m; sourceTree = "<group>"; };
+		43E71A48181E629A006F80FA /* BaseConfigModelResponseLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseConfigModelResponseLabel.h; sourceTree = "<group>"; };
+		43E71A49181E629A006F80FA /* BaseConfigModelResponseLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseConfigModelResponseLabel.m; sourceTree = "<group>"; };
+		43E71A4A181E629A006F80FA /* BaseConfigModelResponseLabelConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseConfigModelResponseLabelConfig.h; sourceTree = "<group>"; };
+		43E71A4B181E629A006F80FA /* BaseConfigModelResponseLabelConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseConfigModelResponseLabelConfig.m; sourceTree = "<group>"; };
+		43E71A4F181E629A006F80FA /* BaseInitModelRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseInitModelRequest.h; sourceTree = "<group>"; };
+		43E71A50181E629A006F80FA /* BaseInitModelRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseInitModelRequest.m; sourceTree = "<group>"; };
+		43E71A51181E629A006F80FA /* BaseInitModelRequestApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseInitModelRequestApp.h; sourceTree = "<group>"; };
+		43E71A52181E629A006F80FA /* BaseInitModelRequestApp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseInitModelRequestApp.m; sourceTree = "<group>"; };
+		43E71A53181E629A006F80FA /* BaseInitModelRequestHardware.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseInitModelRequestHardware.h; sourceTree = "<group>"; };
+		43E71A54181E629A006F80FA /* BaseInitModelRequestHardware.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseInitModelRequestHardware.m; sourceTree = "<group>"; };
+		43E71A55181E629A006F80FA /* BaseInitModelRequestNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseInitModelRequestNetwork.h; sourceTree = "<group>"; };
+		43E71A56181E629A006F80FA /* BaseInitModelRequestNetwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseInitModelRequestNetwork.m; sourceTree = "<group>"; };
+		43E71A57181E629A006F80FA /* BaseInitModelRequestSoftware.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseInitModelRequestSoftware.h; sourceTree = "<group>"; };
+		43E71A58181E629A006F80FA /* BaseInitModelRequestSoftware.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseInitModelRequestSoftware.m; sourceTree = "<group>"; };
+		43E71A5A181E629A006F80FA /* BaseInitModelResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseInitModelResponse.h; sourceTree = "<group>"; };
+		43E71A5B181E629A006F80FA /* BaseInitModelResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseInitModelResponse.m; sourceTree = "<group>"; };
+		43E71A5F181E629A006F80FA /* ChangePasswordLoginModelRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChangePasswordLoginModelRequest.h; sourceTree = "<group>"; };
+		43E71A60181E629A006F80FA /* ChangePasswordLoginModelRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChangePasswordLoginModelRequest.m; sourceTree = "<group>"; };
+		43E71A62181E629A006F80FA /* ChangePasswordLoginModelResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChangePasswordLoginModelResponse.h; sourceTree = "<group>"; };
+		43E71A63181E629A006F80FA /* ChangePasswordLoginModelResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChangePasswordLoginModelResponse.m; sourceTree = "<group>"; };
+		43E71A66181E629A006F80FA /* ForgotPasswordLoginModelRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForgotPasswordLoginModelRequest.h; sourceTree = "<group>"; };
+		43E71A67181E629A006F80FA /* ForgotPasswordLoginModelRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForgotPasswordLoginModelRequest.m; sourceTree = "<group>"; };
+		43E71A69181E629A006F80FA /* ForgotPasswordLoginModelResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForgotPasswordLoginModelResponse.h; sourceTree = "<group>"; };
+		43E71A6A181E629A006F80FA /* ForgotPasswordLoginModelResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForgotPasswordLoginModelResponse.m; sourceTree = "<group>"; };
+		43E71A6D181E629A006F80FA /* GuestSignUpLoginModelRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuestSignUpLoginModelRequest.h; sourceTree = "<group>"; };
+		43E71A6E181E629A006F80FA /* GuestSignUpLoginModelRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GuestSignUpLoginModelRequest.m; sourceTree = "<group>"; };
+		43E71A70181E629A006F80FA /* GuestSignUpLoginModelResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuestSignUpLoginModelResponse.h; sourceTree = "<group>"; };
+		43E71A71181E629A006F80FA /* GuestSignUpLoginModelResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GuestSignUpLoginModelResponse.m; sourceTree = "<group>"; };
+		43E71A74181E629A006F80FA /* LogoutLoginModelRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogoutLoginModelRequest.h; sourceTree = "<group>"; };
+		43E71A75181E629A006F80FA /* LogoutLoginModelRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogoutLoginModelRequest.m; sourceTree = "<group>"; };
+		43E71A77181E629A006F80FA /* LogoutLoginModelResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogoutLoginModelResponse.h; sourceTree = "<group>"; };
+		43E71A78181E629A006F80FA /* LogoutLoginModelResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogoutLoginModelResponse.m; sourceTree = "<group>"; };
+		43E71A7B181E629A006F80FA /* ValidateUserLoginModelRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ValidateUserLoginModelRequest.h; sourceTree = "<group>"; };
+		43E71A7C181E629A006F80FA /* ValidateUserLoginModelRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ValidateUserLoginModelRequest.m; sourceTree = "<group>"; };
+		43E71A7E181E629A006F80FA /* ValidateUserLoginModelResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ValidateUserLoginModelResponse.h; sourceTree = "<group>"; };
+		43E71A7F181E629A006F80FA /* ValidateUserLoginModelResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ValidateUserLoginModelResponse.m; sourceTree = "<group>"; };
+		43E71A83181E629A006F80FA /* AdvanceDeclineMarketsModelRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdvanceDeclineMarketsModelRequest.h; sourceTree = "<group>"; };
+		43E71A84181E629A006F80FA /* AdvanceDeclineMarketsModelRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdvanceDeclineMarketsModelRequest.m; sourceTree = "<group>"; };
+		43E71A86181E629A006F80FA /* AdvanceDeclineMarketsModelResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdvanceDeclineMarketsModelResponse.h; sourceTree = "<group>"; };
+		43E71A87181E629A006F80FA /* AdvanceDeclineMarketsModelResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdvanceDeclineMarketsModelResponse.m; sourceTree = "<group>"; };
+		43E71A88181E629A006F80FA /* AdvanceDeclineMarketsModelResponseBseIndices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdvanceDeclineMarketsModelResponseBseIndices.h; sourceTree = "<group>"; };
+		43E71A89181E629A006F80FA /* AdvanceDeclineMarketsModelResponseBseIndices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdvanceDeclineMarketsModelResponseBseIndices.m; sourceTree = "<group>"; };
+		43E71A8A181E629A006F80FA /* AdvanceDeclineMarketsModelResponseNseIndices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdvanceDeclineMarketsModelResponseNseIndices.h; sourceTree = "<group>"; };
+		43E71A8B181E629A006F80FA /* AdvanceDeclineMarketsModelResponseNseIndices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdvanceDeclineMarketsModelResponseNseIndices.m; sourceTree = "<group>"; };
+		43E71A8E181E629A006F80FA /* GlobalIndicesMarketsModelRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlobalIndicesMarketsModelRequest.h; sourceTree = "<group>"; };
+		43E71A8F181E629A006F80FA /* GlobalIndicesMarketsModelRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlobalIndicesMarketsModelRequest.m; sourceTree = "<group>"; };
+		43E71A91181E629A006F80FA /* GlobalIndicesMarketsModelResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlobalIndicesMarketsModelResponse.h; sourceTree = "<group>"; };
+		43E71A92181E629A006F80FA /* GlobalIndicesMarketsModelResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlobalIndicesMarketsModelResponse.m; sourceTree = "<group>"; };
+		43E71A93181E629A006F80FA /* GlobalIndicesMarketsModelResponseGlobalIndices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlobalIndicesMarketsModelResponseGlobalIndices.h; sourceTree = "<group>"; };
+		43E71A94181E629A006F80FA /* GlobalIndicesMarketsModelResponseGlobalIndices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlobalIndicesMarketsModelResponseGlobalIndices.m; sourceTree = "<group>"; };
+		43E71A97181E629A006F80FA /* IndianIndicesMarketsModelRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IndianIndicesMarketsModelRequest.h; sourceTree = "<group>"; };
+		43E71A98181E629A006F80FA /* IndianIndicesMarketsModelRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IndianIndicesMarketsModelRequest.m; sourceTree = "<group>"; };
+		43E71A9A181E629A006F80FA /* IndianIndicesMarketsModelResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IndianIndicesMarketsModelResponse.h; sourceTree = "<group>"; };
+		43E71A9B181E629A006F80FA /* IndianIndicesMarketsModelResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IndianIndicesMarketsModelResponse.m; sourceTree = "<group>"; };
+		43E71A9C181E629A006F80FA /* IndianIndicesMarketsModelResponseIndianIndices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IndianIndicesMarketsModelResponseIndianIndices.h; sourceTree = "<group>"; };
+		43E71A9D181E629A006F80FA /* IndianIndicesMarketsModelResponseIndianIndices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IndianIndicesMarketsModelResponseIndianIndices.m; sourceTree = "<group>"; };
+		43E71AA0181E629A006F80FA /* IndicesStockMarketsModelRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IndicesStockMarketsModelRequest.h; sourceTree = "<group>"; };
+		43E71AA1181E629A006F80FA /* IndicesStockMarketsModelRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IndicesStockMarketsModelRequest.m; sourceTree = "<group>"; };
+		43E71AA3181E629A006F80FA /* IndicesStockMarketsModelResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IndicesStockMarketsModelResponse.h; sourceTree = "<group>"; };
+		43E71AA4181E629A006F80FA /* IndicesStockMarketsModelResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IndicesStockMarketsModelResponse.m; sourceTree = "<group>"; };
+		43E71AA5181E629A006F80FA /* IndicesStockMarketsModelResponseIndicesStock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IndicesStockMarketsModelResponseIndicesStock.h; sourceTree = "<group>"; };
+		43E71AA6181E629A006F80FA /* IndicesStockMarketsModelResponseIndicesStock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IndicesStockMarketsModelResponseIndicesStock.m; sourceTree = "<group>"; };
+		43E71AA9181E629A006F80FA /* MostActiveCurrencyMarketsModelRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MostActiveCurrencyMarketsModelRequest.h; sourceTree = "<group>"; };
+		43E71AAA181E629A006F80FA /* MostActiveCurrencyMarketsModelRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MostActiveCurrencyMarketsModelRequest.m; sourceTree = "<group>"; };
+		43E71AAC181E629A006F80FA /* MostActiveCurrencyMarketsModelResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MostActiveCurrencyMarketsModelResponse.h; sourceTree = "<group>"; };
+		43E71AAD181E629A006F80FA /* MostActiveCurrencyMarketsModelResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MostActiveCurrencyMarketsModelResponse.m; sourceTree = "<group>"; };
+		43E71AAE181E629A006F80FA /* MostActiveCurrencyMarketsModelResponseFutures.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MostActiveCurrencyMarketsModelResponseFutures.h; sourceTree = "<group>"; };
+		43E71AAF181E629A006F80FA /* MostActiveCurrencyMarketsModelResponseFutures.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MostActiveCurrencyMarketsModelResponseFutures.m; sourceTree = "<group>"; };
+		43E71AB0181E629A006F80FA /* MostActiveCurrencyMarketsModelResponseOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MostActiveCurrencyMarketsModelResponseOptions.h; sourceTree = "<group>"; };
+		43E71AB1181E629A006F80FA /* MostActiveCurrencyMarketsModelResponseOptions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MostActiveCurrencyMarketsModelResponseOptions.m; sourceTree = "<group>"; };
+		43E71AB4181E629A006F80FA /* MostActiveFuturesOptionsMarketsModelRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MostActiveFuturesOptionsMarketsModelRequest.h; sourceTree = "<group>"; };
+		43E71AB5181E629A006F80FA /* MostActiveFuturesOptionsMarketsModelRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MostActiveFuturesOptionsMarketsModelRequest.m; sourceTree = "<group>"; };
+		43E71AB7181E629A006F80FA /* MostActiveFuturesOptionsMarketsModelResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MostActiveFuturesOptionsMarketsModelResponse.h; sourceTree = "<group>"; };
+		43E71AB8181E629A006F80FA /* MostActiveFuturesOptionsMarketsModelResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MostActiveFuturesOptionsMarketsModelResponse.m; sourceTree = "<group>"; };
+		43E71AB9181E629A006F80FA /* MostActiveFuturesOptionsMarketsModelResponseFutures.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MostActiveFuturesOptionsMarketsModelResponseFutures.h; sourceTree = "<group>"; };
+		43E71ABA181E629A006F80FA /* MostActiveFuturesOptionsMarketsModelResponseFutures.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MostActiveFuturesOptionsMarketsModelResponseFutures.m; sourceTree = "<group>"; };
+		43E71ABB181E629A006F80FA /* MostActiveFuturesOptionsMarketsModelResponseOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MostActiveFuturesOptionsMarketsModelResponseOptions.h; sourceTree = "<group>"; };
+		43E71ABC181E629A006F80FA /* MostActiveFuturesOptionsMarketsModelResponseOptions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MostActiveFuturesOptionsMarketsModelResponseOptions.m; sourceTree = "<group>"; };
+		43E71ABF181E629A006F80FA /* MostActiveMutualFundsMarketsModelRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MostActiveMutualFundsMarketsModelRequest.h; sourceTree = "<group>"; };
+		43E71AC0181E629A006F80FA /* MostActiveMutualFundsMarketsModelRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MostActiveMutualFundsMarketsModelRequest.m; sourceTree = "<group>"; };
+		43E71AC2181E629A006F80FA /* MostActiveMutualFundsMarketsModelResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MostActiveMutualFundsMarketsModelResponse.h; sourceTree = "<group>"; };
+		43E71AC3181E629A006F80FA /* MostActiveMutualFundsMarketsModelResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MostActiveMutualFundsMarketsModelResponse.m; sourceTree = "<group>"; };
+		43E71AC4181E629A006F80FA /* MostActiveMutualFundsMarketsModelResponseDebtMF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MostActiveMutualFundsMarketsModelResponseDebtMF.h; sourceTree = "<group>"; };
+		43E71AC5181E629A006F80FA /* MostActiveMutualFundsMarketsModelResponseDebtMF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MostActiveMutualFundsMarketsModelResponseDebtMF.m; sourceTree = "<group>"; };
+		43E71AC6181E629A006F80FA /* MostActiveMutualFundsMarketsModelResponseEquityMF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MostActiveMutualFundsMarketsModelResponseEquityMF.h; sourceTree = "<group>"; };
+		43E71AC7181E629A006F80FA /* MostActiveMutualFundsMarketsModelResponseEquityMF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MostActiveMutualFundsMarketsModelResponseEquityMF.m; sourceTree = "<group>"; };
+		43E71AC8181E629A006F80FA /* MostActiveMutualFundsMarketsModelResponseHybridMF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MostActiveMutualFundsMarketsModelResponseHybridMF.h; sourceTree = "<group>"; };
+		43E71AC9181E629A006F80FA /* MostActiveMutualFundsMarketsModelResponseHybridMF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MostActiveMutualFundsMarketsModelResponseHybridMF.m; sourceTree = "<group>"; };
+		43E71ACC181E629A006F80FA /* MostCommoditiesActiveMarketsModelRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MostCommoditiesActiveMarketsModelRequest.h; sourceTree = "<group>"; };
+		43E71ACD181E629A006F80FA /* MostCommoditiesActiveMarketsModelRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MostCommoditiesActiveMarketsModelRequest.m; sourceTree = "<group>"; };
+		43E71ACF181E629A006F80FA /* MostCommoditiesActiveMarketsModelResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MostCommoditiesActiveMarketsModelResponse.h; sourceTree = "<group>"; };
+		43E71AD0181E629A006F80FA /* MostCommoditiesActiveMarketsModelResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MostCommoditiesActiveMarketsModelResponse.m; sourceTree = "<group>"; };
+		43E71AD7181E629A006F80FA /* OutLookMarketsModelRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OutLookMarketsModelRequest.h; sourceTree = "<group>"; };
+		43E71AD8181E629A006F80FA /* OutLookMarketsModelRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OutLookMarketsModelRequest.m; sourceTree = "<group>"; };
+		43E71ADA181E629A006F80FA /* OutLookMarketsModelResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OutLookMarketsModelResponse.h; sourceTree = "<group>"; };
+		43E71ADB181E629A006F80FA /* OutLookMarketsModelResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OutLookMarketsModelResponse.m; sourceTree = "<group>"; };
+		43E71ADC181E629A006F80FA /* OutLookMarketsModelResponseOutLookData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OutLookMarketsModelResponseOutLookData.h; sourceTree = "<group>"; };
+		43E71ADD181E629A006F80FA /* OutLookMarketsModelResponseOutLookData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OutLookMarketsModelResponseOutLookData.m; sourceTree = "<group>"; };
+		43E71AE0181E629A006F80FA /* RoundUpMarketsModelRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoundUpMarketsModelRequest.h; sourceTree = "<group>"; };
+		43E71AE1181E629A006F80FA /* RoundUpMarketsModelRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoundUpMarketsModelRequest.m; sourceTree = "<group>"; };
+		43E71AE3181E629A006F80FA /* RoundUpMarketsModelResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoundUpMarketsModelResponse.h; sourceTree = "<group>"; };
+		43E71AE4181E629A006F80FA /* RoundUpMarketsModelResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoundUpMarketsModelResponse.m; sourceTree = "<group>"; };
+		43E71AE5181E629A006F80FA /* RoundUpMarketsModelResponseRoundUp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoundUpMarketsModelResponseRoundUp.h; sourceTree = "<group>"; };
+		43E71AE6181E629A006F80FA /* RoundUpMarketsModelResponseRoundUp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoundUpMarketsModelResponseRoundUp.m; sourceTree = "<group>"; };
+		43E71AE9181E629A006F80FA /* SingleQuoteMarketsModelRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingleQuoteMarketsModelRequest.h; sourceTree = "<group>"; };
+		43E71AEA181E629A006F80FA /* SingleQuoteMarketsModelRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingleQuoteMarketsModelRequest.m; sourceTree = "<group>"; };
+		43E71AEC181E629A006F80FA /* SingleQuoteMarketsModelResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingleQuoteMarketsModelResponse.h; sourceTree = "<group>"; };
+		43E71AED181E629A006F80FA /* SingleQuoteMarketsModelResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingleQuoteMarketsModelResponse.m; sourceTree = "<group>"; };
+		43E71AEE181E629A006F80FA /* SingleQuoteMarketsModelResponseLevel2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingleQuoteMarketsModelResponseLevel2.h; sourceTree = "<group>"; };
+		43E71AEF181E629A006F80FA /* SingleQuoteMarketsModelResponseLevel2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingleQuoteMarketsModelResponseLevel2.m; sourceTree = "<group>"; };
+		43E71AF0181E629A006F80FA /* SingleQuoteMarketsModelResponseLevel2Ask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingleQuoteMarketsModelResponseLevel2Ask.h; sourceTree = "<group>"; };
+		43E71AF1181E629A006F80FA /* SingleQuoteMarketsModelResponseLevel2Ask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingleQuoteMarketsModelResponseLevel2Ask.m; sourceTree = "<group>"; };
+		43E71AF2181E629A006F80FA /* SingleQuoteMarketsModelResponseLevel2Bid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingleQuoteMarketsModelResponseLevel2Bid.h; sourceTree = "<group>"; };
+		43E71AF3181E629A006F80FA /* SingleQuoteMarketsModelResponseLevel2Bid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingleQuoteMarketsModelResponseLevel2Bid.m; sourceTree = "<group>"; };
+		43E71AF6181E629A006F80FA /* SymbolSpecificNewsMarketsModelRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SymbolSpecificNewsMarketsModelRequest.h; sourceTree = "<group>"; };
+		43E71AF7181E629A006F80FA /* SymbolSpecificNewsMarketsModelRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SymbolSpecificNewsMarketsModelRequest.m; sourceTree = "<group>"; };
+		43E71AF9181E629A006F80FA /* SymbolSpecificNewsMarketsModelResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SymbolSpecificNewsMarketsModelResponse.h; sourceTree = "<group>"; };
+		43E71AFA181E629A006F80FA /* SymbolSpecificNewsMarketsModelResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SymbolSpecificNewsMarketsModelResponse.m; sourceTree = "<group>"; };
+		43E71AFB181E629A006F80FA /* SymbolSpecificNewsMarketsModelResponseSymbolSpecificNews.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SymbolSpecificNewsMarketsModelResponseSymbolSpecificNews.h; sourceTree = "<group>"; };
+		43E71AFC181E629A006F80FA /* SymbolSpecificNewsMarketsModelResponseSymbolSpecificNews.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SymbolSpecificNewsMarketsModelResponseSymbolSpecificNews.m; sourceTree = "<group>"; };
+		43E71B00181E629A006F80FA /* CompanyResearchResearchModelRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompanyResearchResearchModelRequest.h; sourceTree = "<group>"; };
+		43E71B01181E629A006F80FA /* CompanyResearchResearchModelRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompanyResearchResearchModelRequest.m; sourceTree = "<group>"; };
+		43E71B03181E629A006F80FA /* CompanyResearchResearchModelResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompanyResearchResearchModelResponse.h; sourceTree = "<group>"; };
+		43E71B04181E629A006F80FA /* CompanyResearchResearchModelResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompanyResearchResearchModelResponse.m; sourceTree = "<group>"; };
+		43E71B05181E629A006F80FA /* CompanyResearchResearchModelResponseCompany.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompanyResearchResearchModelResponseCompany.h; sourceTree = "<group>"; };
+		43E71B06181E629A006F80FA /* CompanyResearchResearchModelResponseCompany.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompanyResearchResearchModelResponseCompany.m; sourceTree = "<group>"; };
+		43E71B09181E629A006F80FA /* MarketAnalysisResearchModelRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarketAnalysisResearchModelRequest.h; sourceTree = "<group>"; };
+		43E71B0A181E629A006F80FA /* MarketAnalysisResearchModelRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarketAnalysisResearchModelRequest.m; sourceTree = "<group>"; };
+		43E71B0C181E629A006F80FA /* MarketAnalysisResearchModelResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarketAnalysisResearchModelResponse.h; sourceTree = "<group>"; };
+		43E71B0D181E629A006F80FA /* MarketAnalysisResearchModelResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarketAnalysisResearchModelResponse.m; sourceTree = "<group>"; };
+		43E71B0E181E629A006F80FA /* MarketAnalysisResearchModelResponseMarketAnalysis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarketAnalysisResearchModelResponseMarketAnalysis.h; sourceTree = "<group>"; };
+		43E71B0F181E629A006F80FA /* MarketAnalysisResearchModelResponseMarketAnalysis.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarketAnalysisResearchModelResponseMarketAnalysis.m; sourceTree = "<group>"; };
+		43E71B12181E629A006F80FA /* MostViewedResearchModelRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MostViewedResearchModelRequest.h; sourceTree = "<group>"; };
+		43E71B13181E629A006F80FA /* MostViewedResearchModelRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MostViewedResearchModelRequest.m; sourceTree = "<group>"; };
+		43E71B15181E629A006F80FA /* MostViewedResearchModelResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MostViewedResearchModelResponse.h; sourceTree = "<group>"; };
+		43E71B16181E629A006F80FA /* MostViewedResearchModelResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MostViewedResearchModelResponse.m; sourceTree = "<group>"; };
+		43E71B17181E629A006F80FA /* MostViewedResearchModelResponseMostViewed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MostViewedResearchModelResponseMostViewed.h; sourceTree = "<group>"; };
+		43E71B18181E629A006F80FA /* MostViewedResearchModelResponseMostViewed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MostViewedResearchModelResponseMostViewed.m; sourceTree = "<group>"; };
+		43E71B1B181E629A006F80FA /* SectorResearchModelRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SectorResearchModelRequest.h; sourceTree = "<group>"; };
+		43E71B1C181E629A006F80FA /* SectorResearchModelRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SectorResearchModelRequest.m; sourceTree = "<group>"; };
+		43E71B1E181E629A006F80FA /* SectorResearchModelResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SectorResearchModelResponse.h; sourceTree = "<group>"; };
+		43E71B1F181E629A006F80FA /* SectorResearchModelResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SectorResearchModelResponse.m; sourceTree = "<group>"; };
+		43E71B20181E629A006F80FA /* SectorResearchModelResponseSector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SectorResearchModelResponseSector.h; sourceTree = "<group>"; };
+		43E71B21181E629A006F80FA /* SectorResearchModelResponseSector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SectorResearchModelResponseSector.m; sourceTree = "<group>"; };
+		43E71B24181E629A006F80FA /* ThematicResearchModelRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThematicResearchModelRequest.h; sourceTree = "<group>"; };
+		43E71B25181E629A006F80FA /* ThematicResearchModelRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThematicResearchModelRequest.m; sourceTree = "<group>"; };
+		43E71B27181E629A006F80FA /* ThematicResearchModelResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThematicResearchModelResponse.h; sourceTree = "<group>"; };
+		43E71B28181E629A006F80FA /* ThematicResearchModelResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThematicResearchModelResponse.m; sourceTree = "<group>"; };
+		43E71B29181E629A006F80FA /* ThematicResearchModelResponseThematic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThematicResearchModelResponseThematic.h; sourceTree = "<group>"; };
+		43E71B2A181E629A006F80FA /* ThematicResearchModelResponseThematic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThematicResearchModelResponseThematic.m; sourceTree = "<group>"; };
+		43E71B2E181E629A006F80FA /* GetEquityInfoSearchModelRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetEquityInfoSearchModelRequest.h; sourceTree = "<group>"; };
+		43E71B2F181E629A006F80FA /* GetEquityInfoSearchModelRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetEquityInfoSearchModelRequest.m; sourceTree = "<group>"; };
+		43E71B31181E629A006F80FA /* GetEquityInfoSearchModelResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetEquityInfoSearchModelResponse.h; sourceTree = "<group>"; };
+		43E71B32181E629A006F80FA /* GetEquityInfoSearchModelResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetEquityInfoSearchModelResponse.m; sourceTree = "<group>"; };
+		43E71B33181E629A006F80FA /* GetEquityInfoSearchModelResponseScripDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetEquityInfoSearchModelResponseScripDetails.h; sourceTree = "<group>"; };
+		43E71B34181E629A006F80FA /* GetEquityInfoSearchModelResponseScripDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetEquityInfoSearchModelResponseScripDetails.m; sourceTree = "<group>"; };
+		43E71B35181E629A006F80FA /* GetEquityInfoSearchModelResponseScripDetailsEquityInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetEquityInfoSearchModelResponseScripDetailsEquityInfo.h; sourceTree = "<group>"; };
+		43E71B36181E629A006F80FA /* GetEquityInfoSearchModelResponseScripDetailsEquityInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetEquityInfoSearchModelResponseScripDetailsEquityInfo.m; sourceTree = "<group>"; };
+		43E71B37181E629A006F80FA /* GetEquityInfoSearchModelResponseScripDetailsEquityInfoScrip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetEquityInfoSearchModelResponseScripDetailsEquityInfoScrip.h; sourceTree = "<group>"; };
+		43E71B38181E629A006F80FA /* GetEquityInfoSearchModelResponseScripDetailsEquityInfoScrip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetEquityInfoSearchModelResponseScripDetailsEquityInfoScrip.m; sourceTree = "<group>"; };
+		43E71B3B181E629A006F80FA /* GetExpiryStrikePriceSearchModelRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetExpiryStrikePriceSearchModelRequest.h; sourceTree = "<group>"; };
+		43E71B3C181E629A006F80FA /* GetExpiryStrikePriceSearchModelRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetExpiryStrikePriceSearchModelRequest.m; sourceTree = "<group>"; };
+		43E71B3E181E629A006F80FA /* GetExpiryStrikePriceSearchModelResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetExpiryStrikePriceSearchModelResponse.h; sourceTree = "<group>"; };
+		43E71B3F181E629A006F80FA /* GetExpiryStrikePriceSearchModelResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetExpiryStrikePriceSearchModelResponse.m; sourceTree = "<group>"; };
+		43E71B40181E629A006F80FA /* GetExpiryStrikePriceSearchModelResponseScripDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetExpiryStrikePriceSearchModelResponseScripDetails.h; sourceTree = "<group>"; };
+		43E71B41181E629A006F80FA /* GetExpiryStrikePriceSearchModelResponseScripDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetExpiryStrikePriceSearchModelResponseScripDetails.m; sourceTree = "<group>"; };
+		43E71B42181E629A006F80FA /* GetExpiryStrikePriceSearchModelResponseScripDetailsAvailableExchange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetExpiryStrikePriceSearchModelResponseScripDetailsAvailableExchange.h; sourceTree = "<group>"; };
+		43E71B43181E629A006F80FA /* GetExpiryStrikePriceSearchModelResponseScripDetailsAvailableExchange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetExpiryStrikePriceSearchModelResponseScripDetailsAvailableExchange.m; sourceTree = "<group>"; };
+		43E71B44181E629A006F80FA /* GetExpiryStrikePriceSearchModelResponseScripDetailsExpiry_strickPrice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetExpiryStrikePriceSearchModelResponseScripDetailsExpiry_strickPrice.h; sourceTree = "<group>"; };
+		43E71B45181E629A006F80FA /* GetExpiryStrikePriceSearchModelResponseScripDetailsExpiry_strickPrice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetExpiryStrikePriceSearchModelResponseScripDetailsExpiry_strickPrice.m; sourceTree = "<group>"; };
+		43E71B46181E629A006F80FA /* GetExpiryStrikePriceSearchModelResponseScripDetailsExpiry_strickPriceScrip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetExpiryStrikePriceSearchModelResponseScripDetailsExpiry_strickPriceScrip.h; sourceTree = "<group>"; };
+		43E71B47181E629A006F80FA /* GetExpiryStrikePriceSearchModelResponseScripDetailsExpiry_strickPriceScrip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetExpiryStrikePriceSearchModelResponseScripDetailsExpiry_strickPriceScrip.m; sourceTree = "<group>"; };
+		43E71B48181E629A006F80FA /* GetExpiryStrikePriceSearchModelResponseScripDetailsExpiry_strickPriceScripValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetExpiryStrikePriceSearchModelResponseScripDetailsExpiry_strickPriceScripValue.h; sourceTree = "<group>"; };
+		43E71B49181E629A006F80FA /* GetExpiryStrikePriceSearchModelResponseScripDetailsExpiry_strickPriceScripValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetExpiryStrikePriceSearchModelResponseScripDetailsExpiry_strickPriceScripValue.m; sourceTree = "<group>"; };
+		43E71B4A181E629A006F80FA /* GetExpiryStrikePriceSearchModelResponseScripDetailsExpiry_strickPriceScripValueTradeInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetExpiryStrikePriceSearchModelResponseScripDetailsExpiry_strickPriceScripValueTradeInfo.h; sourceTree = "<group>"; };
+		43E71B4B181E629A006F80FA /* GetExpiryStrikePriceSearchModelResponseScripDetailsExpiry_strickPriceScripValueTradeInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetExpiryStrikePriceSearchModelResponseScripDetailsExpiry_strickPriceScripValueTradeInfo.m; sourceTree = "<group>"; };
+		43E71B4E181E629A006F80FA /* SymbolSearchSearchModelRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SymbolSearchSearchModelRequest.h; sourceTree = "<group>"; };
+		43E71B4F181E629A006F80FA /* SymbolSearchSearchModelRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SymbolSearchSearchModelRequest.m; sourceTree = "<group>"; };
+		43E71B51181E629A006F80FA /* SymbolSearchSearchModelResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SymbolSearchSearchModelResponse.h; sourceTree = "<group>"; };
+		43E71B52181E629A006F80FA /* SymbolSearchSearchModelResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SymbolSearchSearchModelResponse.m; sourceTree = "<group>"; };
+		43E71B53181E629A006F80FA /* SymbolSearchSearchModelResponseSearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SymbolSearchSearchModelResponseSearchResult.h; sourceTree = "<group>"; };
+		43E71B54181E629A006F80FA /* SymbolSearchSearchModelResponseSearchResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SymbolSearchSearchModelResponseSearchResult.m; sourceTree = "<group>"; };
+		43E71B55181E629A006F80FA /* SymbolSearchSearchModelResponseSearchResultCommodities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SymbolSearchSearchModelResponseSearchResultCommodities.h; sourceTree = "<group>"; };
+		43E71B56181E629A006F80FA /* SymbolSearchSearchModelResponseSearchResultCommodities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SymbolSearchSearchModelResponseSearchResultCommodities.m; sourceTree = "<group>"; };
+		43E71B57181E629A006F80FA /* SymbolSearchSearchModelResponseSearchResultCurrency.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SymbolSearchSearchModelResponseSearchResultCurrency.h; sourceTree = "<group>"; };
+		43E71B58181E629A006F80FA /* SymbolSearchSearchModelResponseSearchResultCurrency.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SymbolSearchSearchModelResponseSearchResultCurrency.m; sourceTree = "<group>"; };
+		43E71B59181E629A006F80FA /* SymbolSearchSearchModelResponseSearchResultDerivative.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SymbolSearchSearchModelResponseSearchResultDerivative.h; sourceTree = "<group>"; };
+		43E71B5A181E629A006F80FA /* SymbolSearchSearchModelResponseSearchResultDerivative.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SymbolSearchSearchModelResponseSearchResultDerivative.m; sourceTree = "<group>"; };
+		43E71B5B181E629A006F80FA /* SymbolSearchSearchModelResponseSearchResultEquity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SymbolSearchSearchModelResponseSearchResultEquity.h; sourceTree = "<group>"; };
+		43E71B5C181E629A006F80FA /* SymbolSearchSearchModelResponseSearchResultEquity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SymbolSearchSearchModelResponseSearchResultEquity.m; sourceTree = "<group>"; };
+		43E71B60181E629A006F80FA /* AccountNumberDetailsTradeModelRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountNumberDetailsTradeModelRequest.h; sourceTree = "<group>"; };
+		43E71B61181E629A006F80FA /* AccountNumberDetailsTradeModelRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountNumberDetailsTradeModelRequest.m; sourceTree = "<group>"; };
+		43E71B63181E629A006F80FA /* AccountNumberDetailsTradeModelResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountNumberDetailsTradeModelResponse.h; sourceTree = "<group>"; };
+		43E71B64181E629A006F80FA /* AccountNumberDetailsTradeModelResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountNumberDetailsTradeModelResponse.m; sourceTree = "<group>"; };
+		43E71B67181E629A006F80FA /* CancelOrderTradeModelRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CancelOrderTradeModelRequest.h; sourceTree = "<group>"; };
+		43E71B68181E629A006F80FA /* CancelOrderTradeModelRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CancelOrderTradeModelRequest.m; sourceTree = "<group>"; };
+		43E71B6A181E629A006F80FA /* CancelOrderTradeModelResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CancelOrderTradeModelResponse.h; sourceTree = "<group>"; };
+		43E71B6B181E629A006F80FA /* CancelOrderTradeModelResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CancelOrderTradeModelResponse.m; sourceTree = "<group>"; };
+		43E71B6E181E629A006F80FA /* ModifyOrderTradeModelRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModifyOrderTradeModelRequest.h; sourceTree = "<group>"; };
+		43E71B6F181E629A006F80FA /* ModifyOrderTradeModelRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModifyOrderTradeModelRequest.m; sourceTree = "<group>"; };
+		43E71B71181E629A006F80FA /* ModifyOrderTradeModelResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModifyOrderTradeModelResponse.h; sourceTree = "<group>"; };
+		43E71B72181E629A006F80FA /* ModifyOrderTradeModelResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModifyOrderTradeModelResponse.m; sourceTree = "<group>"; };
+		43E71B73181E629A006F80FA /* ModifyOrderTradeModelResponseModifyOrder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModifyOrderTradeModelResponseModifyOrder.h; sourceTree = "<group>"; };
+		43E71B74181E629A006F80FA /* ModifyOrderTradeModelResponseModifyOrder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModifyOrderTradeModelResponseModifyOrder.m; sourceTree = "<group>"; };
+		43E71B77181E629A006F80FA /* NetPositionSummaryTradeModelRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetPositionSummaryTradeModelRequest.h; sourceTree = "<group>"; };
+		43E71B78181E629A006F80FA /* NetPositionSummaryTradeModelRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetPositionSummaryTradeModelRequest.m; sourceTree = "<group>"; };
+		43E71B7A181E629A006F80FA /* NetPositionSummaryTradeModelResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetPositionSummaryTradeModelResponse.h; sourceTree = "<group>"; };
+		43E71B7B181E629A006F80FA /* NetPositionSummaryTradeModelResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetPositionSummaryTradeModelResponse.m; sourceTree = "<group>"; };
+		43E71B7C181E629A006F80FA /* NetPositionSummaryTradeModelResponseNetPositionSummary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetPositionSummaryTradeModelResponseNetPositionSummary.h; sourceTree = "<group>"; };
+		43E71B7D181E629A006F80FA /* NetPositionSummaryTradeModelResponseNetPositionSummary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetPositionSummaryTradeModelResponseNetPositionSummary.m; sourceTree = "<group>"; };
+		43E71B7E181E629A006F80FA /* NetPositionSummaryTradeModelResponseOverAllPL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetPositionSummaryTradeModelResponseOverAllPL.h; sourceTree = "<group>"; };
+		43E71B7F181E629A006F80FA /* NetPositionSummaryTradeModelResponseOverAllPL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetPositionSummaryTradeModelResponseOverAllPL.m; sourceTree = "<group>"; };
+		43E71B82181E629A006F80FA /* OrderBookTradeModelRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderBookTradeModelRequest.h; sourceTree = "<group>"; };
+		43E71B83181E629A006F80FA /* OrderBookTradeModelRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderBookTradeModelRequest.m; sourceTree = "<group>"; };
+		43E71B85181E629B006F80FA /* OrderBookTradeModelResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderBookTradeModelResponse.h; sourceTree = "<group>"; };
+		43E71B86181E629B006F80FA /* OrderBookTradeModelResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderBookTradeModelResponse.m; sourceTree = "<group>"; };
+		43E71B87181E629B006F80FA /* OrderBookTradeModelResponseOrderBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderBookTradeModelResponseOrderBook.h; sourceTree = "<group>"; };
+		43E71B88181E629B006F80FA /* OrderBookTradeModelResponseOrderBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderBookTradeModelResponseOrderBook.m; sourceTree = "<group>"; };
+		43E71B8B181E629B006F80FA /* ProfitLossAndNetQuantityTradeModelRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfitLossAndNetQuantityTradeModelRequest.h; sourceTree = "<group>"; };
+		43E71B8C181E629B006F80FA /* ProfitLossAndNetQuantityTradeModelRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfitLossAndNetQuantityTradeModelRequest.m; sourceTree = "<group>"; };
+		43E71B8E181E629B006F80FA /* ProfitLossAndNetQuantityTradeModelResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfitLossAndNetQuantityTradeModelResponse.h; sourceTree = "<group>"; };
+		43E71B8F181E629B006F80FA /* ProfitLossAndNetQuantityTradeModelResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfitLossAndNetQuantityTradeModelResponse.m; sourceTree = "<group>"; };
+		43E71B90181E629B006F80FA /* ProfitLossAndNetQuantityTradeModelResponseNetQtyDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfitLossAndNetQuantityTradeModelResponseNetQtyDetails.h; sourceTree = "<group>"; };
+		43E71B91181E629B006F80FA /* ProfitLossAndNetQuantityTradeModelResponseNetQtyDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfitLossAndNetQuantityTradeModelResponseNetQtyDetails.m; sourceTree = "<group>"; };
+		43E71B92181E629B006F80FA /* ProfitLossAndNetQuantityTradeModelResponseProfitLoss.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfitLossAndNetQuantityTradeModelResponseProfitLoss.h; sourceTree = "<group>"; };
+		43E71B93181E629B006F80FA /* ProfitLossAndNetQuantityTradeModelResponseProfitLoss.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfitLossAndNetQuantityTradeModelResponseProfitLoss.m; sourceTree = "<group>"; };
+		43E71B96181E629B006F80FA /* SegmentAndBankDetailsTradeModelRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SegmentAndBankDetailsTradeModelRequest.h; sourceTree = "<group>"; };
+		43E71B97181E629B006F80FA /* SegmentAndBankDetailsTradeModelRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SegmentAndBankDetailsTradeModelRequest.m; sourceTree = "<group>"; };
+		43E71B99181E629B006F80FA /* SegmentAndBankDetailsTradeModelResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SegmentAndBankDetailsTradeModelResponse.h; sourceTree = "<group>"; };
+		43E71B9A181E629B006F80FA /* SegmentAndBankDetailsTradeModelResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SegmentAndBankDetailsTradeModelResponse.m; sourceTree = "<group>"; };
+		43E71B9B181E629B006F80FA /* SegmentAndBankDetailsTradeModelResponseBankDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SegmentAndBankDetailsTradeModelResponseBankDetails.h; sourceTree = "<group>"; };
+		43E71B9C181E629B006F80FA /* SegmentAndBankDetailsTradeModelResponseBankDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SegmentAndBankDetailsTradeModelResponseBankDetails.m; sourceTree = "<group>"; };
+		43E71B9F181E629B006F80FA /* SendNewMarginPlusOrderTradeModelRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SendNewMarginPlusOrderTradeModelRequest.h; sourceTree = "<group>"; };
+		43E71BA0181E629B006F80FA /* SendNewMarginPlusOrderTradeModelRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SendNewMarginPlusOrderTradeModelRequest.m; sourceTree = "<group>"; };
+		43E71BA2181E629B006F80FA /* SendNewMarginPlusOrderTradeModelResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SendNewMarginPlusOrderTradeModelResponse.h; sourceTree = "<group>"; };
+		43E71BA3181E629B006F80FA /* SendNewMarginPlusOrderTradeModelResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SendNewMarginPlusOrderTradeModelResponse.m; sourceTree = "<group>"; };
+		43E71BA6181E629B006F80FA /* SendNewOrderTradeModelRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SendNewOrderTradeModelRequest.h; sourceTree = "<group>"; };
+		43E71BA7181E629B006F80FA /* SendNewOrderTradeModelRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SendNewOrderTradeModelRequest.m; sourceTree = "<group>"; };
+		43E71BA9181E629B006F80FA /* SendNewOrderTradeModelResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SendNewOrderTradeModelResponse.h; sourceTree = "<group>"; };
+		43E71BAA181E629B006F80FA /* SendNewOrderTradeModelResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SendNewOrderTradeModelResponse.m; sourceTree = "<group>"; };
+		43E71BAB181E629B006F80FA /* SendNewOrderTradeModelResponseSendNewOrder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SendNewOrderTradeModelResponseSendNewOrder.h; sourceTree = "<group>"; };
+		43E71BAC181E629B006F80FA /* SendNewOrderTradeModelResponseSendNewOrder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SendNewOrderTradeModelResponseSendNewOrder.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +480,14 @@
 		430BDE8A179FCD180094343E /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				43E71A2E181E629A006F80FA /* Chart */,
+				43E71A36181E629A006F80FA /* Config */,
+				43E71A4C181E629A006F80FA /* Init */,
+				43E71A5C181E629A006F80FA /* Login */,
+				43E71A80181E629A006F80FA /* Markets */,
+				43E71AFD181E629A006F80FA /* Research */,
+				43E71B2B181E629A006F80FA /* Search */,
+				43E71B5D181E629A006F80FA /* Trade */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -161,6 +559,1218 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		43E71A2E181E629A006F80FA /* Chart */ = {
+			isa = PBXGroup;
+			children = (
+				43E71A2F181E629A006F80FA /* IntradayChart */,
+			);
+			name = Chart;
+			path = ../../../../../Documents/Models/Chart;
+			sourceTree = "<group>";
+		};
+		43E71A2F181E629A006F80FA /* IntradayChart */ = {
+			isa = PBXGroup;
+			children = (
+				43E71A30181E629A006F80FA /* Request */,
+				43E71A33181E629A006F80FA /* Response */,
+			);
+			path = IntradayChart;
+			sourceTree = "<group>";
+		};
+		43E71A30181E629A006F80FA /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				43E71A31181E629A006F80FA /* IntradayChartChartModelRequest.h */,
+				43E71A32181E629A006F80FA /* IntradayChartChartModelRequest.m */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		43E71A33181E629A006F80FA /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				43E71A34181E629A006F80FA /* IntradayChartChartModelResponse.h */,
+				43E71A35181E629A006F80FA /* IntradayChartChartModelResponse.m */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		43E71A36181E629A006F80FA /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				43E71A37181E629A006F80FA /* Base */,
+			);
+			name = Config;
+			path = ../../../../../Documents/Models/Config;
+			sourceTree = "<group>";
+		};
+		43E71A37181E629A006F80FA /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				43E71A38181E629A006F80FA /* Request */,
+				43E71A3B181E629A006F80FA /* Response */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		43E71A38181E629A006F80FA /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				43E71A39181E629A006F80FA /* BaseConfigModelRequest.h */,
+				43E71A3A181E629A006F80FA /* BaseConfigModelRequest.m */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		43E71A3B181E629A006F80FA /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				43E71A3C181E629A006F80FA /* BaseConfigModelResponse.h */,
+				43E71A3D181E629A006F80FA /* BaseConfigModelResponse.m */,
+				43E71A3E181E629A006F80FA /* BaseConfigModelResponseApp.h */,
+				43E71A3F181E629A006F80FA /* BaseConfigModelResponseApp.m */,
+				43E71A40181E629A006F80FA /* BaseConfigModelResponseAppConfig.h */,
+				43E71A41181E629A006F80FA /* BaseConfigModelResponseAppConfig.m */,
+				43E71A42181E629A006F80FA /* BaseConfigModelResponseInfo.h */,
+				43E71A43181E629A006F80FA /* BaseConfigModelResponseInfo.m */,
+				43E71A44181E629A006F80FA /* BaseConfigModelResponseInfoConfig.h */,
+				43E71A45181E629A006F80FA /* BaseConfigModelResponseInfoConfig.m */,
+				43E71A46181E629A006F80FA /* BaseConfigModelResponseInfoConfigValue.h */,
+				43E71A47181E629A006F80FA /* BaseConfigModelResponseInfoConfigValue.m */,
+				43E71A48181E629A006F80FA /* BaseConfigModelResponseLabel.h */,
+				43E71A49181E629A006F80FA /* BaseConfigModelResponseLabel.m */,
+				43E71A4A181E629A006F80FA /* BaseConfigModelResponseLabelConfig.h */,
+				43E71A4B181E629A006F80FA /* BaseConfigModelResponseLabelConfig.m */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		43E71A4C181E629A006F80FA /* Init */ = {
+			isa = PBXGroup;
+			children = (
+				43E71A4D181E629A006F80FA /* Base */,
+			);
+			name = Init;
+			path = ../../../../../Documents/Models/Init;
+			sourceTree = "<group>";
+		};
+		43E71A4D181E629A006F80FA /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				43E71A4E181E629A006F80FA /* Request */,
+				43E71A59181E629A006F80FA /* Response */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		43E71A4E181E629A006F80FA /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				43E71A4F181E629A006F80FA /* BaseInitModelRequest.h */,
+				43E71A50181E629A006F80FA /* BaseInitModelRequest.m */,
+				43E71A51181E629A006F80FA /* BaseInitModelRequestApp.h */,
+				43E71A52181E629A006F80FA /* BaseInitModelRequestApp.m */,
+				43E71A53181E629A006F80FA /* BaseInitModelRequestHardware.h */,
+				43E71A54181E629A006F80FA /* BaseInitModelRequestHardware.m */,
+				43E71A55181E629A006F80FA /* BaseInitModelRequestNetwork.h */,
+				43E71A56181E629A006F80FA /* BaseInitModelRequestNetwork.m */,
+				43E71A57181E629A006F80FA /* BaseInitModelRequestSoftware.h */,
+				43E71A58181E629A006F80FA /* BaseInitModelRequestSoftware.m */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		43E71A59181E629A006F80FA /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				43E71A5A181E629A006F80FA /* BaseInitModelResponse.h */,
+				43E71A5B181E629A006F80FA /* BaseInitModelResponse.m */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		43E71A5C181E629A006F80FA /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				43E71A5D181E629A006F80FA /* ChangePassword */,
+				43E71A64181E629A006F80FA /* ForgotPassword */,
+				43E71A6B181E629A006F80FA /* GuestSignUp */,
+				43E71A72181E629A006F80FA /* Logout */,
+				43E71A79181E629A006F80FA /* ValidateUser */,
+			);
+			name = Login;
+			path = ../../../../../Documents/Models/Login;
+			sourceTree = "<group>";
+		};
+		43E71A5D181E629A006F80FA /* ChangePassword */ = {
+			isa = PBXGroup;
+			children = (
+				43E71A5E181E629A006F80FA /* Request */,
+				43E71A61181E629A006F80FA /* Response */,
+			);
+			path = ChangePassword;
+			sourceTree = "<group>";
+		};
+		43E71A5E181E629A006F80FA /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				43E71A5F181E629A006F80FA /* ChangePasswordLoginModelRequest.h */,
+				43E71A60181E629A006F80FA /* ChangePasswordLoginModelRequest.m */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		43E71A61181E629A006F80FA /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				43E71A62181E629A006F80FA /* ChangePasswordLoginModelResponse.h */,
+				43E71A63181E629A006F80FA /* ChangePasswordLoginModelResponse.m */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		43E71A64181E629A006F80FA /* ForgotPassword */ = {
+			isa = PBXGroup;
+			children = (
+				43E71A65181E629A006F80FA /* Request */,
+				43E71A68181E629A006F80FA /* Response */,
+			);
+			path = ForgotPassword;
+			sourceTree = "<group>";
+		};
+		43E71A65181E629A006F80FA /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				43E71A66181E629A006F80FA /* ForgotPasswordLoginModelRequest.h */,
+				43E71A67181E629A006F80FA /* ForgotPasswordLoginModelRequest.m */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		43E71A68181E629A006F80FA /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				43E71A69181E629A006F80FA /* ForgotPasswordLoginModelResponse.h */,
+				43E71A6A181E629A006F80FA /* ForgotPasswordLoginModelResponse.m */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		43E71A6B181E629A006F80FA /* GuestSignUp */ = {
+			isa = PBXGroup;
+			children = (
+				43E71A6C181E629A006F80FA /* Request */,
+				43E71A6F181E629A006F80FA /* Response */,
+			);
+			path = GuestSignUp;
+			sourceTree = "<group>";
+		};
+		43E71A6C181E629A006F80FA /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				43E71A6D181E629A006F80FA /* GuestSignUpLoginModelRequest.h */,
+				43E71A6E181E629A006F80FA /* GuestSignUpLoginModelRequest.m */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		43E71A6F181E629A006F80FA /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				43E71A70181E629A006F80FA /* GuestSignUpLoginModelResponse.h */,
+				43E71A71181E629A006F80FA /* GuestSignUpLoginModelResponse.m */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		43E71A72181E629A006F80FA /* Logout */ = {
+			isa = PBXGroup;
+			children = (
+				43E71A73181E629A006F80FA /* Request */,
+				43E71A76181E629A006F80FA /* Response */,
+			);
+			path = Logout;
+			sourceTree = "<group>";
+		};
+		43E71A73181E629A006F80FA /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				43E71A74181E629A006F80FA /* LogoutLoginModelRequest.h */,
+				43E71A75181E629A006F80FA /* LogoutLoginModelRequest.m */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		43E71A76181E629A006F80FA /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				43E71A77181E629A006F80FA /* LogoutLoginModelResponse.h */,
+				43E71A78181E629A006F80FA /* LogoutLoginModelResponse.m */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		43E71A79181E629A006F80FA /* ValidateUser */ = {
+			isa = PBXGroup;
+			children = (
+				43E71A7A181E629A006F80FA /* Request */,
+				43E71A7D181E629A006F80FA /* Response */,
+			);
+			path = ValidateUser;
+			sourceTree = "<group>";
+		};
+		43E71A7A181E629A006F80FA /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				43E71A7B181E629A006F80FA /* ValidateUserLoginModelRequest.h */,
+				43E71A7C181E629A006F80FA /* ValidateUserLoginModelRequest.m */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		43E71A7D181E629A006F80FA /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				43E71A7E181E629A006F80FA /* ValidateUserLoginModelResponse.h */,
+				43E71A7F181E629A006F80FA /* ValidateUserLoginModelResponse.m */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		43E71A80181E629A006F80FA /* Markets */ = {
+			isa = PBXGroup;
+			children = (
+				43E71A81181E629A006F80FA /* AdvanceDecline */,
+				43E71A8C181E629A006F80FA /* GlobalIndices */,
+				43E71A95181E629A006F80FA /* IndianIndices */,
+				43E71A9E181E629A006F80FA /* IndicesStock */,
+				43E71AA7181E629A006F80FA /* MostActiveCurrency */,
+				43E71AB2181E629A006F80FA /* MostActiveFuturesOptions */,
+				43E71ABD181E629A006F80FA /* MostActiveMutualFunds */,
+				43E71ACA181E629A006F80FA /* MostCommoditiesActive */,
+				43E71AD5181E629A006F80FA /* OutLook */,
+				43E71ADE181E629A006F80FA /* RoundUp */,
+				43E71AE7181E629A006F80FA /* SingleQuote */,
+				43E71AF4181E629A006F80FA /* SymbolSpecificNews */,
+			);
+			name = Markets;
+			path = ../../../../../Documents/Models/Markets;
+			sourceTree = "<group>";
+		};
+		43E71A81181E629A006F80FA /* AdvanceDecline */ = {
+			isa = PBXGroup;
+			children = (
+				43E71A82181E629A006F80FA /* Request */,
+				43E71A85181E629A006F80FA /* Response */,
+			);
+			path = AdvanceDecline;
+			sourceTree = "<group>";
+		};
+		43E71A82181E629A006F80FA /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				43E71A83181E629A006F80FA /* AdvanceDeclineMarketsModelRequest.h */,
+				43E71A84181E629A006F80FA /* AdvanceDeclineMarketsModelRequest.m */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		43E71A85181E629A006F80FA /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				43E71A86181E629A006F80FA /* AdvanceDeclineMarketsModelResponse.h */,
+				43E71A87181E629A006F80FA /* AdvanceDeclineMarketsModelResponse.m */,
+				43E71A88181E629A006F80FA /* AdvanceDeclineMarketsModelResponseBseIndices.h */,
+				43E71A89181E629A006F80FA /* AdvanceDeclineMarketsModelResponseBseIndices.m */,
+				43E71A8A181E629A006F80FA /* AdvanceDeclineMarketsModelResponseNseIndices.h */,
+				43E71A8B181E629A006F80FA /* AdvanceDeclineMarketsModelResponseNseIndices.m */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		43E71A8C181E629A006F80FA /* GlobalIndices */ = {
+			isa = PBXGroup;
+			children = (
+				43E71A8D181E629A006F80FA /* Request */,
+				43E71A90181E629A006F80FA /* Response */,
+			);
+			path = GlobalIndices;
+			sourceTree = "<group>";
+		};
+		43E71A8D181E629A006F80FA /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				43E71A8E181E629A006F80FA /* GlobalIndicesMarketsModelRequest.h */,
+				43E71A8F181E629A006F80FA /* GlobalIndicesMarketsModelRequest.m */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		43E71A90181E629A006F80FA /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				43E71A91181E629A006F80FA /* GlobalIndicesMarketsModelResponse.h */,
+				43E71A92181E629A006F80FA /* GlobalIndicesMarketsModelResponse.m */,
+				43E71A93181E629A006F80FA /* GlobalIndicesMarketsModelResponseGlobalIndices.h */,
+				43E71A94181E629A006F80FA /* GlobalIndicesMarketsModelResponseGlobalIndices.m */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		43E71A95181E629A006F80FA /* IndianIndices */ = {
+			isa = PBXGroup;
+			children = (
+				43E71A96181E629A006F80FA /* Request */,
+				43E71A99181E629A006F80FA /* Response */,
+			);
+			path = IndianIndices;
+			sourceTree = "<group>";
+		};
+		43E71A96181E629A006F80FA /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				43E71A97181E629A006F80FA /* IndianIndicesMarketsModelRequest.h */,
+				43E71A98181E629A006F80FA /* IndianIndicesMarketsModelRequest.m */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		43E71A99181E629A006F80FA /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				43E71A9A181E629A006F80FA /* IndianIndicesMarketsModelResponse.h */,
+				43E71A9B181E629A006F80FA /* IndianIndicesMarketsModelResponse.m */,
+				43E71A9C181E629A006F80FA /* IndianIndicesMarketsModelResponseIndianIndices.h */,
+				43E71A9D181E629A006F80FA /* IndianIndicesMarketsModelResponseIndianIndices.m */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		43E71A9E181E629A006F80FA /* IndicesStock */ = {
+			isa = PBXGroup;
+			children = (
+				43E71A9F181E629A006F80FA /* Request */,
+				43E71AA2181E629A006F80FA /* Response */,
+			);
+			path = IndicesStock;
+			sourceTree = "<group>";
+		};
+		43E71A9F181E629A006F80FA /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				43E71AA0181E629A006F80FA /* IndicesStockMarketsModelRequest.h */,
+				43E71AA1181E629A006F80FA /* IndicesStockMarketsModelRequest.m */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		43E71AA2181E629A006F80FA /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				43E71AA3181E629A006F80FA /* IndicesStockMarketsModelResponse.h */,
+				43E71AA4181E629A006F80FA /* IndicesStockMarketsModelResponse.m */,
+				43E71AA5181E629A006F80FA /* IndicesStockMarketsModelResponseIndicesStock.h */,
+				43E71AA6181E629A006F80FA /* IndicesStockMarketsModelResponseIndicesStock.m */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		43E71AA7181E629A006F80FA /* MostActiveCurrency */ = {
+			isa = PBXGroup;
+			children = (
+				43E71AA8181E629A006F80FA /* Request */,
+				43E71AAB181E629A006F80FA /* Response */,
+			);
+			path = MostActiveCurrency;
+			sourceTree = "<group>";
+		};
+		43E71AA8181E629A006F80FA /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				43E71AA9181E629A006F80FA /* MostActiveCurrencyMarketsModelRequest.h */,
+				43E71AAA181E629A006F80FA /* MostActiveCurrencyMarketsModelRequest.m */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		43E71AAB181E629A006F80FA /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				43E71AAC181E629A006F80FA /* MostActiveCurrencyMarketsModelResponse.h */,
+				43E71AAD181E629A006F80FA /* MostActiveCurrencyMarketsModelResponse.m */,
+				43E71AAE181E629A006F80FA /* MostActiveCurrencyMarketsModelResponseFutures.h */,
+				43E71AAF181E629A006F80FA /* MostActiveCurrencyMarketsModelResponseFutures.m */,
+				43E71AB0181E629A006F80FA /* MostActiveCurrencyMarketsModelResponseOptions.h */,
+				43E71AB1181E629A006F80FA /* MostActiveCurrencyMarketsModelResponseOptions.m */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		43E71AB2181E629A006F80FA /* MostActiveFuturesOptions */ = {
+			isa = PBXGroup;
+			children = (
+				43E71AB3181E629A006F80FA /* Request */,
+				43E71AB6181E629A006F80FA /* Response */,
+			);
+			path = MostActiveFuturesOptions;
+			sourceTree = "<group>";
+		};
+		43E71AB3181E629A006F80FA /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				43E71AB4181E629A006F80FA /* MostActiveFuturesOptionsMarketsModelRequest.h */,
+				43E71AB5181E629A006F80FA /* MostActiveFuturesOptionsMarketsModelRequest.m */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		43E71AB6181E629A006F80FA /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				43E71AB7181E629A006F80FA /* MostActiveFuturesOptionsMarketsModelResponse.h */,
+				43E71AB8181E629A006F80FA /* MostActiveFuturesOptionsMarketsModelResponse.m */,
+				43E71AB9181E629A006F80FA /* MostActiveFuturesOptionsMarketsModelResponseFutures.h */,
+				43E71ABA181E629A006F80FA /* MostActiveFuturesOptionsMarketsModelResponseFutures.m */,
+				43E71ABB181E629A006F80FA /* MostActiveFuturesOptionsMarketsModelResponseOptions.h */,
+				43E71ABC181E629A006F80FA /* MostActiveFuturesOptionsMarketsModelResponseOptions.m */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		43E71ABD181E629A006F80FA /* MostActiveMutualFunds */ = {
+			isa = PBXGroup;
+			children = (
+				43E71ABE181E629A006F80FA /* Request */,
+				43E71AC1181E629A006F80FA /* Response */,
+			);
+			path = MostActiveMutualFunds;
+			sourceTree = "<group>";
+		};
+		43E71ABE181E629A006F80FA /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				43E71ABF181E629A006F80FA /* MostActiveMutualFundsMarketsModelRequest.h */,
+				43E71AC0181E629A006F80FA /* MostActiveMutualFundsMarketsModelRequest.m */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		43E71AC1181E629A006F80FA /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				43E71AC2181E629A006F80FA /* MostActiveMutualFundsMarketsModelResponse.h */,
+				43E71AC3181E629A006F80FA /* MostActiveMutualFundsMarketsModelResponse.m */,
+				43E71AC4181E629A006F80FA /* MostActiveMutualFundsMarketsModelResponseDebtMF.h */,
+				43E71AC5181E629A006F80FA /* MostActiveMutualFundsMarketsModelResponseDebtMF.m */,
+				43E71AC6181E629A006F80FA /* MostActiveMutualFundsMarketsModelResponseEquityMF.h */,
+				43E71AC7181E629A006F80FA /* MostActiveMutualFundsMarketsModelResponseEquityMF.m */,
+				43E71AC8181E629A006F80FA /* MostActiveMutualFundsMarketsModelResponseHybridMF.h */,
+				43E71AC9181E629A006F80FA /* MostActiveMutualFundsMarketsModelResponseHybridMF.m */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		43E71ACA181E629A006F80FA /* MostCommoditiesActive */ = {
+			isa = PBXGroup;
+			children = (
+				43E71ACB181E629A006F80FA /* Request */,
+				43E71ACE181E629A006F80FA /* Response */,
+			);
+			path = MostCommoditiesActive;
+			sourceTree = "<group>";
+		};
+		43E71ACB181E629A006F80FA /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				43E71ACC181E629A006F80FA /* MostCommoditiesActiveMarketsModelRequest.h */,
+				43E71ACD181E629A006F80FA /* MostCommoditiesActiveMarketsModelRequest.m */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		43E71ACE181E629A006F80FA /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				43E71ACF181E629A006F80FA /* MostCommoditiesActiveMarketsModelResponse.h */,
+				43E71AD0181E629A006F80FA /* MostCommoditiesActiveMarketsModelResponse.m */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		43E71AD5181E629A006F80FA /* OutLook */ = {
+			isa = PBXGroup;
+			children = (
+				43E71AD6181E629A006F80FA /* Request */,
+				43E71AD9181E629A006F80FA /* Response */,
+			);
+			path = OutLook;
+			sourceTree = "<group>";
+		};
+		43E71AD6181E629A006F80FA /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				43E71AD7181E629A006F80FA /* OutLookMarketsModelRequest.h */,
+				43E71AD8181E629A006F80FA /* OutLookMarketsModelRequest.m */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		43E71AD9181E629A006F80FA /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				43E71ADA181E629A006F80FA /* OutLookMarketsModelResponse.h */,
+				43E71ADB181E629A006F80FA /* OutLookMarketsModelResponse.m */,
+				43E71ADC181E629A006F80FA /* OutLookMarketsModelResponseOutLookData.h */,
+				43E71ADD181E629A006F80FA /* OutLookMarketsModelResponseOutLookData.m */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		43E71ADE181E629A006F80FA /* RoundUp */ = {
+			isa = PBXGroup;
+			children = (
+				43E71ADF181E629A006F80FA /* Request */,
+				43E71AE2181E629A006F80FA /* Response */,
+			);
+			path = RoundUp;
+			sourceTree = "<group>";
+		};
+		43E71ADF181E629A006F80FA /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				43E71AE0181E629A006F80FA /* RoundUpMarketsModelRequest.h */,
+				43E71AE1181E629A006F80FA /* RoundUpMarketsModelRequest.m */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		43E71AE2181E629A006F80FA /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				43E71AE3181E629A006F80FA /* RoundUpMarketsModelResponse.h */,
+				43E71AE4181E629A006F80FA /* RoundUpMarketsModelResponse.m */,
+				43E71AE5181E629A006F80FA /* RoundUpMarketsModelResponseRoundUp.h */,
+				43E71AE6181E629A006F80FA /* RoundUpMarketsModelResponseRoundUp.m */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		43E71AE7181E629A006F80FA /* SingleQuote */ = {
+			isa = PBXGroup;
+			children = (
+				43E71AE8181E629A006F80FA /* Request */,
+				43E71AEB181E629A006F80FA /* Response */,
+			);
+			path = SingleQuote;
+			sourceTree = "<group>";
+		};
+		43E71AE8181E629A006F80FA /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				43E71AE9181E629A006F80FA /* SingleQuoteMarketsModelRequest.h */,
+				43E71AEA181E629A006F80FA /* SingleQuoteMarketsModelRequest.m */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		43E71AEB181E629A006F80FA /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				43E71AEC181E629A006F80FA /* SingleQuoteMarketsModelResponse.h */,
+				43E71AED181E629A006F80FA /* SingleQuoteMarketsModelResponse.m */,
+				43E71AEE181E629A006F80FA /* SingleQuoteMarketsModelResponseLevel2.h */,
+				43E71AEF181E629A006F80FA /* SingleQuoteMarketsModelResponseLevel2.m */,
+				43E71AF0181E629A006F80FA /* SingleQuoteMarketsModelResponseLevel2Ask.h */,
+				43E71AF1181E629A006F80FA /* SingleQuoteMarketsModelResponseLevel2Ask.m */,
+				43E71AF2181E629A006F80FA /* SingleQuoteMarketsModelResponseLevel2Bid.h */,
+				43E71AF3181E629A006F80FA /* SingleQuoteMarketsModelResponseLevel2Bid.m */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		43E71AF4181E629A006F80FA /* SymbolSpecificNews */ = {
+			isa = PBXGroup;
+			children = (
+				43E71AF5181E629A006F80FA /* Request */,
+				43E71AF8181E629A006F80FA /* Response */,
+			);
+			path = SymbolSpecificNews;
+			sourceTree = "<group>";
+		};
+		43E71AF5181E629A006F80FA /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				43E71AF6181E629A006F80FA /* SymbolSpecificNewsMarketsModelRequest.h */,
+				43E71AF7181E629A006F80FA /* SymbolSpecificNewsMarketsModelRequest.m */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		43E71AF8181E629A006F80FA /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				43E71AF9181E629A006F80FA /* SymbolSpecificNewsMarketsModelResponse.h */,
+				43E71AFA181E629A006F80FA /* SymbolSpecificNewsMarketsModelResponse.m */,
+				43E71AFB181E629A006F80FA /* SymbolSpecificNewsMarketsModelResponseSymbolSpecificNews.h */,
+				43E71AFC181E629A006F80FA /* SymbolSpecificNewsMarketsModelResponseSymbolSpecificNews.m */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		43E71AFD181E629A006F80FA /* Research */ = {
+			isa = PBXGroup;
+			children = (
+				43E71AFE181E629A006F80FA /* CompanyResearch */,
+				43E71B07181E629A006F80FA /* MarketAnalysis */,
+				43E71B10181E629A006F80FA /* MostViewed */,
+				43E71B19181E629A006F80FA /* Sector */,
+				43E71B22181E629A006F80FA /* Thematic */,
+			);
+			name = Research;
+			path = ../../../../../Documents/Models/Research;
+			sourceTree = "<group>";
+		};
+		43E71AFE181E629A006F80FA /* CompanyResearch */ = {
+			isa = PBXGroup;
+			children = (
+				43E71AFF181E629A006F80FA /* Request */,
+				43E71B02181E629A006F80FA /* Response */,
+			);
+			path = CompanyResearch;
+			sourceTree = "<group>";
+		};
+		43E71AFF181E629A006F80FA /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				43E71B00181E629A006F80FA /* CompanyResearchResearchModelRequest.h */,
+				43E71B01181E629A006F80FA /* CompanyResearchResearchModelRequest.m */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		43E71B02181E629A006F80FA /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				43E71B03181E629A006F80FA /* CompanyResearchResearchModelResponse.h */,
+				43E71B04181E629A006F80FA /* CompanyResearchResearchModelResponse.m */,
+				43E71B05181E629A006F80FA /* CompanyResearchResearchModelResponseCompany.h */,
+				43E71B06181E629A006F80FA /* CompanyResearchResearchModelResponseCompany.m */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		43E71B07181E629A006F80FA /* MarketAnalysis */ = {
+			isa = PBXGroup;
+			children = (
+				43E71B08181E629A006F80FA /* Request */,
+				43E71B0B181E629A006F80FA /* Response */,
+			);
+			path = MarketAnalysis;
+			sourceTree = "<group>";
+		};
+		43E71B08181E629A006F80FA /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				43E71B09181E629A006F80FA /* MarketAnalysisResearchModelRequest.h */,
+				43E71B0A181E629A006F80FA /* MarketAnalysisResearchModelRequest.m */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		43E71B0B181E629A006F80FA /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				43E71B0C181E629A006F80FA /* MarketAnalysisResearchModelResponse.h */,
+				43E71B0D181E629A006F80FA /* MarketAnalysisResearchModelResponse.m */,
+				43E71B0E181E629A006F80FA /* MarketAnalysisResearchModelResponseMarketAnalysis.h */,
+				43E71B0F181E629A006F80FA /* MarketAnalysisResearchModelResponseMarketAnalysis.m */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		43E71B10181E629A006F80FA /* MostViewed */ = {
+			isa = PBXGroup;
+			children = (
+				43E71B11181E629A006F80FA /* Request */,
+				43E71B14181E629A006F80FA /* Response */,
+			);
+			path = MostViewed;
+			sourceTree = "<group>";
+		};
+		43E71B11181E629A006F80FA /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				43E71B12181E629A006F80FA /* MostViewedResearchModelRequest.h */,
+				43E71B13181E629A006F80FA /* MostViewedResearchModelRequest.m */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		43E71B14181E629A006F80FA /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				43E71B15181E629A006F80FA /* MostViewedResearchModelResponse.h */,
+				43E71B16181E629A006F80FA /* MostViewedResearchModelResponse.m */,
+				43E71B17181E629A006F80FA /* MostViewedResearchModelResponseMostViewed.h */,
+				43E71B18181E629A006F80FA /* MostViewedResearchModelResponseMostViewed.m */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		43E71B19181E629A006F80FA /* Sector */ = {
+			isa = PBXGroup;
+			children = (
+				43E71B1A181E629A006F80FA /* Request */,
+				43E71B1D181E629A006F80FA /* Response */,
+			);
+			path = Sector;
+			sourceTree = "<group>";
+		};
+		43E71B1A181E629A006F80FA /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				43E71B1B181E629A006F80FA /* SectorResearchModelRequest.h */,
+				43E71B1C181E629A006F80FA /* SectorResearchModelRequest.m */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		43E71B1D181E629A006F80FA /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				43E71B1E181E629A006F80FA /* SectorResearchModelResponse.h */,
+				43E71B1F181E629A006F80FA /* SectorResearchModelResponse.m */,
+				43E71B20181E629A006F80FA /* SectorResearchModelResponseSector.h */,
+				43E71B21181E629A006F80FA /* SectorResearchModelResponseSector.m */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		43E71B22181E629A006F80FA /* Thematic */ = {
+			isa = PBXGroup;
+			children = (
+				43E71B23181E629A006F80FA /* Request */,
+				43E71B26181E629A006F80FA /* Response */,
+			);
+			path = Thematic;
+			sourceTree = "<group>";
+		};
+		43E71B23181E629A006F80FA /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				43E71B24181E629A006F80FA /* ThematicResearchModelRequest.h */,
+				43E71B25181E629A006F80FA /* ThematicResearchModelRequest.m */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		43E71B26181E629A006F80FA /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				43E71B27181E629A006F80FA /* ThematicResearchModelResponse.h */,
+				43E71B28181E629A006F80FA /* ThematicResearchModelResponse.m */,
+				43E71B29181E629A006F80FA /* ThematicResearchModelResponseThematic.h */,
+				43E71B2A181E629A006F80FA /* ThematicResearchModelResponseThematic.m */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		43E71B2B181E629A006F80FA /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				43E71B2C181E629A006F80FA /* GetEquityInfo */,
+				43E71B39181E629A006F80FA /* GetExpiryStrikePrice */,
+				43E71B4C181E629A006F80FA /* SymbolSearch */,
+			);
+			name = Search;
+			path = ../../../../../Documents/Models/Search;
+			sourceTree = "<group>";
+		};
+		43E71B2C181E629A006F80FA /* GetEquityInfo */ = {
+			isa = PBXGroup;
+			children = (
+				43E71B2D181E629A006F80FA /* Request */,
+				43E71B30181E629A006F80FA /* Response */,
+			);
+			path = GetEquityInfo;
+			sourceTree = "<group>";
+		};
+		43E71B2D181E629A006F80FA /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				43E71B2E181E629A006F80FA /* GetEquityInfoSearchModelRequest.h */,
+				43E71B2F181E629A006F80FA /* GetEquityInfoSearchModelRequest.m */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		43E71B30181E629A006F80FA /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				43E71B31181E629A006F80FA /* GetEquityInfoSearchModelResponse.h */,
+				43E71B32181E629A006F80FA /* GetEquityInfoSearchModelResponse.m */,
+				43E71B33181E629A006F80FA /* GetEquityInfoSearchModelResponseScripDetails.h */,
+				43E71B34181E629A006F80FA /* GetEquityInfoSearchModelResponseScripDetails.m */,
+				43E71B35181E629A006F80FA /* GetEquityInfoSearchModelResponseScripDetailsEquityInfo.h */,
+				43E71B36181E629A006F80FA /* GetEquityInfoSearchModelResponseScripDetailsEquityInfo.m */,
+				43E71B37181E629A006F80FA /* GetEquityInfoSearchModelResponseScripDetailsEquityInfoScrip.h */,
+				43E71B38181E629A006F80FA /* GetEquityInfoSearchModelResponseScripDetailsEquityInfoScrip.m */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		43E71B39181E629A006F80FA /* GetExpiryStrikePrice */ = {
+			isa = PBXGroup;
+			children = (
+				43E71B3A181E629A006F80FA /* Request */,
+				43E71B3D181E629A006F80FA /* Response */,
+			);
+			path = GetExpiryStrikePrice;
+			sourceTree = "<group>";
+		};
+		43E71B3A181E629A006F80FA /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				43E71B3B181E629A006F80FA /* GetExpiryStrikePriceSearchModelRequest.h */,
+				43E71B3C181E629A006F80FA /* GetExpiryStrikePriceSearchModelRequest.m */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		43E71B3D181E629A006F80FA /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				43E71B3E181E629A006F80FA /* GetExpiryStrikePriceSearchModelResponse.h */,
+				43E71B3F181E629A006F80FA /* GetExpiryStrikePriceSearchModelResponse.m */,
+				43E71B40181E629A006F80FA /* GetExpiryStrikePriceSearchModelResponseScripDetails.h */,
+				43E71B41181E629A006F80FA /* GetExpiryStrikePriceSearchModelResponseScripDetails.m */,
+				43E71B42181E629A006F80FA /* GetExpiryStrikePriceSearchModelResponseScripDetailsAvailableExchange.h */,
+				43E71B43181E629A006F80FA /* GetExpiryStrikePriceSearchModelResponseScripDetailsAvailableExchange.m */,
+				43E71B44181E629A006F80FA /* GetExpiryStrikePriceSearchModelResponseScripDetailsExpiry_strickPrice.h */,
+				43E71B45181E629A006F80FA /* GetExpiryStrikePriceSearchModelResponseScripDetailsExpiry_strickPrice.m */,
+				43E71B46181E629A006F80FA /* GetExpiryStrikePriceSearchModelResponseScripDetailsExpiry_strickPriceScrip.h */,
+				43E71B47181E629A006F80FA /* GetExpiryStrikePriceSearchModelResponseScripDetailsExpiry_strickPriceScrip.m */,
+				43E71B48181E629A006F80FA /* GetExpiryStrikePriceSearchModelResponseScripDetailsExpiry_strickPriceScripValue.h */,
+				43E71B49181E629A006F80FA /* GetExpiryStrikePriceSearchModelResponseScripDetailsExpiry_strickPriceScripValue.m */,
+				43E71B4A181E629A006F80FA /* GetExpiryStrikePriceSearchModelResponseScripDetailsExpiry_strickPriceScripValueTradeInfo.h */,
+				43E71B4B181E629A006F80FA /* GetExpiryStrikePriceSearchModelResponseScripDetailsExpiry_strickPriceScripValueTradeInfo.m */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		43E71B4C181E629A006F80FA /* SymbolSearch */ = {
+			isa = PBXGroup;
+			children = (
+				43E71B4D181E629A006F80FA /* Request */,
+				43E71B50181E629A006F80FA /* Response */,
+			);
+			path = SymbolSearch;
+			sourceTree = "<group>";
+		};
+		43E71B4D181E629A006F80FA /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				43E71B4E181E629A006F80FA /* SymbolSearchSearchModelRequest.h */,
+				43E71B4F181E629A006F80FA /* SymbolSearchSearchModelRequest.m */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		43E71B50181E629A006F80FA /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				43E71B51181E629A006F80FA /* SymbolSearchSearchModelResponse.h */,
+				43E71B52181E629A006F80FA /* SymbolSearchSearchModelResponse.m */,
+				43E71B53181E629A006F80FA /* SymbolSearchSearchModelResponseSearchResult.h */,
+				43E71B54181E629A006F80FA /* SymbolSearchSearchModelResponseSearchResult.m */,
+				43E71B55181E629A006F80FA /* SymbolSearchSearchModelResponseSearchResultCommodities.h */,
+				43E71B56181E629A006F80FA /* SymbolSearchSearchModelResponseSearchResultCommodities.m */,
+				43E71B57181E629A006F80FA /* SymbolSearchSearchModelResponseSearchResultCurrency.h */,
+				43E71B58181E629A006F80FA /* SymbolSearchSearchModelResponseSearchResultCurrency.m */,
+				43E71B59181E629A006F80FA /* SymbolSearchSearchModelResponseSearchResultDerivative.h */,
+				43E71B5A181E629A006F80FA /* SymbolSearchSearchModelResponseSearchResultDerivative.m */,
+				43E71B5B181E629A006F80FA /* SymbolSearchSearchModelResponseSearchResultEquity.h */,
+				43E71B5C181E629A006F80FA /* SymbolSearchSearchModelResponseSearchResultEquity.m */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		43E71B5D181E629A006F80FA /* Trade */ = {
+			isa = PBXGroup;
+			children = (
+				43E71B5E181E629A006F80FA /* AccountNumberDetails */,
+				43E71B65181E629A006F80FA /* CancelOrder */,
+				43E71B6C181E629A006F80FA /* ModifyOrder */,
+				43E71B75181E629A006F80FA /* NetPositionSummary */,
+				43E71B80181E629A006F80FA /* OrderBook */,
+				43E71B89181E629B006F80FA /* ProfitLossAndNetQuantity */,
+				43E71B94181E629B006F80FA /* SegmentAndBankDetails */,
+				43E71B9D181E629B006F80FA /* SendNewMarginPlusOrder */,
+				43E71BA4181E629B006F80FA /* SendNewOrder */,
+			);
+			name = Trade;
+			path = ../../../../../Documents/Models/Trade;
+			sourceTree = "<group>";
+		};
+		43E71B5E181E629A006F80FA /* AccountNumberDetails */ = {
+			isa = PBXGroup;
+			children = (
+				43E71B5F181E629A006F80FA /* Request */,
+				43E71B62181E629A006F80FA /* Response */,
+			);
+			path = AccountNumberDetails;
+			sourceTree = "<group>";
+		};
+		43E71B5F181E629A006F80FA /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				43E71B60181E629A006F80FA /* AccountNumberDetailsTradeModelRequest.h */,
+				43E71B61181E629A006F80FA /* AccountNumberDetailsTradeModelRequest.m */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		43E71B62181E629A006F80FA /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				43E71B63181E629A006F80FA /* AccountNumberDetailsTradeModelResponse.h */,
+				43E71B64181E629A006F80FA /* AccountNumberDetailsTradeModelResponse.m */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		43E71B65181E629A006F80FA /* CancelOrder */ = {
+			isa = PBXGroup;
+			children = (
+				43E71B66181E629A006F80FA /* Request */,
+				43E71B69181E629A006F80FA /* Response */,
+			);
+			path = CancelOrder;
+			sourceTree = "<group>";
+		};
+		43E71B66181E629A006F80FA /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				43E71B67181E629A006F80FA /* CancelOrderTradeModelRequest.h */,
+				43E71B68181E629A006F80FA /* CancelOrderTradeModelRequest.m */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		43E71B69181E629A006F80FA /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				43E71B6A181E629A006F80FA /* CancelOrderTradeModelResponse.h */,
+				43E71B6B181E629A006F80FA /* CancelOrderTradeModelResponse.m */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		43E71B6C181E629A006F80FA /* ModifyOrder */ = {
+			isa = PBXGroup;
+			children = (
+				43E71B6D181E629A006F80FA /* Request */,
+				43E71B70181E629A006F80FA /* Response */,
+			);
+			path = ModifyOrder;
+			sourceTree = "<group>";
+		};
+		43E71B6D181E629A006F80FA /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				43E71B6E181E629A006F80FA /* ModifyOrderTradeModelRequest.h */,
+				43E71B6F181E629A006F80FA /* ModifyOrderTradeModelRequest.m */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		43E71B70181E629A006F80FA /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				43E71B71181E629A006F80FA /* ModifyOrderTradeModelResponse.h */,
+				43E71B72181E629A006F80FA /* ModifyOrderTradeModelResponse.m */,
+				43E71B73181E629A006F80FA /* ModifyOrderTradeModelResponseModifyOrder.h */,
+				43E71B74181E629A006F80FA /* ModifyOrderTradeModelResponseModifyOrder.m */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		43E71B75181E629A006F80FA /* NetPositionSummary */ = {
+			isa = PBXGroup;
+			children = (
+				43E71B76181E629A006F80FA /* Request */,
+				43E71B79181E629A006F80FA /* Response */,
+			);
+			path = NetPositionSummary;
+			sourceTree = "<group>";
+		};
+		43E71B76181E629A006F80FA /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				43E71B77181E629A006F80FA /* NetPositionSummaryTradeModelRequest.h */,
+				43E71B78181E629A006F80FA /* NetPositionSummaryTradeModelRequest.m */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		43E71B79181E629A006F80FA /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				43E71B7A181E629A006F80FA /* NetPositionSummaryTradeModelResponse.h */,
+				43E71B7B181E629A006F80FA /* NetPositionSummaryTradeModelResponse.m */,
+				43E71B7C181E629A006F80FA /* NetPositionSummaryTradeModelResponseNetPositionSummary.h */,
+				43E71B7D181E629A006F80FA /* NetPositionSummaryTradeModelResponseNetPositionSummary.m */,
+				43E71B7E181E629A006F80FA /* NetPositionSummaryTradeModelResponseOverAllPL.h */,
+				43E71B7F181E629A006F80FA /* NetPositionSummaryTradeModelResponseOverAllPL.m */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		43E71B80181E629A006F80FA /* OrderBook */ = {
+			isa = PBXGroup;
+			children = (
+				43E71B81181E629A006F80FA /* Request */,
+				43E71B84181E629B006F80FA /* Response */,
+			);
+			path = OrderBook;
+			sourceTree = "<group>";
+		};
+		43E71B81181E629A006F80FA /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				43E71B82181E629A006F80FA /* OrderBookTradeModelRequest.h */,
+				43E71B83181E629A006F80FA /* OrderBookTradeModelRequest.m */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		43E71B84181E629B006F80FA /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				43E71B85181E629B006F80FA /* OrderBookTradeModelResponse.h */,
+				43E71B86181E629B006F80FA /* OrderBookTradeModelResponse.m */,
+				43E71B87181E629B006F80FA /* OrderBookTradeModelResponseOrderBook.h */,
+				43E71B88181E629B006F80FA /* OrderBookTradeModelResponseOrderBook.m */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		43E71B89181E629B006F80FA /* ProfitLossAndNetQuantity */ = {
+			isa = PBXGroup;
+			children = (
+				43E71B8A181E629B006F80FA /* Request */,
+				43E71B8D181E629B006F80FA /* Response */,
+			);
+			path = ProfitLossAndNetQuantity;
+			sourceTree = "<group>";
+		};
+		43E71B8A181E629B006F80FA /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				43E71B8B181E629B006F80FA /* ProfitLossAndNetQuantityTradeModelRequest.h */,
+				43E71B8C181E629B006F80FA /* ProfitLossAndNetQuantityTradeModelRequest.m */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		43E71B8D181E629B006F80FA /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				43E71B8E181E629B006F80FA /* ProfitLossAndNetQuantityTradeModelResponse.h */,
+				43E71B8F181E629B006F80FA /* ProfitLossAndNetQuantityTradeModelResponse.m */,
+				43E71B90181E629B006F80FA /* ProfitLossAndNetQuantityTradeModelResponseNetQtyDetails.h */,
+				43E71B91181E629B006F80FA /* ProfitLossAndNetQuantityTradeModelResponseNetQtyDetails.m */,
+				43E71B92181E629B006F80FA /* ProfitLossAndNetQuantityTradeModelResponseProfitLoss.h */,
+				43E71B93181E629B006F80FA /* ProfitLossAndNetQuantityTradeModelResponseProfitLoss.m */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		43E71B94181E629B006F80FA /* SegmentAndBankDetails */ = {
+			isa = PBXGroup;
+			children = (
+				43E71B95181E629B006F80FA /* Request */,
+				43E71B98181E629B006F80FA /* Response */,
+			);
+			path = SegmentAndBankDetails;
+			sourceTree = "<group>";
+		};
+		43E71B95181E629B006F80FA /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				43E71B96181E629B006F80FA /* SegmentAndBankDetailsTradeModelRequest.h */,
+				43E71B97181E629B006F80FA /* SegmentAndBankDetailsTradeModelRequest.m */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		43E71B98181E629B006F80FA /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				43E71B99181E629B006F80FA /* SegmentAndBankDetailsTradeModelResponse.h */,
+				43E71B9A181E629B006F80FA /* SegmentAndBankDetailsTradeModelResponse.m */,
+				43E71B9B181E629B006F80FA /* SegmentAndBankDetailsTradeModelResponseBankDetails.h */,
+				43E71B9C181E629B006F80FA /* SegmentAndBankDetailsTradeModelResponseBankDetails.m */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		43E71B9D181E629B006F80FA /* SendNewMarginPlusOrder */ = {
+			isa = PBXGroup;
+			children = (
+				43E71B9E181E629B006F80FA /* Request */,
+				43E71BA1181E629B006F80FA /* Response */,
+			);
+			path = SendNewMarginPlusOrder;
+			sourceTree = "<group>";
+		};
+		43E71B9E181E629B006F80FA /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				43E71B9F181E629B006F80FA /* SendNewMarginPlusOrderTradeModelRequest.h */,
+				43E71BA0181E629B006F80FA /* SendNewMarginPlusOrderTradeModelRequest.m */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		43E71BA1181E629B006F80FA /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				43E71BA2181E629B006F80FA /* SendNewMarginPlusOrderTradeModelResponse.h */,
+				43E71BA3181E629B006F80FA /* SendNewMarginPlusOrderTradeModelResponse.m */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		43E71BA4181E629B006F80FA /* SendNewOrder */ = {
+			isa = PBXGroup;
+			children = (
+				43E71BA5181E629B006F80FA /* Request */,
+				43E71BA8181E629B006F80FA /* Response */,
+			);
+			path = SendNewOrder;
+			sourceTree = "<group>";
+		};
+		43E71BA5181E629B006F80FA /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				43E71BA6181E629B006F80FA /* SendNewOrderTradeModelRequest.h */,
+				43E71BA7181E629B006F80FA /* SendNewOrderTradeModelRequest.m */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		43E71BA8181E629B006F80FA /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				43E71BA9181E629B006F80FA /* SendNewOrderTradeModelResponse.h */,
+				43E71BAA181E629B006F80FA /* SendNewOrderTradeModelResponse.m */,
+				43E71BAB181E629B006F80FA /* SendNewOrderTradeModelResponseSendNewOrder.h */,
+				43E71BAC181E629B006F80FA /* SendNewOrderTradeModelResponseSendNewOrder.m */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -228,14 +1838,144 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43E71BBE181E629B006F80FA /* ChangePasswordLoginModelRequest.m in Sources */,
+				43E71BF0181E629B006F80FA /* SingleQuoteMarketsModelResponseLevel2Bid.m in Sources */,
+				43E71C22181E629B006F80FA /* OrderBookTradeModelRequest.m in Sources */,
+				43E71BCD181E629B006F80FA /* GlobalIndicesMarketsModelResponse.m in Sources */,
+				43E71BDE181E629B006F80FA /* MostActiveMutualFundsMarketsModelResponse.m in Sources */,
+				43E71BF1181E629B006F80FA /* SymbolSpecificNewsMarketsModelRequest.m in Sources */,
+				43E71C05181E629B006F80FA /* GetEquityInfoSearchModelResponseScripDetails.m in Sources */,
+				43E71BF8181E629B006F80FA /* MarketAnalysisResearchModelResponse.m in Sources */,
+				43E71C12181E629B006F80FA /* SymbolSearchSearchModelResponseSearchResult.m in Sources */,
+				43E71C2D181E629B006F80FA /* SendNewMarginPlusOrderTradeModelResponse.m in Sources */,
+				43E71BC4181E629B006F80FA /* LogoutLoginModelRequest.m in Sources */,
+				43E71C0C181E629B006F80FA /* GetExpiryStrikePriceSearchModelResponseScripDetailsExpiry_strickPrice.m in Sources */,
+				43E71C20181E629B006F80FA /* NetPositionSummaryTradeModelResponseNetPositionSummary.m in Sources */,
+				43E71BFF181E629B006F80FA /* SectorResearchModelResponseSector.m in Sources */,
+				43E71C23181E629B006F80FA /* OrderBookTradeModelResponse.m in Sources */,
+				43E71C06181E629B006F80FA /* GetEquityInfoSearchModelResponseScripDetailsEquityInfo.m in Sources */,
+				43E71BC0181E629B006F80FA /* ForgotPasswordLoginModelRequest.m in Sources */,
+				43E71BDC181E629B006F80FA /* MostActiveFuturesOptionsMarketsModelResponseOptions.m in Sources */,
+				43E71C02181E629B006F80FA /* ThematicResearchModelResponseThematic.m in Sources */,
+				43E71C21181E629B006F80FA /* NetPositionSummaryTradeModelResponseOverAllPL.m in Sources */,
+				43E71C1A181E629B006F80FA /* CancelOrderTradeModelResponse.m in Sources */,
 				437D314A1784424300686841 /* main.m in Sources */,
+				43E71BFD181E629B006F80FA /* SectorResearchModelRequest.m in Sources */,
+				43E71C2E181E629B006F80FA /* SendNewOrderTradeModelRequest.m in Sources */,
+				43E71BB9181E629B006F80FA /* BaseInitModelRequestApp.m in Sources */,
+				43E71C10181E629B006F80FA /* SymbolSearchSearchModelRequest.m in Sources */,
+				43E71BF4181E629B006F80FA /* CompanyResearchResearchModelRequest.m in Sources */,
+				43E71C25181E629B006F80FA /* ProfitLossAndNetQuantityTradeModelRequest.m in Sources */,
+				43E71BD6181E629B006F80FA /* MostActiveCurrencyMarketsModelResponse.m in Sources */,
+				43E71BD4181E629B006F80FA /* IndicesStockMarketsModelResponseIndicesStock.m in Sources */,
+				43E71BC8181E629B006F80FA /* AdvanceDeclineMarketsModelRequest.m in Sources */,
+				43E71BFE181E629B006F80FA /* SectorResearchModelResponse.m in Sources */,
+				43E71C1E181E629B006F80FA /* NetPositionSummaryTradeModelRequest.m in Sources */,
+				43E71BB2181E629B006F80FA /* BaseConfigModelResponseAppConfig.m in Sources */,
+				43E71C29181E629B006F80FA /* SegmentAndBankDetailsTradeModelRequest.m in Sources */,
+				43E71BED181E629B006F80FA /* SingleQuoteMarketsModelResponse.m in Sources */,
+				43E71C18181E629B006F80FA /* AccountNumberDetailsTradeModelResponse.m in Sources */,
+				43E71BF3181E629B006F80FA /* SymbolSpecificNewsMarketsModelResponseSymbolSpecificNews.m in Sources */,
+				43E71BD2181E629B006F80FA /* IndicesStockMarketsModelRequest.m in Sources */,
+				43E71BE3181E629B006F80FA /* MostCommoditiesActiveMarketsModelResponse.m in Sources */,
+				43E71C0A181E629B006F80FA /* GetExpiryStrikePriceSearchModelResponseScripDetails.m in Sources */,
+				43E71C2C181E629B006F80FA /* SendNewMarginPlusOrderTradeModelRequest.m in Sources */,
+				43E71BB3181E629B006F80FA /* BaseConfigModelResponseInfo.m in Sources */,
+				43E71C19181E629B006F80FA /* CancelOrderTradeModelRequest.m in Sources */,
 				437D314E1784424300686841 /* AppDelegate.m in Sources */,
+				43E71BD7181E629B006F80FA /* MostActiveCurrencyMarketsModelResponseFutures.m in Sources */,
+				43E71BCA181E629B006F80FA /* AdvanceDeclineMarketsModelResponseBseIndices.m in Sources */,
+				43E71C09181E629B006F80FA /* GetExpiryStrikePriceSearchModelResponse.m in Sources */,
+				43E71BB1181E629B006F80FA /* BaseConfigModelResponseApp.m in Sources */,
+				43E71C2B181E629B006F80FA /* SegmentAndBankDetailsTradeModelResponseBankDetails.m in Sources */,
+				43E71BAE181E629B006F80FA /* IntradayChartChartModelResponse.m in Sources */,
+				43E71C04181E629B006F80FA /* GetEquityInfoSearchModelResponse.m in Sources */,
+				43E71C26181E629B006F80FA /* ProfitLossAndNetQuantityTradeModelResponse.m in Sources */,
+				43E71C0E181E629B006F80FA /* GetExpiryStrikePriceSearchModelResponseScripDetailsExpiry_strickPriceScripValue.m in Sources */,
 				430BDE8B179FCD180094343E /* BaseView.m in Sources */,
+				43E71BAF181E629B006F80FA /* BaseConfigModelRequest.m in Sources */,
+				43E71BEC181E629B006F80FA /* SingleQuoteMarketsModelRequest.m in Sources */,
+				43E71BCB181E629B006F80FA /* AdvanceDeclineMarketsModelResponseNseIndices.m in Sources */,
+				43E71BE9181E629B006F80FA /* RoundUpMarketsModelRequest.m in Sources */,
+				43E71C1D181E629B006F80FA /* ModifyOrderTradeModelResponseModifyOrder.m in Sources */,
+				43E71C16181E629B006F80FA /* SymbolSearchSearchModelResponseSearchResultEquity.m in Sources */,
+				43E71BB0181E629B006F80FA /* BaseConfigModelResponse.m in Sources */,
+				43E71BBA181E629B006F80FA /* BaseInitModelRequestHardware.m in Sources */,
+				43E71C28181E629B006F80FA /* ProfitLossAndNetQuantityTradeModelResponseProfitLoss.m in Sources */,
+				43E71C17181E629B006F80FA /* AccountNumberDetailsTradeModelRequest.m in Sources */,
+				43E71C03181E629B006F80FA /* GetEquityInfoSearchModelRequest.m in Sources */,
+				43E71BB4181E629B006F80FA /* BaseConfigModelResponseInfoConfig.m in Sources */,
+				43E71BD8181E629B006F80FA /* MostActiveCurrencyMarketsModelResponseOptions.m in Sources */,
+				43E71BF7181E629B006F80FA /* MarketAnalysisResearchModelRequest.m in Sources */,
+				43E71C30181E629B006F80FA /* SendNewOrderTradeModelResponseSendNewOrder.m in Sources */,
+				43E71C24181E629B006F80FA /* OrderBookTradeModelResponseOrderBook.m in Sources */,
+				43E71BE6181E629B006F80FA /* OutLookMarketsModelRequest.m in Sources */,
+				43E71BCF181E629B006F80FA /* IndianIndicesMarketsModelRequest.m in Sources */,
+				43E71C07181E629B006F80FA /* GetEquityInfoSearchModelResponseScripDetailsEquityInfoScrip.m in Sources */,
+				43E71C0F181E629B006F80FA /* GetExpiryStrikePriceSearchModelResponseScripDetailsExpiry_strickPriceScripValueTradeInfo.m in Sources */,
+				43E71C08181E629B006F80FA /* GetExpiryStrikePriceSearchModelRequest.m in Sources */,
 				43B494A3181901600006EFAF /* TestViewController.m in Sources */,
+				43E71BBD181E629B006F80FA /* BaseInitModelResponse.m in Sources */,
+				43E71C11181E629B006F80FA /* SymbolSearchSearchModelResponse.m in Sources */,
 				430BDE8C179FCD180094343E /* BaseViewController.m in Sources */,
 				430BDE8D179FCD180094343E /* ModelBase.m in Sources */,
+				43E71BCC181E629B006F80FA /* GlobalIndicesMarketsModelRequest.m in Sources */,
+				43E71BBB181E629B006F80FA /* BaseInitModelRequestNetwork.m in Sources */,
+				43E71C01181E629B006F80FA /* ThematicResearchModelResponse.m in Sources */,
+				43E71BF5181E629B006F80FA /* CompanyResearchResearchModelResponse.m in Sources */,
+				43E71BB7181E629B006F80FA /* BaseConfigModelResponseLabelConfig.m in Sources */,
+				43E71BF2181E629B006F80FA /* SymbolSpecificNewsMarketsModelResponse.m in Sources */,
+				43E71BD1181E629B006F80FA /* IndianIndicesMarketsModelResponseIndianIndices.m in Sources */,
+				43E71BBF181E629B006F80FA /* ChangePasswordLoginModelResponse.m in Sources */,
+				43E71BB8181E629B006F80FA /* BaseInitModelRequest.m in Sources */,
+				43E71BC5181E629B006F80FA /* LogoutLoginModelResponse.m in Sources */,
+				43E71BE2181E629B006F80FA /* MostCommoditiesActiveMarketsModelRequest.m in Sources */,
+				43E71C1F181E629B006F80FA /* NetPositionSummaryTradeModelResponse.m in Sources */,
+				43E71C1C181E629B006F80FA /* ModifyOrderTradeModelResponse.m in Sources */,
+				43E71BC9181E629B006F80FA /* AdvanceDeclineMarketsModelResponse.m in Sources */,
 				430BDE8E179FCD180094343E /* RequestJSONObject.m in Sources */,
+				43E71C2F181E629B006F80FA /* SendNewOrderTradeModelResponse.m in Sources */,
+				43E71BE0181E629B006F80FA /* MostActiveMutualFundsMarketsModelResponseEquityMF.m in Sources */,
+				43E71BB5181E629B006F80FA /* BaseConfigModelResponseInfoConfigValue.m in Sources */,
+				43E71BC3181E629B006F80FA /* GuestSignUpLoginModelResponse.m in Sources */,
+				43E71BEE181E629B006F80FA /* SingleQuoteMarketsModelResponseLevel2.m in Sources */,
+				43E71BAD181E629B006F80FA /* IntradayChartChartModelRequest.m in Sources */,
+				43E71BF9181E629B006F80FA /* MarketAnalysisResearchModelResponseMarketAnalysis.m in Sources */,
+				43E71BE1181E629B006F80FA /* MostActiveMutualFundsMarketsModelResponseHybridMF.m in Sources */,
+				43E71C14181E629B006F80FA /* SymbolSearchSearchModelResponseSearchResultCurrency.m in Sources */,
+				43E71BDB181E629B006F80FA /* MostActiveFuturesOptionsMarketsModelResponseFutures.m in Sources */,
+				43E71C27181E629B006F80FA /* ProfitLossAndNetQuantityTradeModelResponseNetQtyDetails.m in Sources */,
+				43E71BD3181E629B006F80FA /* IndicesStockMarketsModelResponse.m in Sources */,
+				43E71BC1181E629B006F80FA /* ForgotPasswordLoginModelResponse.m in Sources */,
+				43E71BBC181E629B006F80FA /* BaseInitModelRequestSoftware.m in Sources */,
+				43E71BEF181E629B006F80FA /* SingleQuoteMarketsModelResponseLevel2Ask.m in Sources */,
+				43E71BE8181E629B006F80FA /* OutLookMarketsModelResponseOutLookData.m in Sources */,
+				43E71BD9181E629B006F80FA /* MostActiveFuturesOptionsMarketsModelRequest.m in Sources */,
+				43E71BDA181E629B006F80FA /* MostActiveFuturesOptionsMarketsModelResponse.m in Sources */,
+				43E71BEA181E629B006F80FA /* RoundUpMarketsModelResponse.m in Sources */,
+				43E71C0B181E629B006F80FA /* GetExpiryStrikePriceSearchModelResponseScripDetailsAvailableExchange.m in Sources */,
+				43E71C00181E629B006F80FA /* ThematicResearchModelRequest.m in Sources */,
+				43E71BCE181E629B006F80FA /* GlobalIndicesMarketsModelResponseGlobalIndices.m in Sources */,
+				43E71BFC181E629B006F80FA /* MostViewedResearchModelResponseMostViewed.m in Sources */,
+				43E71BFB181E629B006F80FA /* MostViewedResearchModelResponse.m in Sources */,
+				43E71BC7181E629B006F80FA /* ValidateUserLoginModelResponse.m in Sources */,
+				43E71BB6181E629B006F80FA /* BaseConfigModelResponseLabel.m in Sources */,
+				43E71BC2181E629B006F80FA /* GuestSignUpLoginModelRequest.m in Sources */,
+				43E71BC6181E629B006F80FA /* ValidateUserLoginModelRequest.m in Sources */,
+				43E71BDF181E629B006F80FA /* MostActiveMutualFundsMarketsModelResponseDebtMF.m in Sources */,
+				43E71C13181E629B006F80FA /* SymbolSearchSearchModelResponseSearchResultCommodities.m in Sources */,
+				43E71BEB181E629B006F80FA /* RoundUpMarketsModelResponseRoundUp.m in Sources */,
+				43E71C15181E629B006F80FA /* SymbolSearchSearchModelResponseSearchResultDerivative.m in Sources */,
 				430BDF4D179FD5600094343E /* TestView.m in Sources */,
+				43E71BFA181E629B006F80FA /* MostViewedResearchModelRequest.m in Sources */,
+				43E71BDD181E629B006F80FA /* MostActiveMutualFundsMarketsModelRequest.m in Sources */,
+				43E71C1B181E629B006F80FA /* ModifyOrderTradeModelRequest.m in Sources */,
+				43E71BF6181E629B006F80FA /* CompanyResearchResearchModelResponseCompany.m in Sources */,
+				43E71BD5181E629B006F80FA /* MostActiveCurrencyMarketsModelRequest.m in Sources */,
+				43E71C0D181E629B006F80FA /* GetExpiryStrikePriceSearchModelResponseScripDetailsExpiry_strickPriceScrip.m in Sources */,
+				43E71BE7181E629B006F80FA /* OutLookMarketsModelResponse.m in Sources */,
+				43E71C2A181E629B006F80FA /* SegmentAndBankDetailsTradeModelResponse.m in Sources */,
+				43E71BD0181E629B006F80FA /* IndianIndicesMarketsModelResponse.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -10,11 +10,11 @@
 #define KMB_URL @"http://203.196.200.42/j1001MBDep/uat/KMBMobile"
 #import "BaseViewController.h"
 #import "BaseView.h"
+#import "ChangePasswordLoginModelRequest.h"
 
 @interface BaseViewController()
 
 @property (retain) NSMutableData *receivedData;
-
 
 @end
 
@@ -40,6 +40,16 @@
 #pragma mark Request - Response related methods
 - (void)sendRequest:(id<JSONModelBaseProtocol>)data
 {
+    ChangePasswordLoginModelRequest *req = [[ChangePasswordLoginModelRequest alloc]init];
+    NSLog(@"password is %@", req.password);
+    if (req.password == nil) {
+        NSLog(@"it is nil");
+    }
+    NSError *error = nil;
+    if ([req isPasswordValid:&error]) {
+        NSLog(@"its an error");
+    }
+    
     RequestJSONObject *request = [[RequestJSONObject alloc]initWithData:data];
     [self hitServerUsingRequest:request];
 }

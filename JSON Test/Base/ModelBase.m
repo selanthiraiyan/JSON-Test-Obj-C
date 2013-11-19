@@ -36,12 +36,17 @@
             if ([myObject isKindOfClass:[NSArray class]]) {
 
                 NSMutableArray *array = [NSMutableArray array];
-                for (NSDictionary *innerDict in myObject) {
-                    if (NSClassFromString(className) != nil) {
-                        [array addObject:[[NSClassFromString(className) alloc]initWithDict:innerDict]];
+                for (id innerObject in myObject) {
+                    if ([NSMutableArray isKindOfClass:[NSDictionary class]]) {
+                        if (NSClassFromString(className) != nil) {
+                            [array addObject:[[NSClassFromString(className) alloc]initWithDict:innerObject]];
+                        }
+                        else {
+                            [NSException raise:@"Model class not found." format:@"Class with name %@ not found.", className];
+                        }
                     }
                     else {
-                        [NSException raise:@"Model class not found." format:@"Class with name %@ not found.", className];
+                        [array addObject:innerObject];
                     }
                 }
                 [self setValue:array forKey:propertyName];
@@ -79,7 +84,12 @@
         if ([myObject isKindOfClass:[NSArray class]]) {
             NSMutableArray *dictArray = [NSMutableArray array];
             for (id object in myObject) {
-                [dictArray addObject:[object toDict]];
+                if ([myObject respondsToSelector:@selector(toDict)]) {
+                    [dictArray addObject:[object toDict]];
+                }
+                else {
+                    [dictArray addObject:object];
+                }
             }
             [dict setObject:dictArray forKey:propertyName];
         }
@@ -114,5 +124,10 @@
 - (NSString*)getServletGroup
 {
     return @"ServletGroup";
+}
+
+- (NSString*)errorMessageForKey:(NSString*)key
+{
+    return key;
 }
 @end
